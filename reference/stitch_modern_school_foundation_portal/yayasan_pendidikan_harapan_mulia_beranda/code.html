@@ -1,0 +1,790 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="id" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Yayasan Pendidikan Harapan Mulia - Membangun Masa Depan</title>
+<!-- Google Fonts: Newsreader (Editorial Serif) & Plus Jakarta Sans / Manrope (Clean Modern Body) & Caveat (Handwritten) -->
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&amp;family=Manrope:wght@400;500;600;700;800&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&amp;display=swap" rel="stylesheet">
+<!-- Tailwind CSS v3 with Plugins -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script data-purpose="tailwind-config">
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            forest: {
+              DEFAULT: '#174C3C',
+              dark: '#10382D',
+              deep: '#0D2D24',
+              surface: '#205E4C',
+              light: '#EBF4F0'
+            },
+            lime: {
+              DEFAULT: '#C4DC75',
+              accent: '#B5D35D',
+              light: '#EAF3D3'
+            },
+            cream: {
+              DEFAULT: '#FAF9F5',
+              soft: '#F4F2EB',
+              muted: '#ECE9DF'
+            },
+            sage: {
+              DEFAULT: '#E5EFE7',
+              border: '#D2E3D6'
+            }
+          },
+          fontFamily: {
+            serif: ['Newsreader', 'Georgia', 'serif'],
+            sans: ['Manrope', 'sans-serif'],
+            handwriting: ['Caveat', 'cursive']
+          }
+        }
+      }
+    }
+  </script>
+<!-- Custom Typography and Micro-Styling -->
+<style data-purpose="typography">
+    body {
+      font-family: 'Manrope', sans-serif;
+      background-color: #FAF9F5;
+      color: #2D3748;
+      overflow-x: hidden;
+    }
+    .font-serif-headline {
+      font-family: 'Newsreader', Georgia, serif;
+    }
+    .font-script {
+      font-family: 'Caveat', cursive;
+    }
+  </style>
+<style data-purpose="layout-utilities">
+    /* Subtle decorative blur patterns & organic curves */
+    .curved-mask {
+      border-radius: 42px 42px 180px 42px;
+    }
+    .organic-arch {
+      border-top-left-radius: 120px;
+      border-top-right-radius: 120px;
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #CBD5E1;
+      border-radius: 9999px;
+    }
+  </style>
+</head>
+<body class="bg-cream text-neutral-800 antialiased selection:bg-lime/60 selection:text-forest-dark">
+<!-- BEGIN: NavigationHeader -->
+<header class="sticky top-0 z-50 bg-[#FAF9F5]/90 backdrop-blur-md border-b border-[#E8E6DC] transition-all" data-purpose="site-header">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+<!-- Brand Identity -->
+<a aria-label="Harapan Mulia Home" class="flex items-center gap-3.5 group focus:outline-none" href="#">
+<div class="w-10 h-10 rounded-full bg-forest text-lime flex items-center justify-center shadow-sm transition-transform duration-300 group-hover:scale-105" data-purpose="brand-logo">
+<!-- Spiral Leaf Icon -->
+<svg class="w-6 h-6 stroke-current fill-none stroke-[2.2]" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+<path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10a10 10 0 0 1-7.071-2.929"></path>
+<path d="M12 6a6 6 0 0 1 6 6c0 3.314-2.686 6-6 6a6 6 0 0 1-4.243-1.757"></path>
+<path d="M12 10a2 2 0 0 1 2 2c0 1.105-.895 2-2 2a2 2 0 0 1-1.414-.586"></path>
+</svg>
+</div>
+<div class="flex flex-col">
+<span class="text-xs tracking-wider uppercase font-semibold text-neutral-500">Yayasan Pendidikan</span>
+<span class="text-base font-bold text-forest-dark tracking-tight leading-none">Harapan Mulia</span>
+</div>
+</a>
+<!-- Desktop Navigation Menu -->
+<nav aria-label="Main Navigation" class="hidden lg:flex items-center gap-7 text-sm font-medium text-neutral-700"><a class="text-forest font-bold relative after:content-[''] after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-5 after:h-0.5 after:bg-forest after:rounded-full" href="#beranda">Beranda</a>
+<div class="relative group py-2">
+  <button aria-haspopup="true" class="flex items-center gap-1.5 hover:text-forest transition-colors focus:outline-none">
+    <span class="">Tentang Kami</span>
+    <svg class="w-3.5 h-3.5 stroke-neutral-500 group-hover:stroke-forest transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
+  </button>
+  <div class="absolute left-0 top-full hidden group-hover:block w-56 pt-2 z-50">
+    <div class="bg-white rounded-2xl shadow-xl border border-neutral-200/80 py-2.5 px-1.5 text-sm font-medium">
+      <a class="block px-3.5 py-2 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#tentang-kami">Profil Yayasan</a>
+      <a class="block px-3.5 py-2 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#tentang-kami">Visi &amp; Misi</a>
+      <a class="block px-3.5 py-2 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#tentang-kami">Fasilitas Kampus Terpadu</a>
+      <a class="block px-3.5 py-2 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#kontak">Kontak &amp; Kunjungan</a>
+    </div>
+  </div>
+</div>
+<div class="relative group py-2">
+  <button aria-haspopup="true" class="flex items-center gap-1.5 hover:text-forest transition-colors focus:outline-none">
+    <span class="">Sekolah &amp; Akademik</span>
+    <svg class="w-3.5 h-3.5 stroke-neutral-500 group-hover:stroke-forest transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
+  </button>
+  <div class="absolute left-0 top-full hidden group-hover:block w-96 pt-2 z-50">
+    <div class="bg-white rounded-2xl shadow-xl border border-neutral-200/80 p-3 grid grid-cols-2 gap-2 text-sm font-medium">
+      <div class="p-1.5">
+        <span class="block text-[11px] font-bold uppercase tracking-wider text-neutral-400 mb-2 px-2">Unit Jenjang</span>
+        <a class="block px-2.5 py-1.5 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#unit-sd">SD Harapan Mulia</a>
+        <a class="block px-2.5 py-1.5 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#unit-smp">SMP Harapan Mulia</a>
+        <a class="block px-2.5 py-1.5 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#unit-sma">SMA Harapan Mulia</a>
+      </div>
+      <div class="p-1.5 border-l border-neutral-100">
+        <span class="block text-[11px] font-bold uppercase tracking-wider text-neutral-400 mb-2 px-2">Kurikulum &amp; Program</span>
+        <a class="block px-2.5 py-1.5 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#akademik">Kurikulum &amp; Akademik</a>
+        <a class="block px-2.5 py-1.5 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#prestasi">Rekam Prestasi Siswa</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="relative group py-2">
+  <button aria-haspopup="true" class="flex items-center gap-1.5 hover:text-forest transition-colors focus:outline-none">
+    <span class="">Kabar &amp; Aktivitas</span>
+    <svg class="w-3.5 h-3.5 stroke-neutral-500 group-hover:stroke-forest transition-transform duration-200 group-hover:rotate-180" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"></path></svg>
+  </button>
+  <div class="absolute left-0 top-full hidden group-hover:block w-64 pt-2 z-50">
+    <div class="bg-white rounded-2xl shadow-xl border border-neutral-200/80 py-2.5 px-1.5 text-sm font-medium">
+      <a class="block px-3.5 py-2 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#berita">Warta &amp; Berita Terkini</a>
+      <a class="block px-3.5 py-2 rounded-xl text-neutral-700 hover:bg-forest-light hover:text-forest transition-colors" href="#kehidupan">Kehidupan Siswa &amp; Galeri</a>
+    </div>
+  </div>
+</div></nav>
+<!-- Header Actions -->
+<div class="flex items-center gap-3.5">
+<!-- Search icon button -->
+<button aria-label="Pencarian" class="w-10 h-10 rounded-full flex items-center justify-center text-neutral-600 hover:text-forest hover:bg-neutral-100 transition-colors">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg>
+</button>
+<!-- Admission CTA Button -->
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#0d3326] text-white text-xs sm:text-sm font-bold hover:bg-[#154a38] transition-all duration-200 shadow-md hover:shadow-lg hover:scale-[1.02] border border-[#1b5e46]" href="#ppdb"><span class="">PPDB 2026/2027</span><svg class="w-4 h-4 text-[#e2b04a]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></a>
+</div>
+</div>
+</header>
+<!-- END: NavigationHeader -->
+<main id="main-content">
+<!-- BEGIN: HeroSection -->
+<section class="relative pt-8 pb-16 lg:pt-14 lg:pb-24 overflow-hidden bg-cream" data-purpose="hero-section" id="beranda">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center">
+<!-- Left Column: Editorial Headlines & Statistics -->
+<div class="lg:col-span-6 z-20 lg:-mr-8"><span class="inline-block text-xs font-bold tracking-[0.2em] text-neutral-500 uppercase mb-3" data-purpose="eyebrow">MENDIDIK HARI INI,</span><h1 class="font-serif-headline text-5xl sm:text-6xl lg:text-[76px] leading-[1.05] tracking-tight font-semibold text-neutral-900 mb-6">Membangun<br>Masa Depan</h1><p class="text-base sm:text-lg text-neutral-600 max-w-lg mb-8 leading-relaxed font-normal">Pendidikan yang memadukan ilmu, karakter dan nilai-nilai kehidupan untuk generasi yang lebih baik.</p><div class="flex flex-wrap items-center gap-3.5 mb-12"><a class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-forest text-white text-sm font-semibold hover:bg-forest-dark transition-all duration-300 shadow-sm hover:scale-[1.02]" href="#unit-pendidikan"><span class="">Jelajahi Sekolah Kami</span><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg></a><a class="inline-flex items-center px-6 py-3.5 rounded-full border border-neutral-300 bg-transparent text-neutral-800 text-sm font-semibold hover:border-neutral-400 hover:bg-black/5 transition-all" href="#tentang-kami">Tentang Yayasan</a></div><div class="pt-6 border-t border-neutral-200/80 grid grid-cols-4 gap-3 sm:gap-6" data-purpose="stats-strip"><div><div class="font-serif-headline text-2xl sm:text-3xl font-bold text-neutral-900">3</div><div class="text-[11px] sm:text-xs text-neutral-500 uppercase font-medium tracking-tight mt-0.5">Unit Sekolah</div></div><div class="border-l border-neutral-200 pl-3 sm:pl-6"><div class="font-serif-headline text-2xl sm:text-3xl font-bold text-neutral-900">1.200+</div><div class="text-[11px] sm:text-xs text-neutral-500 uppercase font-medium tracking-tight mt-0.5">Siswa Aktif</div></div><div class="border-l border-neutral-200 pl-3 sm:pl-6"><div class="font-serif-headline text-2xl sm:text-3xl font-bold text-neutral-900">80+</div><div class="text-[11px] sm:text-xs text-neutral-500 uppercase font-medium tracking-tight mt-0.5">Tenaga Pendidik</div></div><div class="border-l border-neutral-200 pl-3 sm:pl-6"><div class="font-serif-headline text-2xl sm:text-3xl font-bold text-neutral-900">20+</div><div class="text-[11px] sm:text-xs text-neutral-500 uppercase font-medium tracking-tight mt-0.5">Tahun Pengalaman</div></div></div></div>
+<!-- Right Column: Candid High School Students Layout & Badges -->
+<div class="lg:col-span-6 relative flex justify-center lg:justify-end" data-purpose="hero-imagery"><div class="relative w-full max-w-[560px] h-[520px] sm:h-[580px] flex items-center justify-center"><div class="absolute -inset-4 bg-gradient-to-tr from-lime/20 via-forest-light/40 to-transparent rounded-full blur-2xl pointer-events-none opacity-80"></div><div class="relative w-full h-full overflow-hidden" style="mask-image: radial-gradient(ellipse at 60% 50%, black 50%, rgba(0,0,0,0.85) 65%, transparent 95%), linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 18%, black 40%); -webkit-mask-image: radial-gradient(ellipse at 60% 50%, black 50%, rgba(0,0,0,0.85) 65%, transparent 95%), linear-gradient(to right, transparent 0%, rgba(0,0,0,0.6) 18%, black 40%); -webkit-mask-composite: source-in; mask-composite: intersect;"><img alt="Siswa-siswi SMA Harapan Mulia berdiskusi di sekolah" class="w-full h-full object-cover object-top" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjbuTGw3l91kI5YPF8FY2LFdfsQtHVrJmP4GzCyQ8WtZhPawGhz30IKC_ID0KQBKkOjMLq7sOBfKKHESbs8nJsIWrXiQQk3MOGwSk7Vx_iSQblKrVphtoGN_eavX83rHuIMfn_a-RZnfpXp10vkcdaRyVurqgpaUyuVdUPPHbYNv05E1H-8zO2t2ZDb2velDgErxy_5WA0oZRt79ELAF3ufQqzND2ESv6iiiYxDCG6Jxbz8wR0gExc"><div class="absolute inset-0 bg-gradient-to-r from-[#FAF9F5] via-transparent to-transparent pointer-events-none w-1/3"></div><div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#FAF9F5] via-[#FAF9F5]/60 to-transparent pointer-events-none"></div></div><div class="absolute -top-3 right-4 sm:right-6 bg-white px-4 py-2 rounded-2xl shadow-xl border-2 border-[#0d3326] transform rotate-2 max-w-[190px] z-10"><p class="font-script text-[#0d3326] text-lg sm:text-xl font-bold leading-tight">Tempat Tumbuhnya potensi terbaik ✨</p></div><div class="absolute -bottom-4 -left-3 sm:-left-6 bg-white px-4 py-3 rounded-2xl shadow-2xl border border-neutral-200 flex items-center gap-3 z-10"><div class="w-10 h-10 rounded-xl bg-[#0d3326] text-[#e2b04a] flex items-center justify-center font-bold shadow-sm"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10a10 10 0 0 1-7.071-2.929"></path><path d="M12 6a6 6 0 0 1 6 6"></path></svg></div><div class="text-[11px] leading-snug font-semibold text-neutral-800"><span class="text-[#0d3326] font-bold text-xs uppercase tracking-wider block">Karakter • Prestasi</span>Membangun Generasi Unggul</div></div></div></div>
+</div>
+</div>
+</section>
+<!-- END: HeroSection -->
+<!-- BEGIN: UnitPendidikanSection -->
+<section class="py-20 bg-white" data-purpose="unit-pendidikan-section" id="unit-pendidikan">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Header Row -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="text-xs font-bold tracking-[0.2em] text-neutral-400 uppercase">UNIT PENDIDIKAN</span>
+<h2 class="font-serif-headline text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900 mt-2">
+              Temukan Tempat Terbaik<br>untuk Tumbuh
+            </h2>
+</div>
+<div class="max-w-md">
+<p class="text-neutral-600 text-sm sm:text-base leading-relaxed mb-3">
+              Setiap jenjang pendidikan dirancang dengan pendekatan yang sesuai untuk mendukung perkembangan akademik dan karakter siswa.
+            </p>
+<a class="inline-flex items-center gap-1.5 text-sm font-bold text-forest hover:text-forest-dark group" href="#sekolah">
+<span class="">Lihat Semua Sekolah</span>
+<svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</a>
+</div>
+</div>
+<!-- Cards Grid: SD, SMP, SMA -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8"><!-- SD Card -->
+<div class="group bg-[#FAF9F5] rounded-3xl overflow-hidden border border-neutral-300/80 shadow-sm hover:shadow-xl hover:border-[#0d3326]/40 transition-all duration-300 flex flex-col" id="unit-sd">
+  <div class="relative h-60 overflow-hidden">
+    <img alt="Siswa Sekolah Dasar Harapan Mulia ceria belajar di kelas" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBssxeU6Llm1UHqpU7H_Qvh4lUonNWTMXiGtk0ZP-k7JAyYT4QkMtg0c7kld86jJN4kL0R8rH25dqnYLtPIjMQBPPCF8tub0NQKxQVJ2PB7aA-MvklWMF7eBTtE0dapECqdJPCdlXkLvlWxaEQTgOYHn7Q8_DgVVAjWobxkJCVp6z50Bjwe70wBNig-OgqDXmPPtQn9-gLqPUZNdbSC8NGmvWhdGy54YnjS-wkh0SHwrIVvmpdLLv0r">
+    <span class="absolute top-4 left-4 px-3.5 py-1 rounded-full bg-[#0d3326] text-white text-xs font-bold shadow-md border border-[#205e4c]">
+      Akreditasi A
+    </span>
+  </div>
+  <div class="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 rounded-full bg-[#0d3326] text-white flex items-center justify-center text-xs font-extrabold shadow-sm">
+          SD
+        </div>
+        <div>
+          <h3 class="font-bold text-neutral-900 text-base">Sekolah Dasar</h3>
+          <p class="text-xs text-neutral-500 font-medium">Usia 6 - 12 Tahun</p>
+        </div>
+      </div>
+      <p class="text-neutral-700 text-sm leading-relaxed mb-6 font-normal">
+        Fondasi kuat untuk masa depan yang lebih cerah dengan kurikulum holistik dan stimulasi rasa ingin tahu.
+      </p>
+    </div>
+    <a class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-[#0d3326] group-hover:text-[#124032] group-hover:underline" href="#">
+      <span class="">Lihat Detail</span>
+      <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+    </a>
+  </div>
+</div>
+<!-- SMP Card -->
+<div class="group bg-[#FAF9F5] rounded-3xl overflow-hidden border border-neutral-300/80 shadow-sm hover:shadow-xl hover:border-[#0d3326]/40 transition-all duration-300 flex flex-col" id="unit-smp">
+  <div class="relative h-60 overflow-hidden">
+    <img alt="Siswa Sekolah Menengah Pertama berdiskusi kelompok" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPazpRvOf8MBGVRDhstkymyZc8PUuoqON9_2lYH4hDzP9H50Xxg298fhj9s33dbqsYxOobhPEfXfxUHjwLqB5asacTZAQr0rf4jXwIkiMaRTKM6v2raK2mXSk1dArSxvqdNCGzcxHNbh3_61ZRH17OBK21kEWK4Zr_rx6oKRBgDhcxvBNl39_YTF4BvzeNeoNOwhbbw9kGX1fKxYub1kDplLCujjRaF5TSWdBwOy7Y3UBQhlc_Xkiy">
+    <span class="absolute top-4 left-4 px-3.5 py-1 rounded-full bg-[#0d3326] text-white text-xs font-bold shadow-md border border-[#205e4c]">
+      Akreditasi A
+    </span>
+  </div>
+  <div class="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 rounded-full bg-[#0d3326] text-white flex items-center justify-center text-xs font-extrabold shadow-sm">
+          SMP
+        </div>
+        <div>
+          <h3 class="font-bold text-neutral-900 text-base">Sekolah Menengah Pertama</h3>
+          <p class="text-xs text-neutral-500 font-medium">Usia 12 - 15 Tahun</p>
+        </div>
+      </div>
+      <p class="text-neutral-700 text-sm leading-relaxed mb-6 font-normal">
+        Membangun karakter tangguh, kemandirian berpikir, dan memperluas wawasan sosial siswa.
+      </p>
+    </div>
+    <a class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-[#0d3326] group-hover:text-[#124032] group-hover:underline" href="#">
+      <span class="">Lihat Detail</span>
+      <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+    </a>
+  </div>
+</div>
+<!-- SMA Card -->
+<div class="group bg-[#FAF9F5] rounded-3xl overflow-hidden border border-neutral-300/80 shadow-sm hover:shadow-xl hover:border-[#0d3326]/40 transition-all duration-300 flex flex-col" id="unit-sma">
+  <div class="relative h-60 overflow-hidden">
+    <img alt="Siswa Sekolah Menengah Atas dengan seragam rapi" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8HSV_LAODwddq3DttKTJKFHaumW6Ig0s950EnpsZWhBPAivwNl8uKheH29udDo4pclI8g6N3YZk_4xCPJrWEIK4tHaB2Mbw1Pz4iPs_WWh4eZLi8Euwo11d7SVr5nbCTZ5iBF8ktCOyCg9bmRePCMsgsAvSEelMsY8e2n0QjOO5p-ZrZS1p3sBO-2ENMTQzInCVOKrI137vkbmrkO15DFA3tqL0UtI0W2DHna05gx4k4IFaMvH1BJ">
+    <span class="absolute top-4 left-4 px-3.5 py-1 rounded-full bg-[#0d3326] text-white text-xs font-bold shadow-md border border-[#c27803]">
+      Akreditasi A Unggul ★
+    </span>
+  </div>
+  <div class="p-6 flex-1 flex flex-col justify-between">
+    <div>
+      <div class="flex items-center gap-3 mb-3">
+        <div class="w-10 h-10 rounded-full bg-[#0d3326] text-white flex items-center justify-center text-xs font-extrabold shadow-sm">
+          SMA
+        </div>
+        <div>
+          <h3 class="font-bold text-neutral-900 text-base">Sekolah Menengah Atas</h3>
+          <p class="text-xs text-neutral-500 font-medium">Usia 15 - 18 Tahun</p>
+        </div>
+      </div>
+      <p class="text-neutral-700 text-sm leading-relaxed mb-6 font-normal">
+        Mempersiapkan calon pemimpin masa depan yang siap menembus perguruan tinggi terkemuka dunia.
+      </p>
+    </div>
+    <a class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-[#0d3326] group-hover:text-[#124032] group-hover:underline" href="#">
+      <span class="">Lihat Detail</span>
+      <svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+    </a>
+  </div>
+</div></div>
+</div>
+</section>
+<!-- END: UnitPendidikanSection -->
+<!-- BEGIN: MengapaMemilihKamiSection -->
+<section class="py-20 bg-cream-soft relative" data-purpose="why-choose-us" id="tentang-kami"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="bg-[#0b281e] text-white rounded-[36px] overflow-hidden shadow-2xl border border-[#1b5e46] grid grid-cols-1 lg:grid-cols-12">
+    <!-- Left Column: Philosophy & 4 Pillars -->
+    <div class="lg:col-span-7 p-8 sm:p-12 lg:p-14 flex flex-col justify-between">
+      <div>
+        <span class="text-xs font-extrabold tracking-[0.2em] text-[#e2b04a] uppercase">KEUNGGULAN KAMI</span>
+        <h2 class="font-serif-headline text-3xl sm:text-4xl lg:text-5xl font-semibold mt-2 mb-4 leading-tight text-white">
+          Mengapa Memilih Kami?
+        </h2>
+        <p class="text-neutral-200 text-sm sm:text-base leading-relaxed max-w-xl mb-8 font-normal">
+          Kami percaya bahwa setiap anak memiliki potensi luar biasa. Dengan lingkungan belajar yang suportif, fasilitas lengkap, dan tenaga pendidik berkualitas, kami berkomitmen untuk mengembangkan potensi terbaik setiap siswa.
+        </p>
+        <!-- 4 Feature Badges Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
+          <!-- Pillar 1 -->
+          <div class="p-5 rounded-2xl bg-white/10 border border-white/15 hover:bg-white/15 transition-colors">
+            <div class="w-10 h-10 rounded-xl bg-[#e2b04a] text-[#0b281e] flex items-center justify-center mb-3 shadow-md font-bold">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg>
+            </div>
+            <h4 class="font-bold text-sm text-white mb-1">Pendidikan Berbasis Karakter</h4>
+            <p class="text-xs text-neutral-300 leading-normal font-normal">Membentuk pribadi yang berintegritas dan peduli sesama.</p>
+          </div>
+          <!-- Pillar 2 -->
+          <div class="p-5 rounded-2xl bg-white/10 border border-white/15 hover:bg-white/15 transition-colors">
+            <div class="w-10 h-10 rounded-xl bg-[#e2b04a] text-[#0b281e] flex items-center justify-center mb-3 shadow-md font-bold">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+            </div>
+            <h4 class="font-bold text-sm text-white mb-1">Fasilitas Modern</h4>
+            <p class="text-xs text-neutral-300 leading-normal font-normal">Lingkungan belajar yang asri, nyaman, dan berstandar internasional.</p>
+          </div>
+          <!-- Pillar 3 -->
+          <div class="p-5 rounded-2xl bg-white/10 border border-white/15 hover:bg-white/15 transition-colors">
+            <div class="w-10 h-10 rounded-xl bg-[#e2b04a] text-[#0b281e] flex items-center justify-center mb-3 shadow-md font-bold">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><circle cx="12" cy="7" r="4"></circle><path d="M6 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"></path></svg>
+            </div>
+            <h4 class="font-bold text-sm text-white mb-1">Tenaga Pendidik Berkualitas</h4>
+            <p class="text-xs text-neutral-300 leading-normal font-normal">Guru profesional berdedikasi dan tersertifikasi nasional.</p>
+          </div>
+          <!-- Pillar 4 -->
+          <div class="p-5 rounded-2xl bg-white/10 border border-white/15 hover:bg-white/15 transition-colors">
+            <div class="w-10 h-10 rounded-xl bg-[#e2b04a] text-[#0b281e] flex items-center justify-center mb-3 shadow-md font-bold">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <h4 class="font-bold text-sm text-white mb-1">Program Unggulan</h4>
+            <p class="text-xs text-neutral-300 leading-normal font-normal">Kurikulum komprehensif relevan dengan tuntutan masa depan.</p>
+          </div>
+        </div>
+      </div>
+      <div>
+        <a class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-white text-[#0b281e] text-sm font-bold hover:bg-[#FAF9F5] shadow-lg transition-all duration-300" href="#tentang-kami">
+          <span class="">Pelajari Profil Kami</span>
+          <svg class="w-4 h-4 text-[#0b281e]" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+        </a>
+      </div>
+    </div>
+    <!-- Right Column: Modern Campus Architecture Photo -->
+    <div class="lg:col-span-5 relative min-h-[380px] lg:min-h-full">
+      <img alt="Gedung Kampus Modern Yayasan Pendidikan Harapan Mulia" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjt_znOi5bl6PkM16DAoNLyyqeoOnBF2c08NBiBjccL4_L3gSo08K_qtH1cc3aK5yKTf3cYDtnOVBWH-1D1zMQNL3BdW_kPBRamW0V9VZDtUCtrHQ6JZ5_tkJCTa1Fy0X6JKLaT8jEKiiF66D8onMGfUMBmmkWicZg54a9VrUI7icbOXemzMX-clYwUlZfVCJ1jJPlK1E64DDftf5aji_As3QIziXFhqtkTM9j3v_-X76o8OXJ4MOM">
+      <div class="absolute inset-0 bg-gradient-to-t from-[#0b281e]/80 via-transparent to-transparent lg:hidden"></div>
+      <!-- Handwritten Overlay with sharp styling -->
+      <div class="absolute bottom-6 right-6 lg:bottom-10 lg:right-8 bg-[#0b281e]/90 backdrop-blur-md px-5 py-3 rounded-2xl border border-white/30 shadow-2xl">
+        <span class="font-script text-white text-xl sm:text-2xl font-bold tracking-wide">
+          Lingkungan yang Menginspirasi
+        </span>
+      </div>
+    </div>
+  </div>
+</div></section>
+<!-- END: MengapaMemilihKamiSection -->
+<!-- BEGIN: ProgramUnggulanSection -->
+<section class="py-20 bg-[#FAF9F5] border-y border-neutral-200/80" data-purpose="featured-programs" id="akademik">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="text-xs font-bold tracking-[0.2em] text-neutral-500 uppercase">PROGRAM UNGGULAN</span>
+<h2 class="font-serif-headline text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900 mt-2">
+              Program yang<br>Mengembangkan Potensi
+            </h2>
+</div>
+<a class="inline-flex items-center gap-1.5 text-sm font-bold text-[#0d3326] hover:text-[#124032] group" href="#">
+<span class="">Lihat Semua Program</span>
+<svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</a>
+</div>
+<!-- 4 Specialized Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Program 1: Sains & Teknologi -->
+<div class="bg-white rounded-3xl overflow-hidden border border-neutral-200 shadow-sm hover:shadow-xl hover:border-[#0d3326]/40 transition-all duration-300 flex flex-col group">
+<div class="h-48 overflow-hidden">
+<img alt="Laboratorium Sains dan Robotik" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiX1UwVIi_hH9bo6IthpjRD1NAOKEzoy7oL4HyhP7lApW31BiBhLZQHkE42kkC5ACkuc-akvDFvjN_aa41A4A65_qVBkKXqdD3pHHwO7VEimevmid7P3O4k7XiAYYUrKdUwBg8F0Xkk9uB8Ndfn9VM3UwTkAxC79rPR3a81cdm9MCtNH4ngZYBXWzbjwPuIEYrdUVHdsvwbrhs7BPiIlZYOnmawycEuPlwqYGRAF5j5ONb7n6EE5gY">
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-bold text-base text-neutral-900 mb-2">Sains &amp; Teknologi</h3>
+<p class="text-xs text-neutral-600 leading-relaxed">
+                  Menumbuhkan rasa ingin tahu melalui pembelajaran berbasis proyek dan eksperimen laboratorium.
+                </p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between border-t border-neutral-100">
+<span class="text-[11px] font-bold text-[#0d3326] uppercase tracking-wider">STEM Curriculum</span>
+<span class="w-8 h-8 rounded-full bg-[#0d3326] text-white flex items-center justify-center group-hover:bg-[#124032] transition-colors shadow-sm">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</span>
+</div>
+</div>
+</div>
+<!-- Program 2: Bahasa & Komunikasi -->
+<div class="bg-white rounded-3xl overflow-hidden border border-neutral-200 shadow-sm hover:shadow-xl hover:border-[#0d3326]/40 transition-all duration-300 flex flex-col group">
+<div class="h-48 overflow-hidden">
+<img alt="Kegiatan debat dan bahasa asing" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCkhFb4miD39IF_rO-Exmb-udsYIgNStRZ9iKxO_ULI2so31OMO3mFywOO3zYrb7WjsLdnGtsyY8mGG3aY0Th6f5ciL_M9N4tiliHeZIBh9-cHS4ng99vSefx_IpypmhPgNbG0YzdU5o_tVZ3vkKUJMw3NgHd67QPVrvS77qntoahGc_sHUmh_STPFfCX7F7Zz375rmNHosICyRgYjUJfRvhhPLYeBxkB9x7Pdd5_HxzNY1avrjeb1L">
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-bold text-base text-neutral-900 mb-2">Bahasa &amp; Komunikasi</h3>
+<p class="text-xs text-neutral-600 leading-relaxed">
+                  Menguasai multi bahasa dan kemampuan public speaking untuk membuka peluang karier global.
+                </p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between border-t border-neutral-100">
+<span class="text-[11px] font-bold text-[#0d3326] uppercase tracking-wider">Bilingual &amp; Debate</span>
+<span class="w-8 h-8 rounded-full bg-[#0d3326] text-white flex items-center justify-center group-hover:bg-[#124032] transition-colors shadow-sm">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</span>
+</div>
+</div>
+</div>
+<!-- Program 3: Seni & Kreativitas -->
+<div class="bg-white rounded-3xl overflow-hidden border border-neutral-200 shadow-sm hover:shadow-xl hover:border-[#0d3326]/40 transition-all duration-300 flex flex-col group">
+<div class="h-48 overflow-hidden">
+<img alt="Siswa melukis dan mengekspresikan seni rupa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9w8Hf4-fWhM3AI8VFOPat_dBVylVaKo1OWaI89oHL6CwolxGUQ68Xn32WnmpXkPzYgc8sfF4uMiMJEeZmjbWNjrIvD_fhvcsQsw7FwepotTiq_RPP6RSSHi8ao0MPBuosJ3fxTEQuraCjwFLUhv7bd6WtP-xOFcewgqQtzvHTmMmOmIB1uRTWQhwqZlYfFfij9LvAicBsxgc0e5_KAq7hJkJq7BFLmj51oA5U3x_WiTBMws9P34O0">
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-bold text-base text-neutral-900 mb-2">Seni &amp; Kreativitas</h3>
+<p class="text-xs text-neutral-600 leading-relaxed">
+                  Mengembangkan imajinasi, seni rupa, musik, serta ekspresi diri yang autentik dan bermakna.
+                </p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between border-t border-neutral-100">
+<span class="text-[11px] font-bold text-[#0d3326] uppercase tracking-wider">Art &amp; Music Studio</span>
+<span class="w-8 h-8 rounded-full bg-[#0d3326] text-white flex items-center justify-center group-hover:bg-[#124032] transition-colors shadow-sm">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</span>
+</div>
+</div>
+</div>
+<!-- Program 4: Karakter & Kepemimpinan -->
+<div class="bg-white rounded-3xl overflow-hidden border border-neutral-200 shadow-sm hover:shadow-xl hover:border-[#0d3326]/40 transition-all duration-300 flex flex-col group">
+<div class="h-48 overflow-hidden">
+<img alt="Pelatihan kepemimpinan dan pramuka" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-3PgN3cDTjdpjA_4-8-8-9__0OAgjXOKMx4VyuwxEOB1_9bKH1QBtbYmS8Ttxrr51C7l-bUgIP8oiWD2V4ZBBpwd5zNRqHmGtDZie6qjtEj_JZyhzO-lxO_NErGng91f8unuPQaraGwd8JwV-kqcwiMlEANrCE067wKEMxX9KQ7NGvukek24JTOw6km40hrr-CxpWp5E266Rdj0qRrHbBbn3AGobxe3C8MyCcdN-EtQotCXjgnO2Q">
+</div>
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-bold text-base text-neutral-900 mb-2">Karakter &amp; Kepemimpinan</h3>
+<p class="text-xs text-neutral-600 leading-relaxed">
+                  Membentuk pemimpin berintegritas tinggi, berjiwa sosial, dan peka terhadap kebutuhan sesama.
+                </p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between border-t border-neutral-100">
+<span class="text-[11px] font-bold text-[#0d3326] uppercase tracking-wider">Leadership Camp</span>
+<span class="w-8 h-8 rounded-full bg-[#0d3326] text-white flex items-center justify-center group-hover:bg-[#124032] transition-colors shadow-sm">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- END: ProgramUnggulanSection -->
+<!-- BEGIN: KomunitasKamiQuoteSection -->
+<section class="py-16 border-y border-sage-border relative overflow-hidden bg-cream-soft" data-purpose="community-editorial-banner">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<!-- Stats Recap on Left -->
+<div class="lg:col-span-6">
+<span class="text-xs font-bold tracking-[0.2em] text-neutral-500 uppercase block mb-3">KOMUNITAS KAMI</span>
+<div class="grid grid-cols-4 gap-4">
+<div>
+<div class="font-serif-headline text-3xl sm:text-4xl font-bold text-forest">3</div>
+<div class="text-[11px] font-semibold text-neutral-600 uppercase mt-1">Unit Sekolah</div>
+</div>
+<div class="border-l border-neutral-300 pl-4">
+<div class="font-serif-headline text-3xl sm:text-4xl font-bold text-forest">1.200+</div>
+<div class="text-[11px] font-semibold text-neutral-600 uppercase mt-1">Siswa Aktif</div>
+</div>
+<div class="border-l border-neutral-300 pl-4">
+<div class="font-serif-headline text-3xl sm:text-4xl font-bold text-forest">80+</div>
+<div class="text-[11px] font-semibold text-neutral-600 uppercase mt-1">Tenaga Pendidik</div>
+</div>
+<div class="border-l border-neutral-300 pl-4">
+<div class="font-serif-headline text-3xl sm:text-4xl font-bold text-forest">20+</div>
+<div class="text-[11px] font-semibold text-neutral-600 uppercase mt-1">Tahun Pengalaman</div>
+</div>
+</div>
+</div>
+<!-- Botanical Leaf Icon and Editorial Italic Quote on Right -->
+<div class="lg:col-span-6 flex items-center gap-6 lg:border-l lg:border-neutral-300 lg:pl-10">
+<div class="hidden sm:flex flex-shrink-0 w-14 h-14 rounded-full bg-forest text-lime items-center justify-center">
+<svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10a10 10 0 0 1-7.071-2.929"></path></svg>
+</div>
+<blockquote class="font-serif-headline italic text-lg sm:text-xl lg:text-2xl text-forest-dark leading-relaxed">
+              “Pendidikan bukan hanya mempersiapkan untuk hidup, tetapi untuk kehidupan yang lebih baik.”
+            </blockquote>
+</div>
+</div>
+</div>
+</section>
+<!-- END: KomunitasKamiQuoteSection -->
+<!-- BEGIN: PrestasiSection -->
+<section class="py-20 bg-white" data-purpose="achievements-section" id="prestasi">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header with Category Tabs & Nav Buttons -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
+<div>
+<span class="text-xs font-bold tracking-[0.2em] text-neutral-400 uppercase">PRESTASI</span>
+<h2 class="font-serif-headline text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900 mt-1">
+              Langkah Kecil,<br>Dampak Besar
+            </h2>
+<p class="text-sm text-neutral-600 mt-2">
+              Berbagai prestasi yang diraih siswa kami di tingkat daerah, nasional, hingga internasional.
+            </p>
+</div>
+<!-- Filter Pills and Arrow Controls -->
+<div class="flex flex-wrap items-center gap-3">
+<div class="inline-flex p-1 bg-white rounded-full border border-neutral-200">
+<button class="px-4 py-1.5 rounded-full text-xs font-bold bg-forest text-white">Semua</button>
+<button class="px-4 py-1.5 rounded-full text-xs font-medium text-neutral-600 hover:text-forest">SD</button>
+<button class="px-4 py-1.5 rounded-full text-xs font-medium text-neutral-600 hover:text-forest">SMP</button>
+<button class="px-4 py-1.5 rounded-full text-xs font-medium text-neutral-600 hover:text-forest">SMA</button>
+</div>
+<div class="flex items-center gap-2">
+<button aria-label="Sebelumnya" class="w-9 h-9 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-700 hover:bg-forest hover:text-white transition-colors">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m15 19-7-7 7-7"></path></svg>
+</button>
+<button aria-label="Selanjutnya" class="w-9 h-9 rounded-full bg-white border border-neutral-200 flex items-center justify-center text-neutral-700 hover:bg-forest hover:text-white transition-colors">
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="m9 5 7 7-7 7"></path></svg>
+</button>
+</div>
+</div>
+</div>
+<!-- Achievement Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8"><!-- Card 1 -->
+<div class="bg-white rounded-3xl overflow-hidden border border-neutral-300/80 shadow-sm hover:shadow-xl transition-all duration-300 group">
+  <div class="relative h-56">
+    <img alt="Juara Olimpiade Sains Nasional" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA5qlPs8pZSvsWbLDzU0lveaiEOANr5EDHhN93pzJI07cc26_EDp_xMQ09XSpMf_rb0uDP-fzGTZ7T-AcFrzUGkx2zh1cMzIWcrSYjrtM_SGSCI-pcmLjtUNdq4EoYE5Keq5xwjWURWfHx5l0H22PlxLLeyQyYbsIwXesG6gNVj0Ka-iNFZ2NNaU_Wxho4ZdX7B6hyHzXh17il2Fjhwru_8yVTMpyC-kS385BMP1YlmkZtJZjQDDCTt">
+    <span class="absolute top-3 right-3 bg-[#c27803] text-white text-xs font-bold px-3.5 py-1 rounded-full shadow-md flex items-center gap-1">
+      ★ Medali Emas
+    </span>
+  </div>
+  <div class="p-5">
+    <span class="text-[11px] font-bold text-[#0d3326] uppercase tracking-wider">SMA • 2024</span>
+    <h3 class="font-bold text-base text-neutral-900 mt-1 mb-2">Juara 1 Olimpiade Sains Nasional</h3>
+    <p class="text-xs text-neutral-600 leading-relaxed">
+      Prestasi membanggakan di bidang Biologi dan Kimia tingkat SMA se-Indonesia.
+    </p>
+  </div>
+</div>
+<!-- Card 2 -->
+<div class="bg-white rounded-3xl overflow-hidden border border-neutral-300/80 shadow-sm hover:shadow-xl transition-all duration-300 group">
+  <div class="relative h-56">
+    <img alt="Juara Robotik Nasional" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCg6JFQfayHfrmbLYnxqcV-L8MZDjd4Ngr4CnQO61fskupNQAD84KKC0wVcFD_Sc8ixPivji_QzU0tsiNNSiUojFAXrxQoCbf1SdwN40llfKcvNxW-3jC5JP767LFjAMs7an4tg9EAnU8plS_1ou6KVKWiLxASPUIuKp4WPbObstRGy9FNh_02mlqBL_5WsKz1jSuYpbD3-ic0ZONQ0J80Ke11EtpLmCtLpeo2ThHx3OGjw9iCnenrs">
+    <span class="absolute top-3 right-3 bg-[#334155] text-white text-xs font-bold px-3.5 py-1 rounded-full shadow-md flex items-center gap-1">
+      ★ Medali Perak
+    </span>
+  </div>
+  <div class="p-5">
+    <span class="text-[11px] font-bold text-[#0d3326] uppercase tracking-wider">SMP • 2024</span>
+    <h3 class="font-bold text-base text-neutral-900 mt-1 mb-2">Juara 2 Lomba Robotik Nasional</h3>
+    <p class="text-xs text-neutral-600 leading-relaxed">
+      Karya inovasi autonomous robot penanggulangan sampah cerdas karya tim robotika SMP.
+    </p>
+  </div>
+</div>
+<!-- Card 3 -->
+<div class="bg-white rounded-3xl overflow-hidden border border-neutral-300/80 shadow-sm hover:shadow-xl transition-all duration-300 group">
+  <div class="relative h-56">
+    <img alt="Juara Tari Tradisional" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoyloB-H_a3RNGR_SGUYwefrNyIO-IjpbXhcQ7v5ekFAdKue5YCxoV0xvJcwxxvJybiSi349FycISlxMTPYJX33Q_YT_aayu2MzVwgeDvklY0WwVQ57JQGVi9xwdapFww8W__rJfQuYnU7qmexhjt1IfKVUnUILBaJddE1LNY-Psxig6ODOkoIqDRRO4fFUW-UlKBThWWE3soqoQIdzedCdDlWJeSW3JI1SpQVl7yqn1qDQ7qdKTQc">
+    <span class="absolute top-3 right-3 bg-[#c27803] text-white text-xs font-bold px-3.5 py-1 rounded-full shadow-md flex items-center gap-1">
+      ★ Medali Emas
+    </span>
+  </div>
+  <div class="p-5">
+    <span class="text-[11px] font-bold text-[#0d3326] uppercase tracking-wider">SD • 2024</span>
+    <h3 class="font-bold text-base text-neutral-900 mt-1 mb-2">Juara 1 Lomba Tari Tradisional</h3>
+    <p class="text-xs text-neutral-600 leading-relaxed">
+      Mempertahankan kelestarian seni nusantara dalam ajang Festival Seni Siswa Nasional.
+    </p>
+  </div>
+</div></div>
+<div>
+<a class="inline-flex items-center gap-1.5 text-sm font-bold text-forest hover:text-forest-dark group" href="#">
+<span class="">Lihat Semua Prestasi</span>
+<svg class="w-4 h-4 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</a>
+</div>
+</div>
+</section>
+<!-- END: PrestasiSection -->
+<!-- BEGIN: KehidupanSekolahGallerySection -->
+<section class="py-20 bg-cream" data-purpose="school-life-gallery" id="kehidupan">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12 gap-6">
+<div>
+<span class="text-xs font-bold tracking-[0.2em] text-neutral-400 uppercase">KEHIDUPAN SEKOLAH</span>
+<h2 class="font-serif-headline text-3xl sm:text-4xl lg:text-5xl font-semibold text-neutral-900 mt-2">
+              Lebih dari Sekadar<br>Ruang Kelas
+            </h2>
+</div>
+<div class="max-w-md">
+<p class="text-neutral-600 text-sm sm:text-base leading-relaxed mb-4">
+              Berbagai kegiatan dan pengalaman yang membentuk karakter, memperluas wawasan, dan menciptakan kenangan berharga sepanjang hayat.
+            </p>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-forest text-white text-xs sm:text-sm font-semibold hover:bg-forest-dark transition-all" href="#">
+<span class="">Lihat Galeri</span>
+<svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</a>
+</div>
+</div>
+<!-- Masonry / Mosaic Grid (5 Panels) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+<!-- Item 1: Student playing guitar/music -->
+<div class="h-64 rounded-3xl overflow-hidden group relative">
+<img alt="Aktivitas musik dan ekstrakurikuler siswa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDivsnE60fhmD9queLhARjU2CeTOSNUh55yKYS237vmzLOoBEI9lqkBNRVUpE-mKclxGKdA3H4Ye57Iv_I1Gjce3VWMk2S3YU4N1m6nDwCJyIP333YPvhDIIdYwrtFTIWWGSrKX4Um0ip2bCmN1lW40iFoZZBCl_ONiQXhMDUaQcjbV25jtXTYvJvnXNe31QefY31VG114XZFi-aE4moDToRKP4kV-x8L-AEjMVRpHKHPAWSJ65wCs3">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-5">
+<span class="text-white text-sm font-semibold">Seni Musik &amp; Band</span>
+</div>
+</div>
+<!-- Item 2: Library & Study -->
+<div class="h-64 rounded-3xl overflow-hidden group relative">
+<img alt="Perpustakaan modern ramah siswa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqcl7zuJD4ZO1IaLVN_pWf0tcGr9iSr1QicyE0uH5En40_PdFqJnfd5NM4vbnpgSXDOvY56AlnpO6ToORKRB9ArsLVEdTPdSWMiaXRj9IVgok4PmLFSM3OzwtDSxFJrSu6CBpntzSxBUD6c_K3jol1MdyT4d6kcUxIoWImRhwmlfoCaQ5kDUXX0Lg9V7KBp5XrWWrmVSV4i8xJhJPIy4Wqup3DaWPTUVIkAtCf2tAP1CM6IaYdOZ30">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-5">
+<span class="text-white text-sm font-semibold">Perpustakaan Ramah Anak</span>
+</div>
+</div>
+<!-- Item 3: Outdoor Science Discussion -->
+<div class="h-64 rounded-3xl overflow-hidden group relative">
+<img alt="Kelas terbuka dan interaktif" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD8bnrIiFw78mG6zQF_leHGRLKnneAY6t9Kwt5vbVKyBHvMnwuRLppfoZywGSwCssouusZIj3I4Q_M0Q7AnhyW5PkBwsx1wtrUKjcYjmuaTh9X6LoC_UIgYT8j3evqvKTdA4seTU9hR2KO-G6jhzKtKkfiCSChctNwnGY6pTUHMSiR9fN0c6mfgz6FlCU20AvCXodICKAeU6PHHdAVhlcdf_pbHJKvT0jCiD6BZQIAimkHvQySIlpoj">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-5">
+<span class="text-white text-sm font-semibold">Kelas Interaktif Terbuka</span>
+</div>
+</div>
+<!-- Item 4: Green Garden Study -->
+<div class="h-64 rounded-3xl overflow-hidden group relative">
+<img alt="Taman sekolah asri" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB74sU3F_Fl-aw6nv08OsyKvf1ofbNtlWOxY35CrD7JR-1qEUWYuOZetXLy-Ug451crnxfNd74FCRghmnXkbfuND-0Jmy0MU3ZpjhLtoY292aJ-InaDxF0WvCDkYi8vAE-CNJOTqAWgRKjCe0MRRAfInpfYAdy1OKlw_cHtg_xLWWAsJUmUgIyL8k0ovSlyAS3TptZdORTMFr1aBIB_8fgbReR-EVf9CqfcqCYDhHj1iNyMaaD3oZe8">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-5">
+<span class="text-white text-sm font-semibold">Taman Hijau Kampus</span>
+</div>
+</div>
+<!-- Item 5: Sports & Solidarity -->
+<div class="h-64 rounded-3xl overflow-hidden group relative">
+<img alt="Olahraga dan kebersamaan siswa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAuT_-Hmvip2pM-hiXQDJEfJxqr5x21mZa-JhfgATDfV-MpayGWRhOuHPrPwpU1oq6eOaKZ0Hk8ddkbGng8ZCVq8ceX-o3UoKbV47yKNfGMfiofcMEhXRZa-6wn03gBh1IgUcMYODegye1rcK10_MP1DcAgjbFQtfJ84iCW37N9v2PUdEHYNfs_H3-_6SlO0ekCJipqBhoDaHIkZtAzU8hoTN-_OQmI-InDVwgWBUFxcDujS3hdun2W">
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-5">
+<span class="text-white text-sm font-semibold">Ajang Olahraga &amp; Sportivitas</span>
+</div>
+</div>
+<!-- Item 6: Special CTA Card in Forest Green -->
+<a class="h-64 rounded-3xl bg-forest p-6 flex flex-col justify-between text-white group hover:bg-forest-dark transition-colors" href="#ppdb">
+<div class="w-10 h-10 rounded-full bg-lime/20 text-lime flex items-center justify-center">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</div>
+<div>
+<h3 class="font-serif-headline text-2xl font-bold leading-snug mb-2 group-hover:text-lime transition-colors">
+                Lingkungan Belajar yang Menyenangkan
+              </h3>
+<p class="text-xs text-neutral-300">Bergabunglah dan alami langsung suasana belajar kami.</p>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- END: KehidupanSekolahGallerySection -->
+<!-- BEGIN: AdmissionPPDBSection -->
+<section class="py-20 bg-forest-dark text-white relative overflow-hidden" data-purpose="admissions-ppdb" id="ppdb"><!-- Ambient Background Decor -->
+<div class="absolute -top-32 -left-32 w-96 h-96 rounded-full bg-[#1b5e46]/20 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-32 -right-32 w-96 h-96 rounded-full bg-[#0b281e] blur-3xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Content -->
+<div class="lg:col-span-6">
+<span class="inline-block text-xs font-extrabold tracking-[0.25em] text-[#e2b04a] uppercase mb-3">PPDB 2026/2027</span>
+<h2 class="font-serif-headline text-4xl sm:text-5xl lg:text-6xl font-semibold leading-tight mb-6 text-white">
+              Mulai Perjalanan<br>Masa Depan Mereka
+            </h2>
+<p class="text-neutral-200 text-base leading-relaxed mb-8 max-w-lg font-normal">
+              Bergabunglah bersama kami dan menjadi bagian dari komunitas pendidikan yang inspiratif, inklusif, dan berorientasi masa depan.
+            </p>
+<!-- Buttons -->
+<div class="flex flex-wrap items-center gap-4 mb-10">
+<a class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-[#c27803] text-white font-bold text-sm hover:bg-[#a36302] transition-all duration-200 shadow-xl shadow-black/20 hover:scale-[1.02] border border-[#d98204]" href="#">
+<span class="">Daftar Sekarang</span>
+<svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+</a>
+<a class="inline-flex items-center px-6 py-3.5 rounded-full border border-white/40 text-white font-semibold text-sm hover:bg-white/10 transition-colors" href="#">
+                Lihat Panduan
+              </a>
+</div>
+<!-- 3 Quick Guarantee Badges -->
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 border-t border-white/15 text-xs text-neutral-200">
+<div class="flex items-center gap-2.5">
+<svg class="w-4 h-4 text-[#e2b04a] flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"></path></svg>
+<span class="font-medium">Proses Mudah &amp; Transparan</span>
+</div>
+<div class="flex items-center gap-2.5">
+<svg class="w-4 h-4 text-[#e2b04a] flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"></path></svg>
+<span class="font-medium">Informasi Lengkap &amp; Jelas</span>
+</div>
+<div class="flex items-center gap-2.5">
+<svg class="w-4 h-4 text-[#e2b04a] flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"></path></svg>
+<span class="font-medium">Tim Siap Membantu</span>
+</div>
+</div>
+</div>
+<!-- Right Content: Photo with script badge -->
+<div class="lg:col-span-6 relative flex justify-center lg:justify-end">
+<div class="relative w-full max-w-md h-[460px] rounded-[38px] overflow-hidden shadow-2xl border-4 border-white/20">
+<img alt="Siswa bahagia belajar di Yayasan Pendidikan Harapan Mulia" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBIMlxs1IUVXkgSjDKgcCrZVBrbMURpgAaWayUSfoXBzRUH4bk931PiuWaV6YIYL3MOsXLZAikqeGcxUUcYYtZPTydQAhC8c8dZf9lOJJ4KL46ZbwL83k774jFQj5NLhZX48FPXuMOwWhlXlm2B03sqEaEPOcwfcFcmBCOQAadAKP9OXUfk1xx8IlYdiuvS1V0ICuwnvnS3RkAqwrU0MrH_4pZ_Wel0iAWdlqN2svv6hCN9ddxrQuhu">
+<div class="absolute inset-0 bg-gradient-to-t from-[#0b281e]/90 via-transparent to-transparent"></div>
+<!-- Floating Script Annotation -->
+<div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-[#0b281e]/90 backdrop-blur-md border border-white/30 shadow-2xl">
+<p class="font-script text-2xl text-[#e2b04a] font-bold">Masa depan berawal dari sini</p>
+<p class="text-xs text-neutral-200 mt-0.5 font-normal">Penerimaan Peserta Didik Baru Gelombang 1 Dibuka.</p>
+</div>
+</div>
+</div>
+</div>
+</div></section>
+<!-- END: AdmissionPPDBSection -->
+<!-- BEGIN: LokasiSekolahSection -->
+<section class="py-20 bg-cream" data-purpose="school-locations" id="kontak">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Heading -->
+<div class="text-center max-w-2xl mx-auto mb-14">
+<span class="text-xs font-bold tracking-[0.2em] text-neutral-400 uppercase">LOKASI KAMI</span>
+<h2 class="font-serif-headline text-3xl sm:text-4xl font-semibold text-neutral-900 mt-2 mb-3">
+            Kunjungi Sekolah Kami
+          </h2>
+<p class="text-neutral-600 text-sm">
+            Lihat peta dan informasi lengkap setiap unit sekolah di bawah naungan Yayasan Harapan Mulia.
+          </p>
+</div>
+<!-- 3 Campus Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6"><!-- SD Location -->
+<div class="bg-white rounded-3xl p-5 border border-neutral-300/80 shadow-sm flex items-center gap-4 hover:shadow-md transition-shadow">
+<div class="w-20 h-20 rounded-2xl overflow-hidden flex-shrink-0 bg-neutral-100">
+<img alt="Kampus SD" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCuyE5AGTIJn-2Qa1J6qj18k8ap_x-_vhDA8yVoFE75F3lpHuQvYDIC_kg82C2lwXDc8wmwb4PnBdE-RGrkFLCKooh3sx_rpzc_QzxU1zN88c9NujGavxIh9jTRLE4miAUtbQliYSP1J8Uby8SYWk-azkgWah7oWs0pGDkzpNhV1zHhQQTmIcBMNwGfo_oG1sEb65BZBpAOe2CuPCy-y6_VeCe4L6kUuqsyAK6DKXTfhgE0jFWvyKWm">
+</div>
+<div>
+<div class="inline-block text-[11px] font-bold text-white bg-[#0d3326] px-2.5 py-0.5 rounded-full mb-1 shadow-sm">Kampus SD</div>
+<h4 class="font-bold text-sm text-neutral-900">SD Harapan Mulia</h4>
+<p class="text-xs text-neutral-500 mt-0.5">Jl. Pendidikan No. 1, Jakarta Selatan</p>
+<a class="text-xs font-bold text-[#0d3326] hover:underline inline-flex items-center gap-1 mt-1.5" href="#">
+                Buka di Maps →
+              </a>
+</div>
+</div>
+<!-- SMP Location -->
+<div class="bg-white rounded-3xl p-5 border border-neutral-300/80 shadow-sm flex items-center gap-4 hover:shadow-md transition-shadow">
+<div class="w-20 h-20 rounded-2xl overflow-hidden flex-shrink-0 bg-neutral-100">
+<img alt="Kampus SMP" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBdJuT7MoNYR_2uZnsq_faez3J8tsDmwR4C_QogW2rZlkrX4Gnp5IKOMKUShavl-J_sovYrCmtV6HrgXKXHAWcAUvetZwq1ncMRgVy0-HyfEF-77jMK50g2dOprUkaUHvov9mvAnLGIxt5J7E7pxCV1suruJarQB94V9l9NRMIta9LEmVV8kwL_YJXcoazkkmB85dN4fAuOlgQOxNyGhTJHm0en3bbtEDCaJbnL3cXFVEswRCVe1NUe">
+</div>
+<div>
+<div class="inline-block text-[11px] font-bold text-white bg-[#0d3326] px-2.5 py-0.5 rounded-full mb-1 shadow-sm">Kampus SMP</div>
+<h4 class="font-bold text-sm text-neutral-900">SMP Harapan Mulia</h4>
+<p class="text-xs text-neutral-500 mt-0.5">Jl. Harapan No. 10, Jakarta Selatan</p>
+<a class="text-xs font-bold text-[#0d3326] hover:underline inline-flex items-center gap-1 mt-1.5" href="#">
+                Buka di Maps →
+              </a>
+</div>
+</div>
+<!-- SMA Location -->
+<div class="bg-white rounded-3xl p-5 border border-neutral-300/80 shadow-sm flex items-center gap-4 hover:shadow-md transition-shadow">
+<div class="w-20 h-20 rounded-2xl overflow-hidden flex-shrink-0 bg-neutral-100">
+<img alt="Kampus SMA" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC0BhCkUDvA9sLdtDOA26uCPlTJ0HUfEhMyJjkSOAo3_dAI88P0F1cE2BSRrhmK4b4EIOMvEcFJvv-4Y_xjN6p0UNGkOVk18NXb4gBEcY2FxplVfzY2rM_aQ5Y2q_35yU4PFedw3LrK1Rh3yNMKrHcAelwgVIKImDdWKfq1Eb9S-uwyS8SwLfLzBhYo3IpntU7yJMbHpRuqVD7aaXesxzcOAZJpl0IijzoGwUl3vkUti6-Yv4RV_WHv">
+</div>
+<div>
+<div class="inline-block text-[11px] font-bold text-white bg-[#0d3326] px-2.5 py-0.5 rounded-full mb-1 shadow-sm">Kampus SMA</div>
+<h4 class="font-bold text-sm text-neutral-900">SMA Harapan Mulia</h4>
+<p class="text-xs text-neutral-500 mt-0.5">Jl. Cendekia No. 5, Jakarta Selatan</p>
+<a class="text-xs font-bold text-[#0d3326] hover:underline inline-flex items-center gap-1 mt-1.5" href="#">
+                Buka di Maps →
+              </a>
+</div>
+</div></div>
+</div>
+</section>
+<!-- END: LokasiSekolahSection -->
+</main>
+<!-- BEGIN: SiteFooter -->
+<footer class="border-t pt-16 pb-12 bg-forest-dark border-white/10" data-purpose="site-footer" style="background-color: rgb(8, 29, 22);"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/10"><div class="lg:col-span-4"><div class="flex items-center gap-3.5 mb-4"><div class="w-9 h-9 rounded-full bg-forest-deep text-lime flex items-center justify-center border border-white/10"><svg class="w-5 h-5 stroke-current fill-none stroke-[2.2]" viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10a10 10 0 0 1-7.071-2.929"></path><path d="M12 6a6 6 0 0 1 6 6"></path></svg></div><div><span class="text-xs font-semibold text-lime/80 block uppercase tracking-wider">Yayasan Pendidikan</span><span class="text-base font-bold text-white leading-none">Harapan Mulia</span></div></div><p class="text-xs sm:text-sm text-neutral-300 leading-relaxed max-w-sm mb-6">Bersama Mendidik, Bersama Membangun Masa Depan generasi bangsa dengan integritas dan kecerdasan seimbang.</p><div class="flex items-center gap-3 text-neutral-300"><a aria-label="Instagram" class="w-8 h-8 rounded-full bg-white/10 border border-white/15 flex items-center justify-center hover:bg-lime hover:text-forest-dark transition-colors" href="#"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a><a aria-label="Facebook" class="w-8 h-8 rounded-full bg-white/10 border border-white/15 flex items-center justify-center hover:bg-lime hover:text-forest-dark transition-colors" href="#"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a><a aria-label="Twitter" class="w-8 h-8 rounded-full bg-white/10 border border-white/15 flex items-center justify-center hover:bg-lime hover:text-forest-dark transition-colors" href="#"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a><a aria-label="LinkedIn" class="w-8 h-8 rounded-full bg-white/10 border border-white/15 flex items-center justify-center hover:bg-lime hover:text-forest-dark transition-colors" href="#"><svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect height="12" width="4" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></div></div><div class="lg:col-span-2"><h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Tautan Cepat</h4><ul class="space-y-2.5 text-xs text-neutral-300 font-medium"><li class=""><a class="hover:text-lime transition-colors" href="#beranda">Beranda</a></li><li class=""><a class="hover:text-lime transition-colors" href="#tentang-kami">Tentang Kami</a></li><li class=""><a class="hover:text-lime transition-colors" href="#unit-pendidikan">Sekolah</a></li><li class=""><a class="hover:text-lime transition-colors" href="#berita">Berita</a></li><li class=""><a class="hover:text-lime transition-colors" href="#kontak">Kontak</a></li></ul></div><div class="lg:col-span-2"><h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Unit Pendidikan</h4><ul class="space-y-2.5 text-xs text-neutral-300 font-medium"><li class=""><a class="hover:text-lime transition-colors" href="#unit-sd">SD Harapan Mulia</a></li><li class=""><a class="hover:text-lime transition-colors" href="#unit-smp">SMP Harapan Mulia</a></li><li class=""><a class="hover:text-lime transition-colors" href="#unit-sma">SMA Harapan Mulia</a></li><li class=""><a class="hover:text-lime transition-colors" href="#ppdb">Informasi PPDB 2026/2027</a></li></ul></div><div class="lg:col-span-4"><h4 class="text-xs font-bold uppercase tracking-wider text-white mb-4">Hubungi Kami</h4><ul class="space-y-3 text-xs text-neutral-300"><li class="flex items-start gap-2.5"><svg class="w-4 h-4 text-lime flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg><span class="">Jl. Pendidikan No. 1, Cilandak, Jakarta Selatan 12545</span></li><li class="flex items-center gap-2.5"><svg class="w-4 h-4 text-lime flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><span class="">+62 21 1234 5678 / +62 812 3456 7890</span></li><li class="flex items-center gap-2.5"><svg class="w-4 h-4 text-lime flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg><span class="">info@yayasanharapanmulia.sch.id</span></li><li class="flex items-center gap-2.5 text-neutral-400"><svg class="w-4 h-4 text-lime flex-shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span class="">Senin - Jumat: 07.30 - 16.00 WIB</span></li></ul></div></div><div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-neutral-400 gap-4"><p class="">© 2026 Yayasan Pendidikan Harapan Mulia. Hak Cipta Dilindungi.</p><div class="flex items-center gap-6"><a class="hover:text-lime transition-colors" href="#">Kebijakan Privasi</a><a class="hover:text-lime transition-colors" href="#">Syarat &amp; Ketentuan</a></div></div></div></footer>
+<!-- END: SiteFooter -->
+
+
+
+
+
+
+
+
+
+
+</body></html>

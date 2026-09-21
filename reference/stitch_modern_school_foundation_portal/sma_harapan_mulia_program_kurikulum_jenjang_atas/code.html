@@ -1,0 +1,875 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Yayasan Pendidikan Harapan Mulia</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-background": "#002018",
+            "on-secondary": "#ffffff",
+            "primary-container": "#174c3c",
+            "outline-variant": "#c0c9c3",
+            "on-surface-variant": "#404945",
+            "surface-container-low": "#d2fdec",
+            "on-primary-fixed-variant": "#1b4f3f",
+            "on-tertiary": "#ffffff",
+            "secondary-fixed": "#c6ebd3",
+            "surface-container-high": "#c7f1e1",
+            "tertiary-fixed-dim": "#b9d06b",
+            "surface-dim": "#b9e3d3",
+            "on-primary": "#ffffff",
+            "inverse-primary": "#9dd2bc",
+            "error-container": "#ffdad6",
+            "secondary": "#446653",
+            "inverse-surface": "#0e372c",
+            "on-surface": "#002018",
+            "surface-container-lowest": "#ffffff",
+            "surface-bright": "#e6fff4",
+            "surface-tint": "#356856",
+            "on-tertiary-fixed-variant": "#3d4d00",
+            "on-error-container": "#93000a",
+            "on-tertiary-fixed": "#171e00",
+            "outline": "#707974",
+            "primary-fixed-dim": "#9dd2bc",
+            "tertiary-container": "#3a4900",
+            "on-error": "#ffffff",
+            "error": "#ba1a1a",
+            "secondary-fixed-dim": "#aacfb8",
+            "inverse-on-surface": "#d0fae9",
+            "primary-fixed": "#b8eed8",
+            "surface-variant": "#c2ecdb",
+            "on-secondary-container": "#486a57",
+            "surface-container-highest": "#c2ecdb",
+            "on-primary-container": "#87bba7",
+            "surface": "#e6fff4",
+            "primary": "#003527",
+            "on-primary-fixed": "#002117",
+            "secondary-container": "#c3e9d0",
+            "on-tertiary-container": "#a3ba57",
+            "background": "#e6fff4",
+            "surface-container": "#cdf7e6",
+            "tertiary": "#263100",
+            "on-secondary-fixed-variant": "#2c4d3c",
+            "tertiary-fixed": "#d5ed84",
+            "on-secondary-fixed": "#002112"
+          },
+          "borderRadius": {
+            "DEFAULT": "1rem",
+            "lg": "2rem",
+            "xl": "3rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-sm": "0.5rem",
+            "space-md": "1rem",
+            "space-xs": "0.25rem",
+            "space-xl": "2.5rem",
+            "gutter": "1.5rem",
+            "gutter-mobile": "1rem",
+            "space-lg": "1.5rem",
+            "margin-mobile": "1.25rem",
+            "margin": "3rem"
+          },
+          "fontFamily": {
+            "body-md": ["Manrope"],
+            "label-md": ["Manrope"],
+            "headline-2xl": ["Newsreader"],
+            "headline-xl-mobile": ["Newsreader"],
+            "headline-md": ["Newsreader"],
+            "body-sm": ["Manrope"],
+            "label-sm": ["Manrope"],
+            "headline-sm": ["Newsreader"],
+            "headline-lg": ["Newsreader"],
+            "headline-2xl-mobile": ["Newsreader"],
+            "label-lg": ["Manrope"],
+            "headline-xl": ["Newsreader"],
+            "body-xl": ["Manrope"],
+            "body-lg": ["Manrope"]
+          },
+          "fontSize": {
+            "body-md": ["14px", {"lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400"}],
+            "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600"}],
+            "headline-2xl": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+            "headline-xl-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+            "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "500"}],
+            "body-sm": ["12px", {"lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400"}],
+            "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700"}],
+            "headline-sm": ["20px", {"lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "600"}],
+            "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "500"}],
+            "headline-2xl-mobile": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "400"}],
+            "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+            "headline-xl": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "400"}],
+            "body-xl": ["18px", {"lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+            "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400"}]
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    @layer base {
+      html {
+        color: #002018;
+        background-color: #FAF9F5;
+        font-family: 'Manrope', sans-serif;
+      }
+    }
+  </style>
+<meta content="web_standard" name="shell-type">
+</head>
+<body class="bg-[#FAF9F5] text-on-surface antialiased selection:bg-tertiary-fixed-dim selection:text-primary">
+<!-- BEGIN: NavigationHeader -->
+<header class="fixed top-0 inset-x-0 z-50 bg-[#FAF9F5]/90 backdrop-blur-md border-b border-outline-variant/30" data-purpose="site-header">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-space-md">
+<!-- Brand Identity -->
+<a aria-label="Harapan Mulia Home" class="flex items-center gap-space-sm group focus:outline-none flex-shrink-0" data-path="beranda" href="#">
+<div class="w-10 h-10 rounded-full bg-primary-container text-tertiary-fixed flex items-center justify-center shadow-sm transition-transform duration-300 group-hover:scale-105" data-purpose="brand-logo">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Yayasan Pendidikan</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary leading-none">Harapan Mulia</span>
+</div>
+</a>
+<!-- Desktop Navigation Menu -->
+<nav aria-label="Main Navigation" class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary font-bold after:content-[''] after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-5 after:h-0.5 after:bg-primary after:rounded-full" data-purpose="main-nav"><a class="relative font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="beranda" href="#">Beranda</a>
+<a class="relative font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a>
+<div class="relative group py-space-sm">
+<a class="relative font-body-md text-body-md text-primary font-bold flex items-center gap-1 after:content-[''] after:absolute after:-bottom-2 after:left-1/2 after:-translate-x-1/2 after:w-5 after:h-0.5 after:bg-primary after:rounded-full" data-path="sekolah" href="#">
+<span class="">Sekolah</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200 group-hover:rotate-180">expand_more</span>
+</a>
+<div class="absolute left-0 top-full hidden group-hover:block w-56 pt-space-xs">
+<div class="bg-surface-container-lowest rounded-DEFAULT shadow-lg border border-outline-variant/30 py-space-xs text-body-md">
+<a class="block px-space-md py-space-sm text-on-surface-variant hover:bg-surface-container-low hover:text-primary transition-colors" data-path="sd-harapan-mulia" href="#">SD Harapan Mulia</a>
+<a class="block px-space-md py-space-sm text-on-surface-variant hover:bg-surface-container-low hover:text-primary transition-colors" data-path="smp-harapan-mulia" href="#">SMP Harapan Mulia</a>
+<a aria-current="page" class="block px-space-md py-space-sm bg-surface-container-low text-primary font-bold transition-colors" data-path="sma-harapan-mulia" href="#">SMA Harapan Mulia</a>
+</div>
+</div>
+</div>
+<a class="relative font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="akademik" href="#">Akademik</a>
+<a class="relative font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="fasilitas" href="#fasilitas">Fasilitas</a>
+<a class="relative font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="kehidupan-sekolah" href="#">Kehidupan Sekolah</a>
+<a class="relative font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="prestasi" href="#prestasi">Prestasi</a>
+<a class="relative font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="berita" href="#">Warta &amp; Berita</a>
+<a class="relative font-body-md text-body-md text-on-surface-variant hover:text-primary transition-colors" data-path="kontak" href="#">Kontak</a></nav>
+<!-- Header Actions -->
+<div class="flex items-center gap-space-sm">
+<!-- Search trigger button -->
+<button aria-label="Pencarian" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</button>
+<!-- Prominent PPDB Pill CTA -->
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary-container transition-all duration-200 shadow-sm hover:scale-[1.02] flex-shrink-0" data-path="ppdb-2026-2027" href="#">
+<span class="">PPDB 2026/2027</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<!-- END: NavigationHeader -->
+<main class="pt-20" id="main-content">
+<div class="flex flex-col w-full">
+<!-- HERO SECTION -->
+<section class="relative w-full overflow-hidden pb-space-xl">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Top Breadcrumb & Status Pill -->
+<div class="flex flex-wrap items-center justify-between gap-space-sm pt-space-md mb-space-lg">
+<div class="flex items-center gap-space-xs font-label-md text-label-md text-secondary">
+<a class="hover:text-primary transition-colors" href="#">Sekolah</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="text-primary font-bold">SMA Harapan Mulia</span>
+</div>
+<div class="inline-flex items-center gap-2 px-space-md py-1 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="">Akreditasi A Unggul • ISO 9001:2015</span>
+</div>
+</div>
+<!-- Main Asymmetric Hero Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
+<!-- Left Editorial Narrative -->
+<div class="lg:col-span-6 flex flex-col space-y-space-md">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">
+            Sekolah Menengah Atas • Usia 15 – 18 Tahun
+          </span>
+<h1 class="font-headline-2xl text-headline-2xl text-primary font-normal leading-[1.08] tracking-tight">
+            Preparing Leaders for <span class="italic font-newsreader font-serif text-primary-container">What Comes Next.</span>
+</h1>
+<p class="font-body-xl text-body-xl text-on-surface-variant max-w-xl leading-relaxed">
+            Kurikulum integratif berorientasi riset mandiri, kepemimpinan global, dan program bimbingan intensif membuka gerbang perguruan tinggi bergengsi di dalam maupun luar negeri.
+          </p>
+<!-- Quick Highlight Metrics Pill -->
+<div class="grid grid-cols-3 gap-space-xs p-space-sm rounded-lg bg-surface-container-low">
+<div class="px-space-xs flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold">94%</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Lulusan Tembus PTN &amp; PT Luar Negeri</span>
+</div>
+<div class="px-space-xs flex flex-col border-l border-outline-variant/30 pl-space-sm">
+<span class="font-headline-md text-headline-md text-primary font-bold">48+</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Mitra Universitas Global &amp; Nasional</span>
+</div>
+<div class="px-space-xs flex flex-col border-l border-outline-variant/30 pl-space-sm">
+<span class="font-headline-md text-headline-md text-primary font-bold">1:1</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Konseling Karier &amp; Portofolio Personal</span>
+</div>
+</div>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-xs">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-primary text-on-primary font-label-lg text-label-lg hover:bg-primary-container transition-all shadow-md group" href="#daftar-sma">
+<span class="">Daftar PPDB SMA</span>
+<span class="material-symbols-outlined text-[18px] transition-transform group-hover:translate-x-1">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-surface-container text-primary font-label-lg text-label-lg hover:bg-surface-container-high transition-colors" href="#kurikulum">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span class="">Unduh Silabus &amp; Kurikulum</span>
+</a>
+</div>
+</div>
+<!-- Right Hero Imagery Mosaic -->
+<div class="lg:col-span-6 relative">
+<div class="relative w-full rounded-xl overflow-hidden shadow-xl bg-surface-container aspect-[4/3]">
+<img class="w-full h-full object-cover" data-alt="Dua siswa SMA Indonesia mengenakan seragam putih abu-abu elegan dengan rompi hijau tua sedang berdiskusi intensif di laboratorium sains berteknologi tinggi dengan mikroskop digital dan layar monitor, pencahayaan sinematik natural yang hangat dan berkelas." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAtXQLVSKS1ygS0yOf_Y70Lvwf_4j8lXYHo3medt9y0THowIQSkaFxuZt5CY3BAbOdSnxi4fb6xC2Z1_ABWYkEQjoyNYpfssH3WmkCBdv9_rtT6-aj5ptxgWIMBr7kUFKIOgrwWPIx66Phk9r20Xvy3lLa6xrR-l9IYB1E7SAzLzDfoKM8vX4qTbnpfzdXzL_pNxyBjgevdo8xazr_ox-LCB1nYCz43PEDQb7m2GU9pLCD-AvaCrz2I">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 flex items-center justify-between text-on-primary">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider block opacity-80">Research Capstone 2025/2026</span>
+<span class="font-headline-sm text-headline-sm font-semibold">Integrative Scientific Inquiry &amp; Innovation</span>
+</div>
+<div class="w-12 h-12 rounded-full bg-tertiary-fixed text-on-tertiary-fixed flex items-center justify-center shadow-lg">
+<span class="material-symbols-outlined text-[24px]">science</span>
+</div>
+</div>
+</div>
+<!-- Floating Overlap Editorial Card -->
+<div class="hidden sm:flex absolute -bottom-6 -left-6 max-w-xs p-space-md rounded-lg bg-surface-container-lowest shadow-xl flex-col gap-1 z-10">
+<div class="flex items-center gap-space-xs text-primary">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider font-bold">Cambridge Pathway</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic font-headline-sm">
+              “Mendidik pemuda tidak sekadar untuk lulus ujian, melainkan memimpin gagasan peradaban.”
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SAMBUTAN KEPALA SEKOLAH SECTION -->
+<section class="py-space-xl bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Principal Portrait -->
+<div class="lg:col-span-5 relative flex justify-center">
+<div class="relative w-full max-w-sm">
+<div class="w-full aspect-[4/5] rounded-xl overflow-hidden shadow-lg bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Potret formal ramah kepala sekolah pria paruh baya Indonesia berwibawa mengenakan kemeja batik tenun elegan bersongket hijau tua di ruang perpustakaan modern dengan latar buku-buku referensi akademik, senyum bijak berwibawa." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBYZJUWyplpYTO26qNhFYnM3tnjwZG1oJzYQtaUAHr8epMIUOchtVevNfOsPsDpHNTmDVlBc8fudnVkCWx4ns1lcMclGJfC0w0igJ_yUEgUz9C0IArpcpgyVe4xFbZhhIdNN-ogmLp4UjB0Kx69f7G9f7yTfHY3bvRRFnVQZDuanrQnrS9p5wnnHFCDS2Wxzvij-5yMoU80jD2M2o3no8ree5JBn5ndveRZUEo1AT7-3RiJfMpG0rRW">
+</div>
+<div class="absolute -bottom-4 right-4 bg-primary text-on-primary p-space-md rounded-DEFAULT shadow-md flex flex-col">
+<span class="font-headline-sm text-headline-sm font-bold">Drs. Hendra Kusuma, M.Si.</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Kepala Sekolah SMA Harapan Mulia</span>
+</div>
+</div>
+</div>
+<!-- Principal Letter / Editorial Voice -->
+<div class="lg:col-span-7 flex flex-col space-y-space-md">
+<div class="inline-flex items-center gap-2">
+<span class="w-8 h-[2px] bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Pesan dari Kepala Sekolah</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-primary font-normal leading-tight">
+            Ruang Bertumbuh Bagi Akal Kritis, Kemandirian, dan Nurani.
+          </h2>
+<div class="space-y-space-sm font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+<p class="">
+              Jenjang SMA adalah fase penentuan di mana remaja bertransformasi menjadi calon cendekiawan dan pemimpin independen. Di SMA Harapan Mulia, kami tidak membatasi pendidikan pada ruang hafalan kurikulum, melainkan mengajak siswa menguji hipotesis, berdebat secara rasional, dan menemukan panggilan hidup mereka.
+            </p>
+<p class="">
+              Melalui kombinasi kurikulum nasional berstandar tinggi, kurikulum Cambridge, serta pembinaan kepribadian berakar pada nilai kemanusiaan, setiap siswa kami dampingi agar memiliki kompas moral kokoh dan ketajaman akademis untuk melangkah ke kampus impian terbaik dunia.
+            </p>
+</div>
+<!-- Credentials Chips -->
+<div class="pt-space-xs flex flex-wrap gap-space-sm">
+<span class="px-space-md py-1.5 rounded-full bg-surface-container text-primary font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">menu_book</span>
+              Alumnus Universitas Indonesia
+            </span>
+<span class="px-space-md py-1.5 rounded-full bg-surface-container text-primary font-label-md text-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]">military_tech</span>
+              22+ Tahun Pengalaman Pengajaran
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PEMINATAN & PROGRAM UNGGULAN -->
+<section class="py-space-xl bg-surface" id="kurikulum">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold block mb-1">
+            Akademik • Pilihan Peminatan
+          </span>
+<h2 class="font-headline-xl text-headline-xl text-primary">
+            Rancang Masa Depan Melalui Peminatan Terarah
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Siswa didampingi konselor akademik dalam memilih peminatan sejak kelas X sesuai bakat minat, portofolio, dan target jurusan perguruan tinggi.
+        </p>
+</div>
+<!-- Bento Grid for Majors -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Card 1: Sains & Teknologi -->
+<div class="rounded-xl bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow group">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container-low text-primary flex items-center justify-center mb-space-md group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">biotech</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold block mb-1">STEM Pathway</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold mb-space-xs">Peminatan Sains &amp; Rekayasa</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              Fokus pada Fisika Terapan, Kalkulus Lanjut, Kimia Organik, dan Bioteknologi. Diproyeksikan untuk Fakultas Kedokteran, Farmasi, serta Teknik Elektro, Mesin, dan Informatika.
+            </p>
+</div>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+<li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-primary">check_circle</span> Lab Riset Mandiri Intensif</li>
+<li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-primary">check_circle</span> Mentorship Dokter &amp; Insinyur</li>
+</ul>
+</div>
+<!-- Card 2: Sosial & Humaniora -->
+<div class="rounded-xl bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow group">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container-low text-primary flex items-center justify-center mb-space-md group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">account_balance</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold block mb-1">Social &amp; Policy</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold mb-space-xs">Sosial, Hukum &amp; Ekonomi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              Mendalami Makroekonomi, Hukum Konstitusi, Hubungan Internasional, dan Sosiologi Terapan. Mempersiapkan diplomat, praktisi hukum korporat, dan analis kebijakan publik.
+            </p>
+</div>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+<li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-primary">check_circle</span> Mini Court &amp; Diplomatic Forum</li>
+<li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-primary">check_circle</span> Praktik Pasar Modal &amp; Akuntansi</li>
+</ul>
+</div>
+<!-- Card 3: International Bilingual / Cambridge -->
+<div class="rounded-xl bg-primary-container text-on-primary p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow group">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container text-primary flex items-center justify-center mb-space-md group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[24px]">public</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-tertiary-fixed font-bold block mb-1">Global Class</span>
+<h3 class="font-headline-sm text-headline-sm text-on-primary font-semibold mb-space-xs">International Cambridge Pathway</h3>
+<p class="font-body-md text-body-md text-on-primary-container mb-space-md">
+              Instruksi 100% berbahasa Inggris untuk mata pelajaran inti sains dan matematika dengan sertifikasi resmi IGCSE dan A-Level untuk kemudahan transfer ke universitas luar negeri.
+            </p>
+</div>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-primary-container border-t border-primary/40 pt-space-sm">
+<li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-tertiary-fixed">check_circle</span> Persiapan IELTS &amp; SAT Terintegrasi</li>
+<li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-tertiary-fixed">check_circle</span> Penilai Asli dari Mitra Cambridge</li>
+</ul>
+</div>
+<!-- Card 4: Capstone Innovation Track -->
+<div class="rounded-xl bg-surface-container-lowest p-space-lg flex flex-col justify-between shadow-sm hover:shadow-md transition-shadow group">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container-low text-primary flex items-center justify-center mb-space-md group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[24px]">lightbulb</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-bold block mb-1">Honors Program</span>
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold mb-space-xs">Karya Tulis &amp; Capstone Project</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+              Kewajiban riset akhir mandiri selama 2 semester dengan bimbingan dosen universitas mitra untuk menghasilkan prototipe, jurnal ilmiah, atau esai kebijakan yang diterbitkan.
+            </p>
+</div>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface-variant border-t border-outline-variant/20 pt-space-sm">
+<li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-primary">check_circle</span> Publikasi Ilmiah Tingkat Nasional</li>
+<li class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[14px] text-primary">check_circle</span> Expo Inovasi Tahunan Siswa</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+<!-- UNIVERSITY PREPARATION & ALUMNI PATHWAY -->
+<section class="py-space-xl bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Title -->
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold block mb-1">
+          Career &amp; Higher Education Center
+        </span>
+<h2 class="font-headline-xl text-headline-xl text-primary mb-space-xs">
+          Gerbang Menuju Perguruan Tinggi Terbaik Dunia
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Pusat Bimbingan Karir SMA Harapan Mulia mengawal perjalanan setiap murid sejak kelas X dalam pemetaan minat, penyusunan portofolio riset, hingga drill UTBK berkala.
+        </p>
+</div>
+<!-- 3 Pillars of University Prep -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg mb-space-xl">
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold mb-2">01. Jalur SNBP &amp; UTBK-SNBT</span>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+            Simulasi UTBK komputer berstandar nasional setiap bulan, pembedahan pola soal penalaran induktif-deduktif, serta pendampingan rapor berkala untuk seleksi berbasis prestasi.
+          </p>
+<div class="mt-auto pt-space-sm flex items-center gap-2 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">school</span>
+<span class="">Target: UI, ITB, UGM, Unair, ITS</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold mb-2">02. Overseas Pathway &amp; Foundation</span>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+            Kemitraan strategis dengan konsorsium universitas ternama Australia, Singapura, Inggris, dan Jepang untuk kemudahan penerimaan langsung tanpa tahun perantara.
+          </p>
+<div class="mt-auto pt-space-sm flex items-center gap-2 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">flight_takeoff</span>
+<span class="">Target: Melbourne, NUS, NTU, Manchester</span>
+</div>
+</div>
+<div class="p-space-lg rounded-xl bg-surface-container flex flex-col">
+<span class="font-headline-md text-headline-md text-primary font-bold mb-2">03. Portofolio &amp; Essay Coaching</span>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+            Bimbingan personal menulis personal statement berbobot, kurasi portofolio seni/desain atau kode pemrograman, dan simulasi wawancara beasiswa perguruan tinggi.
+          </p>
+<div class="mt-auto pt-space-sm flex items-center gap-2 text-primary font-label-md text-label-md">
+<span class="material-symbols-outlined text-[18px]">edit_note</span>
+<span class="">Reviewer Bersertifikasi Internasional</span>
+</div>
+</div>
+</div>
+<!-- Testimoni Alumni Cards -->
+<div class="p-space-lg rounded-xl bg-surface">
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-md font-semibold text-center">
+          Kisah Jejak Langkah Para Alumni SMA Harapan Mulia
+        </h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+<!-- Testimonial 1 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-space-md">
+              “Proyek Capstone di kelas XII memberi saya rasa percaya diri luar biasa ketika menghadapi wawancara Fakultas Kedokteran. SMA Harapan Mulia mengajarkan kami menjadi pembelajar mandiri.”
+            </p>
+<div class="flex items-center gap-space-sm border-t border-outline-variant/20 pt-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Foto potret mahasiswi kedokteran muda Indonesia tersenyum berjaket kuning Universitas Indonesia dengan latar kampus hijau asri." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZ_EpgpADoouqHCAy8qBbL1GzNuLU_lvJpstPhgf-6balfEWoQ8jLwBGelukovC9_nLUBS1eSRAN-LQ3hwXSzJl5kIiWKTlSPBsen1pWBH2by-cBTO9E_rOyNpQlKj-1aKmhQRZ2E3YTrhAEDusaCHhek-ScqGHSn43eODmlH_AG3Nmn03kld1Ja0OeCiPSAbupYlKLR3yLjbj6KiK-ntKpOIp8Tahdr1aU0FJNVHb0l3xGmoJB6h6">
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">Nadia Putri Arisanti</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pendidikan Dokter, Universitas Indonesia (Lulusan 2024)</span>
+</div>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-space-md">
+              “Kurikulum Cambridge dan klub debat Model UN di sekolah sangat krusial mengasah kemampuan diplomasi dan analisis saya hingga tembus beasiswa penuh di Melbourne.”
+            </p>
+<div class="flex items-center gap-space-sm border-t border-outline-variant/20 pt-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Foto potret mahasiswa pria Indonesia mengenakan jas kasual cerdas di depan gedung megah University of Melbourne Australia, senyum percaya diri." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRKk4pXrNiTnaRJcjsnuIklyjxkUFewi5tMwvmNkEH_dOkHZGGySucQxFcUdXqNO-Mj6Akiv-SJHzKKSPeHC1XCmu8ToYYyFRyEWC0gTUJeDmgWmChUCL3zdIn4ibMd7lZBA0aAGl2jgOtUUjXJtFtYD_8zl0xsn7tm6dLRR6mVKN2wgVnhVL9VhIjBpd1nB65W6zj5PFeXMgfrHlZNmg0rR4qV3H3GAd1Dx2BEhSPmvdWPVuPp6RS">
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">Rayhan Fauzan, B.Com</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Economics, The University of Melbourne (Lulusan 2023)</span>
+</div>
+</div>
+</div>
+<!-- Testimonial 3 -->
+<div class="p-space-md rounded-lg bg-surface-container-lowest shadow-sm flex flex-col justify-between">
+<p class="font-body-md text-body-md text-on-surface-variant italic mb-space-md">
+              “Laboratorium robotika dan guru pembimbing olimpiade sangat suportif. Saya dilatih bukan hanya memenangkan medali, tapi mencintai riset teknologi dan rekayasa komputer.”
+            </p>
+<div class="flex items-center gap-space-sm border-t border-outline-variant/20 pt-space-sm">
+<div class="w-10 h-10 rounded-full bg-surface-container overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Foto potret pemuda mahasiswa teknik informatika Indonesia berkacamata di ruang komputasi canggih Institut Teknologi Bandung." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmyjYdN7OK5q92HtM6JGL_w5ooVOzi60D9t4wq8HYYOa3usfmrHp1TX2vvfdmWfEejRE4UbFZn4YICQGUdOSlOYjf4xfMrWWMnaT77k-ia0D0n8EgUM9Rr0e50ey3aJx0jKuvCgNSoV3lG730pzLzO0HEtb-yTUp073i5BFxl_SRW0dKws6S4cJAUKAfMmp74ZgK5gfS5XHZIGmG2u-26OoncCGGhQUaWfIybCmnZuqrnJf_WEjRJo">
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">Dimas Arya Prasetya</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Teknik Informatika, Institut Teknologi Bandung (Lulusan 2024)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FASILITAS KHUSUS SMA -->
+<section class="py-space-xl bg-surface" id="fasilitas">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold block mb-1">
+            Infrastruktur Khusus Jenjang SMA
+          </span>
+<h2 class="font-headline-xl text-headline-xl text-primary">
+            Fasilitas Pembelajaran Standar Akademik Tinggi
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Dirancang untuk memicu kolaborasi lintas disiplin, eksplorasi sains eksperimental, dan panggung pengasahan bakat seni dan argumentasi.
+        </p>
+</div>
+<!-- Facility Gallery Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Fac 1 -->
+<div class="rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm flex flex-col group">
+<div class="w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Laboratorium sains SMA terpadu modern dengan meja kerja granit tahan bahan kimia, lemari asam, peralatan mikroskop elektron modern, dan tabung kaca eksperimen rapi." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsTWtVM7bqRalCdt2Z16HEI4L5YKT6y4HVRGrMhjhK7imbcRGcQ1GWiUV_xBw7rjvl_olqIkIpCPha1_AXumg45Ydo4USjyEbhMGo6xYVFA63NDB6jaw5azTsR-p8D6p_mgFSLYyVnIyldfLszPVcHHTdg-2zoCihJUsmnN9upsO23P7n3zrEiL0WSJyg3IP9JS31n0afJEHz3ugAIyCmewHz4NsbKHr0uBapNw8pV8ZXsIwxz2GBp">
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-bold">Laboratorium Terpadu</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold mt-1 mb-1">Sains &amp; Bio-Teknologi</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Tiga bilik lab fisika lanjutan, kimia analitis, dan kultur biologi steril berstandar keselamatan tinggi.
+              </p>
+</div>
+</div>
+</div>
+<!-- Fac 2 -->
+<div class="rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm flex flex-col group">
+<div class="w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Ruang pembuatan prototipe teknologi dan maker space dengan printer 3D, sensor mikrokontroler Arduino, komputer iMac, dan alat solder presisi untuk robotika SMA." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCrOM6eyg8tLQNjIVOpGhU0oavl6gZg8Trl9I48S-DqB10tNylLyIH54ZqLnQbj3O4BXet1DGacmBhEuVkDLbQPnJFE7vTOT6aATGRBu1VH-KHvNJ7nUxkclW9rcf0cPThy1uQPLW0tKAPVZeDFOMarU6hu165_Yk80yu6ykYgKAyte2g4v36BUCcKskEcnxnjKQxyTxcfSnEy007CPuNxjLw9KwcLtim9gryIpzvqsmjifa8jPu47a">
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-bold">Innovation Hub</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold mt-1 mb-1">FabLab &amp; AI Center</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Stasiun fabrikasi prototipe dilengkapi printer 3D, pemotong laser, dan lab kecerdasan buatan terapan.
+              </p>
+</div>
+</div>
+</div>
+<!-- Fac 3 -->
+<div class="rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm flex flex-col group">
+<div class="w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Ruang amfiteater peradilan semu dan debat model PBB dengan tata kursi melingkar berkayu hangat, mikrofon podium elegan, dan tata cahaya fokus profesional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDyz4a8oGM7DHetr16OM3LShal0VSzuYhHZzLE34wU-xiNQM3UsyCaWKLKFI0mODfxzaPTwlYDcULQSetNGOLS7Z_zo6wg0MELiwnf_W4M6XQCK3a1tLOGtA18WlFbd71Q7dn2p8VGDav7-2hdvNwxPW99lzVM2vbTEcNeYUQ9C_x3IANvZmR2pbH_0UrTh8a9PFvfUsJCZKQXdNoEmkPtDQP_j9Bdr1yQ7xmiB6UaparyBscVturyz">
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-bold">Amphitheatre</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold mt-1 mb-1">Model UN &amp; Moot Court</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Ruang sidang simulasi parlemen untuk latihan orasi publik, peradilan semu, dan forum diplomatik antarsekolah.
+              </p>
+</div>
+</div>
+</div>
+<!-- Fac 4 -->
+<div class="rounded-xl overflow-hidden bg-surface-container-lowest shadow-sm flex flex-col group">
+<div class="w-full aspect-[4/3] overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Studio musik akustik kedap suara dengan instrumen piano grand, drum elektrik, workstation produksi audio digital, dan tata pencahayaan studio modern." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdA05tXiTr3o9VdbwOlyjM0uA3sdlPRWu-nYFz9ycUIsgq62F2EI8G0urtxuUGJq9UVWcosfy9w9jhMNbmLpeBxvfJ6rx8vP0Oewk2yFMhvUBC2hYIt91QlHlMZZewxrgG2t9oMqs4I_ldrGV07uDBDLaYHVFvTcu_X9-p15UEHxb6yRt9L-4WT84feBFBb2IipUKxrZM5HGNoSvpAA8TAohEHZpNcCUbNEdqfiJq1EqqmkI33t1fw">
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-bold">Creative Arts</span>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold mt-1 mb-1">Studio Musik &amp; Kriya</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Peredam akustik profesional, perangkat rekaman musik digital (DAW), serta ruang pamer instalasi seni murni.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PRESTASI & EKSTRAKURIKULER UNGGULAN -->
+<section class="py-space-xl bg-surface-container-lowest" id="prestasi">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-space-md">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold block mb-1">
+            Kegiatan &amp; Pencapaian
+          </span>
+<h2 class="font-headline-xl text-headline-xl text-primary">
+            Tradisi Prestasi dan Dinamika Komunitas Siswa
+          </h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-md py-1 rounded-full bg-surface-container font-label-md text-label-md text-primary font-bold">
+            24+ Klub &amp; Ekstrakurikuler
+          </span>
+</div>
+</div>
+<!-- Grid of Achievements & Clubs -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Left Column: Prestasi Terkini Highlight -->
+<div class="lg:col-span-7 flex flex-col space-y-space-md">
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Catatan Prestasi Nasional &amp; Internasional</h3>
+<div class="space-y-space-sm">
+<div class="p-space-md rounded-lg bg-surface-container flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary text-tertiary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">emoji_events</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">Medali Emas Olimpiade Sains Nasional (OSN)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Bidang Kimia &amp; Fisika Tingkat Nasional • Kemendikbudristek 2025</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-primary bg-surface-container-high px-space-sm py-1 rounded-full flex-shrink-0">Juara 1</span>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary text-tertiary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">forum</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">Best Delegate - Singapore Model United Nations</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Komite UNSC (Dewan Keamanan PBB) Tingkat Asia-Pasifik 2025</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-primary bg-surface-container-high px-space-sm py-1 rounded-full flex-shrink-0">Internasional</span>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="w-12 h-12 rounded-full bg-primary text-tertiary-fixed flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[24px]">sports_basketball</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-primary font-semibold">Champion Development Basketball League (DBL)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tim Basket Putra SMA Harapan Mulia Region Jakarta Selatan 2025</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm font-bold text-primary bg-surface-container-high px-space-sm py-1 rounded-full flex-shrink-0">Juara 1</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Pilihan Ekstrakurikuler -->
+<div class="lg:col-span-5 flex flex-col space-y-space-md">
+<h3 class="font-headline-sm text-headline-sm text-primary font-semibold">Ekstrakurikuler Pilihan</h3>
+<div class="grid grid-cols-2 gap-space-xs">
+<div class="p-space-sm rounded-DEFAULT bg-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">smart_toy</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">Klub Robotika</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">IoT &amp; Mekatronika</span>
+</div>
+</div>
+<div class="p-space-sm rounded-DEFAULT bg-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">translate</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">English Debate</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Asian &amp; British Parliamentary</span>
+</div>
+</div>
+<div class="p-space-sm rounded-DEFAULT bg-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">flag</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">Paskibraka</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kepemimpinan &amp; Disiplin</span>
+</div>
+</div>
+<div class="p-space-sm rounded-DEFAULT bg-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">camera</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">Jurnalistik &amp; Foto</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Majalah Siswa &amp; Media</span>
+</div>
+</div>
+<div class="p-space-sm rounded-DEFAULT bg-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">music_note</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">Paduan Suara &amp; Band</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Harmoni &amp; Orkestrasi</span>
+</div>
+</div>
+<div class="p-space-sm rounded-DEFAULT bg-surface flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-primary text-[20px]">sports_soccer</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-primary font-bold">Futsal &amp; Bulutangkis</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Kompetisi Atletik</span>
+</div>
+</div>
+</div>
+<div class="p-space-md rounded-lg bg-surface-container-low flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[28px] flex-shrink-0">psychology</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Setiap siswa wajib mengikuti minimal 1 ekstrakurikuler kepemimpinan/olahraga dan 1 ekstrakurikuler peminatan ilmiah/seni untuk keseimbangan profil lulusan.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- PPDB SMA CALL TO ACTION (DEEP FOREST GREEN) -->
+<section class="py-space-xl bg-primary text-on-primary relative overflow-hidden" id="daftar-sma">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Left Side: Registration Proposition -->
+<div class="lg:col-span-7 flex flex-col space-y-space-md">
+<div class="inline-flex items-center gap-2 px-space-md py-1 rounded-full bg-primary-container text-tertiary-fixed font-label-sm text-label-sm uppercase tracking-wider w-max">
+<span class="material-symbols-outlined text-[14px]">how_to_reg</span>
+<span class="">Penerimaan Peserta Didik Baru (PPDB) 2026/2027</span>
+</div>
+<h2 class="font-headline-2xl text-headline-2xl text-on-primary font-normal leading-tight">
+            Ambil Langkah Pasti Menuju Kampus Impianmu.
+          </h2>
+<p class="font-body-lg text-body-lg text-on-primary-container max-w-xl">
+            Pendaftaran SMA Harapan Mulia Tahun Ajaran 2026/2027 telah dibuka. Kuota kelas terbatas untuk menjamin rasio interaksi guru dan murid yang optimal dalam bimbingan akademik intensif.
+          </p>
+<!-- Pathway Tabs / Timeline Steps -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm pt-space-xs">
+<div class="p-space-sm rounded-lg bg-primary-container">
+<span class="font-label-sm text-label-sm text-tertiary-fixed uppercase tracking-wider block font-bold">Jalur Prestasi &amp; Beasiswa</span>
+<span class="font-headline-sm text-headline-sm text-on-primary font-bold block mt-1">Gelombang I: Ditutup 30 April 2026</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Bebas tes tertulis untuk peraih medali OSN/Fls2n dan peringkat 1-3 SMP.</span>
+</div>
+<div class="p-space-sm rounded-lg bg-primary-container">
+<span class="font-label-sm text-label-sm text-tertiary-fixed uppercase tracking-wider block font-bold">Jalur Reguler &amp; Wawancara</span>
+<span class="font-headline-sm text-headline-sm text-on-primary font-bold block mt-1">Gelombang II: Dibuka Mei 2026</span>
+<span class="font-body-sm text-body-sm text-on-primary-container">Tes potensi akademik kognitif, wawancara motivasi, dan tes TOEFL Prediksi.</span>
+</div>
+</div>
+<!-- Direct CTA Buttons -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-md">
+<a class="inline-flex items-center gap-space-xs px-space-xl py-space-sm rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-lg text-label-lg font-bold hover:brightness-105 transition-all shadow-lg" href="#">
+<span class="">Daftar PPDB SMA 2026/2027 Sekarang</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-primary-container text-on-primary font-label-lg text-label-lg hover:bg-surface-container-low hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">support_agent</span>
+<span class="">Hubungi Tim Konseling SMA</span>
+</a>
+</div>
+</div>
+<!-- Right Side: School Unit Directory Quick Cards -->
+<div class="lg:col-span-5 flex flex-col space-y-space-sm">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-primary-container block font-bold">
+            Informasi Kampus SMA
+          </span>
+<div class="p-space-md rounded-xl bg-primary-container text-on-primary flex flex-col space-y-space-xs">
+<div class="flex items-center gap-space-xs text-tertiary-fixed">
+<span class="material-symbols-outlined text-[20px]">location_on</span>
+<span class="font-label-md text-label-md font-bold uppercase">Gedung Kampus B (SMA Harapan Mulia)</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container">
+              Jl. Cendekia No. 5, Cilandak, Jakarta Selatan 12545 (Bersebelahan dengan Perpustakaan Riset &amp; Laboratorium Komputasi).
+            </p>
+<div class="pt-space-xs flex items-center justify-between text-body-sm border-t border-primary/40">
+<span class="text-on-primary-container">Telepon Layanan PPDB SMA:</span>
+<span class="font-bold text-on-primary">+62 21 1234 5679</span>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-primary-container text-on-primary flex flex-col space-y-space-xs">
+<div class="flex items-center gap-space-xs text-tertiary-fixed">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<span class="font-label-md text-label-md font-bold uppercase">Jam Operasional Pelayanan</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-primary-container">
+              Senin – Jumat: 07.30 – 16.00 WIB<br>
+              Sabtu: 08.00 – 13.00 WIB (Kunjungan Kampus dengan Perjanjian)
+            </p>
+</div>
+<!-- Quick link to other levels -->
+<div class="pt-space-xs flex items-center justify-between text-body-sm text-on-primary-container">
+<span class="">Mencari jenjang lainnya?</span>
+<div class="flex items-center gap-space-sm">
+<a class="underline hover:text-tertiary-fixed transition-colors" href="#">SD Harapan Mulia</a>
+<span class="">•</span>
+<a class="underline hover:text-tertiary-fixed transition-colors" href="#">SMP Harapan Mulia</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- BEGIN: SiteFooter -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant/30 pt-space-xl pb-space-lg" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-lg pb-space-xl border-b border-outline-variant/30">
+<!-- Col 1: Brand & Tagline -->
+<div class="lg:col-span-4">
+<div class="flex items-center gap-space-sm mb-space-sm">
+<div class="w-9 h-9 rounded-full bg-primary text-tertiary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">school</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary block">Yayasan Pendidikan</span>
+<span class="font-headline-sm text-headline-sm font-bold text-primary leading-none">Harapan Mulia</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed max-w-sm mb-space-md">
+            Bersama Mendidik, Bersama Membangun Masa Depan generasi bangsa dengan integritas, kepemimpinan, dan kecerdasan seimbang.
+          </p>
+<div class="flex items-center gap-space-sm text-on-surface-variant">
+<a aria-label="Instagram" class="w-9 h-9 rounded-full bg-surface-container-low flex items-center justify-center hover:bg-primary hover:text-on-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</a>
+<a aria-label="Email" class="w-9 h-9 rounded-full bg-surface-container-low flex items-center justify-center hover:bg-primary hover:text-on-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+</a>
+<a aria-label="Telepon" class="w-9 h-9 rounded-full bg-surface-container-low flex items-center justify-center hover:bg-primary hover:text-on-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">call</span>
+</a>
+</div>
+</div>
+<!-- Col 2: Tautan Cepat -->
+<div class="lg:col-span-2"><h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold mb-space-md">Tautan Cepat</h4>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<li class=""><a class="hover:text-primary transition-colors" data-path="beranda" href="#">Beranda</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="sekolah" href="#">Sekolah</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="akademik" href="#">Akademik</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="fasilitas" href="#">Fasilitas</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="kehidupan-sekolah" href="#">Kehidupan Sekolah</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="prestasi" href="#">Prestasi</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="berita" href="#">Warta &amp; Berita</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="kontak" href="#">Kontak</a></li>
+</ul></div>
+<!-- Col 3: Unit Pendidikan -->
+<div class="lg:col-span-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold mb-space-md">Unit Pendidikan</h4>
+<ul class="space-y-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<li class=""><a class="hover:text-primary transition-colors" data-path="sd-harapan-mulia" href="#">SD Harapan Mulia</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="smp-harapan-mulia" href="#">SMP Harapan Mulia</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="sma-harapan-mulia" href="#">SMA Harapan Mulia</a></li>
+<li class="pt-space-xs"><a class="font-label-sm text-label-sm font-bold text-primary hover:underline" data-path="ppdb-2026-2027" href="#">Informasi PPDB 2026/2027 →</a></li>
+</ul>
+</div>
+<!-- Col 4: Hubungi Kami -->
+<div class="lg:col-span-3">
+<h4 class="font-label-md text-label-md uppercase tracking-wider text-primary font-bold mb-space-md">Hubungi Kami</h4>
+<ul class="space-y-space-sm font-body-sm text-body-sm text-on-surface-variant">
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-primary mt-0.5 flex-shrink-0">location_on</span>
+<span class="">Jl. Pendidikan No. 1, Cilandak, Jakarta Selatan 12545</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-primary flex-shrink-0">call</span>
+<span class="">+62 21 1234 5678</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[18px] text-primary flex-shrink-0">mail</span>
+<span class="">info@harapanmulia.sch.id</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Bottom Copyright Note -->
+<div class="pt-space-md flex flex-col sm:flex-row items-center justify-between font-body-sm text-body-sm text-on-surface-variant gap-space-sm">
+<p class="">© 2026 Yayasan Pendidikan Harapan Mulia. Hak Cipta Dilindungi.</p>
+<div class="flex items-center gap-space-md font-body-sm">
+<a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a>
+<a class="hover:text-primary transition-colors" href="#">Syarat &amp; Ketentuan</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: SiteFooter -->
+
+
+</body></html>

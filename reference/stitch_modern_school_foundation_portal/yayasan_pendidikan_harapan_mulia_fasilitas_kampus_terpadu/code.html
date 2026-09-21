@@ -1,0 +1,1138 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Yayasan Pendidikan Harapan Mulia</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-tertiary-fixed-variant": "#3d4d00",
+            "on-background": "#002018",
+            "on-error-container": "#93000a",
+            "inverse-surface": "#0e372c",
+            "on-tertiary-fixed": "#171e00",
+            "secondary": "#446653",
+            "on-secondary": "#ffffff",
+            "surface-container-highest": "#c2ecdb",
+            "on-secondary-fixed": "#002112",
+            "background": "#e6fff4",
+            "on-tertiary-container": "#a3ba57",
+            "tertiary-container": "#3a4900",
+            "on-secondary-fixed-variant": "#2c4d3c",
+            "surface-variant": "#c2ecdb",
+            "primary": "#003527",
+            "surface-tint": "#356856",
+            "primary-fixed-dim": "#9dd2bc",
+            "secondary-container": "#c3e9d0",
+            "on-primary-fixed": "#002117",
+            "primary-container": "#174c3c",
+            "on-surface": "#002018",
+            "outline": "#707974",
+            "outline-variant": "#c0c9c3",
+            "surface-container-low": "#d2fdec",
+            "tertiary": "#263100",
+            "on-primary-fixed-variant": "#1b4f3f",
+            "tertiary-fixed": "#d5ed84",
+            "surface": "#e6fff4",
+            "on-error": "#ffffff",
+            "on-primary": "#ffffff",
+            "surface-bright": "#e6fff4",
+            "inverse-on-surface": "#d0fae9",
+            "error-container": "#ffdad6",
+            "on-primary-container": "#87bba7",
+            "tertiary-fixed-dim": "#b9d06b",
+            "secondary-fixed-dim": "#aacfb8",
+            "secondary-fixed": "#c6ebd3",
+            "error": "#ba1a1a",
+            "on-secondary-container": "#486a57",
+            "surface-container": "#cdf7e6",
+            "on-surface-variant": "#404945",
+            "inverse-primary": "#9dd2bc",
+            "surface-dim": "#b9e3d3",
+            "surface-container-high": "#c7f1e1",
+            "surface-container-lowest": "#ffffff",
+            "on-tertiary": "#ffffff",
+            "primary-fixed": "#b8eed8"
+          },
+          "borderRadius": {
+            "DEFAULT": "1rem",
+            "lg": "2rem",
+            "xl": "3rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "gutter": "1.5rem",
+            "margin-mobile": "1.25rem",
+            "space-md": "1rem",
+            "space-xs": "0.25rem",
+            "gutter-mobile": "1rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2.5rem",
+            "margin": "3rem",
+            "space-sm": "0.5rem"
+          },
+          "fontFamily": {
+            "body-sm": ["Manrope"],
+            "label-lg": ["Manrope"],
+            "headline-lg": ["Newsreader"],
+            "headline-md": ["Newsreader"],
+            "headline-sm": ["Newsreader"],
+            "body-lg": ["Manrope"],
+            "headline-2xl-mobile": ["Newsreader"],
+            "label-md": ["Manrope"],
+            "body-md": ["Manrope"],
+            "body-xl": ["Manrope"],
+            "headline-xl-mobile": ["Newsreader"],
+            "headline-2xl": ["Newsreader"],
+            "headline-xl": ["Newsreader"],
+            "label-sm": ["Manrope"]
+          },
+          "fontSize": {
+            "body-sm": ["12px", {"lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400"}],
+            "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "600"}],
+            "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "500"}],
+            "headline-md": ["24px", {"lineHeight": "32px", "letterSpacing": "0em", "fontWeight": "500"}],
+            "headline-sm": ["20px", {"lineHeight": "28px", "letterSpacing": "0em", "fontWeight": "600"}],
+            "body-lg": ["16px", {"lineHeight": "26px", "letterSpacing": "0em", "fontWeight": "400"}],
+            "headline-2xl-mobile": ["36px", {"lineHeight": "44px", "letterSpacing": "-0.015em", "fontWeight": "400"}],
+            "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600"}],
+            "body-md": ["14px", {"lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400"}],
+            "body-xl": ["18px", {"lineHeight": "28px", "letterSpacing": "-0.005em", "fontWeight": "400"}],
+            "headline-xl-mobile": ["28px", {"lineHeight": "36px", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+            "headline-2xl": ["56px", {"lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+            "headline-xl": ["40px", {"lineHeight": "48px", "letterSpacing": "-0.015em", "fontWeight": "400"}],
+            "label-sm": ["11px", {"lineHeight": "14px", "letterSpacing": "0.08em", "fontWeight": "700"}]
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    @layer base {
+      body {
+        min-height: 100vh;
+        overscroll-behavior-y: none;
+        background-color: #ffffff;
+        color: #002018;
+      }
+    }
+  </style>
+<meta content="web_standard" name="shell-type">
+</head>
+<body class="bg-surface-container-lowest text-on-surface antialiased">
+<!-- BEGIN: NavigationHeader -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/90 backdrop-blur-md border-b border-surface-container shadow-sm" data-purpose="site-header">
+<div class="max-w-7xl mx-auto px-gutter h-20 flex items-center justify-between gap-space-md">
+<!-- Brand Identity -->
+<a aria-label="Harapan Mulia Home" class="flex items-center gap-space-sm group focus:outline-none flex-shrink-0" data-path="beranda" href="#beranda">
+<div class="w-10 h-10 rounded-full bg-primary-container text-tertiary-fixed flex items-center justify-center transition-transform duration-300 group-hover:scale-105 shadow-sm" data-purpose="brand-logo">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Yayasan Pendidikan</span>
+<span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-none">Harapan Mulia</span>
+</div>
+</a>
+<!-- Desktop Navigation Menu -->
+<nav aria-label="Main Navigation" class="hidden xl:flex items-center gap-space-md font-label-lg text-label-lg text-on-surface-variant" data-active-classes="text-primary font-bold border-b-2 border-primary-container pb-1"><a class="hover:text-primary transition-colors py-space-xs" data-path="beranda" href="#beranda">Beranda</a>
+<a class="hover:text-primary transition-colors py-space-xs" data-path="tentang-kami" href="#tentang-kami">Tentang Kami</a>
+<div class="relative group py-space-xs">
+<button class="flex items-center gap-1 hover:text-primary transition-colors cursor-pointer">
+<span class="">Sekolah</span>
+<span class="material-symbols-outlined text-[16px]">expand_more</span>
+</button>
+<div class="absolute top-full left-0 hidden group-hover:block bg-surface-container-lowest shadow-lg rounded-lg border border-surface-container py-2 min-w-[160px] z-50">
+<a class="block px-4 py-2 hover:bg-surface-container text-body-md text-on-surface hover:text-primary transition-colors" href="#sd">SD Harapan Mulia</a>
+<a class="block px-4 py-2 hover:bg-surface-container text-body-md text-on-surface hover:text-primary transition-colors" href="#smp">SMP Harapan Mulia</a>
+<a class="block px-4 py-2 hover:bg-surface-container text-body-md text-on-surface hover:text-primary transition-colors" href="#sma">SMA Harapan Mulia</a>
+</div>
+</div>
+<a class="hover:text-primary transition-colors py-space-xs" data-path="akademik" href="#akademik">Akademik</a>
+<a aria-current="page" class="transition-colors py-space-xs text-primary font-bold border-b-2 border-primary-container pb-1" data-path="fasilitas" href="#fasilitas">Fasilitas</a>
+<a class="hover:text-primary transition-colors py-space-xs" data-path="kehidupan-sekolah" href="#kehidupan-sekolah">Kehidupan Sekolah</a>
+<a class="hover:text-primary transition-colors py-space-xs" data-path="prestasi" href="#prestasi">Prestasi</a>
+<a class="hover:text-primary transition-colors py-space-xs" data-path="berita" href="#berita">Warta &amp; Berita</a>
+<a class="hover:text-primary transition-colors py-space-xs" data-path="kontak" href="#kontak">Kontak</a></nav>
+<!-- Header Actions -->
+<div class="flex items-center gap-space-sm flex-shrink-0">
+<!-- Search Button -->
+<button aria-label="Pencarian Fasilitas dan Informasi" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container transition-colors">
+<span class="material-symbols-outlined text-[22px]">search</span>
+</button>
+<!-- Admission CTA Button -->
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-tertiary-fixed text-primary font-label-lg text-label-lg font-bold hover:bg-tertiary-fixed-dim transition-all duration-200 shadow-sm hover:scale-[1.02]" data-path="ppdb" href="#ppdb">
+<span class="">PPDB 2026/2027</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<!-- END: NavigationHeader -->
+<!-- Main Content Slot with adaptive top padding matching h-20 -->
+<main class="pt-20 min-h-screen" id="main-content"><div class="flex flex-col w-full">
+<!-- SECTION 1: EDITORIAL HERO & MASTERPLAN INTRODUCTION -->
+<section class="relative w-full overflow-hidden bg-surface-container-lowest py-space-xl lg:py-space-xl">
+<!-- Ambient Botanical Wash -->
+
+
+<div class="max-w-7xl mx-auto px-gutter">
+<!-- Top Grid: Text Narrative & Large Hero Composition -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Text Column -->
+<div class="lg:col-span-6 flex flex-col items-start">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container text-primary font-label-md text-label-md tracking-wider uppercase mb-space-md">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+            Infrastruktur &amp; Lingkungan Belajar
+          </div>
+<h1 class="font-headline-2xl text-headline-2xl text-primary font-normal tracking-tight leading-[1.1] mb-space-md">
+            Ruang yang Mendukung Setiap Cara Belajar <span class="italic font-normal text-secondary">dan Bertumbuh.</span>
+</h1>
+<p class="font-body-xl text-body-xl text-on-surface-variant mb-space-lg leading-relaxed max-w-xl">
+            Masterplan kampus terpadu seluas 4,2 hektar berkonsep biophilic architecture. Dirancang untuk merangsang daya cipta, ketajaman ilmiah, kebugaran fisik, serta keteduhan karakter anak sejak usia dasar hingga pra-universitas.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md">
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-bold hover:bg-primary-container transition-all duration-200 shadow-md group" href="#reservasi-tur">
+<span class="">Jadwalkan Tur Kampus</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-space-xs px-space-lg py-space-sm rounded-full bg-surface-container text-primary font-label-lg text-label-lg font-semibold hover:bg-surface-container-high transition-colors" href="#katalog-fasilitas">
+<span class="material-symbols-outlined text-[18px]">explore</span>
+<span class="">Jelajahi Fasilitas</span>
+</a>
+</div>
+</div>
+<!-- Visual Hero Mosaic with Floating Botanical Quote -->
+<div class="lg:col-span-6 relative mt-space-lg lg:mt-0">
+<div class="relative rounded-lg overflow-hidden shadow-xl bg-surface-container-low aspect-[4/3]">
+<img class="w-full h-full object-cover" data-alt="Modern Indonesian educational campus courtyard featuring lush biophilic tropical gardens, sustainable timber facades, floor-to-ceiling glass classroom pavilions, and students walking under covered walkways in soft natural morning sunlight, warm cream and deep forest green architectural palette" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkGdQy7nDRIxYGoFsShS_0L0R-BtQLHbwWXb-qLdGNJ8UVompuhD_vweZoQxOpBOG3tg3RaM4TdNDEGy4PUFSIbw9dfxoZbL1Sb8SdJO-wk7NLrWDmTakyT0Lz4P5HFpnc0zwS4n_BdmdP4igYLsYBzJbgFg0V9UxWA6QgEWODXmo7yxFvvRDODDGLnd6PR1xzcsz6nZ6g7U4L2xsAPcNTyu5UlzobLcripuLEg-gU0qk6Hz-qv_WM">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+<!-- Live Badge Overlay -->
+<div class="absolute bottom-space-md left-space-md right-space-md flex items-center justify-between text-on-primary bg-primary/75 backdrop-blur-md px-space-md py-space-sm rounded">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed">eco</span>
+<span class="font-body-md text-body-md font-semibold text-surface-container-lowest">Sertifikasi Green Building Council Indonesia (GBCI) Tingkat Platinum</span>
+</div>
+<span class="font-label-sm text-label-sm bg-tertiary-fixed text-on-tertiary-fixed px-space-xs py-0.5 rounded uppercase font-bold">2026 Ready</span>
+</div>
+</div>
+<!-- Floating Editorial Leaf Badge (Overlapping) -->
+<div class="hidden sm:flex -bottom-8 -left-6 absolute bg-surface-container-lowest rounded-lg p-space-md shadow-xl max-w-xs items-start gap-space-sm z-10">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-primary flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-[22px]">yard</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm text-primary italic leading-snug">"Ruang belajar terbaik adalah yang memberi udara bagi rasa ingin tahu."</p>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider block mt-space-xs">Pedoman Arsitektur Harapan Mulia</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Metrics Strip -->
+<div class="mt-space-xl pt-space-lg rounded-lg p-space-lg shadow-sm bg-surface-container-lowest border border-outline-variant/40">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-gutter text-center md:text-left">
+<div class="flex flex-col md:border-r md:border-outline-variant/30 pr-space-md">
+<span class="font-headline-xl text-headline-xl font-semibold text-primary leading-none">4,2 Ha</span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface mt-space-xs">Luas Kampus Terpadu</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Zona hijau lestari &amp; area pedestrian terpisah dari kendaraan</span>
+</div>
+<div class="flex flex-col md:border-r md:border-outline-variant/30 pr-space-md">
+<span class="font-headline-xl text-headline-xl font-semibold text-primary leading-none">100%</span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface mt-space-xs">Ramah Akses Difabel</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ramp landai, elevator taktil &amp; fasilitas inklusif di setiap gedung</span>
+</div>
+<div class="flex flex-col md:border-r md:border-outline-variant/30 pr-space-md">
+<span class="font-headline-xl text-headline-xl font-semibold text-primary leading-none">Lab K3</span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface mt-space-xs">Standar Keselamatan Tinggi</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Fume hood terintegrasi, safety shower &amp; monitoring gas otomatis</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-xl text-headline-xl font-semibold text-primary leading-none">45 kWp</span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface mt-space-xs">Solar Microgrid</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Energi terbarukan mandiri menyuplai 35% kebutuhan listrik kampus</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: INTERACTIVE FACILITY DIRECTORY & MASONRY GALLERY -->
+<section class="w-full py-space-xl bg-surface-container-lowest" id="katalog-fasilitas">
+<div class="max-w-7xl mx-auto px-gutter">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-lg">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block mb-space-xs">Direktori Eksplorasi</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-normal">Fasilitas Standar Global</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          Pilih kategori untuk meninjau ruang khusus pembelajaran kontekstual, kebugaran raga, ekspresi seni, dan sentra komunal.
+        </p>
+</div>
+<!-- Segmented Pill Filter Container -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-space-sm mb-space-lg scrollbar-none" id="facility-filter-bar">
+<button class="facility-filter-btn px-space-lg py-space-xs rounded-full bg-primary text-on-primary font-label-md text-label-md font-semibold transition-all shadow-sm flex-shrink-0 cursor-pointer" data-category="all">
+          Semua Fasilitas (9)
+        </button>
+<button class="facility-filter-btn px-space-lg py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:text-primary font-label-md text-label-md font-semibold transition-all flex-shrink-0 cursor-pointer" data-category="akademik">
+          Akademik &amp; Sains
+        </button>
+<button class="facility-filter-btn px-space-lg py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:text-primary font-label-md text-label-md font-semibold transition-all flex-shrink-0 cursor-pointer" data-category="olahraga">
+          Olahraga &amp; Kebugaran
+        </button>
+<button class="facility-filter-btn px-space-lg py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:text-primary font-label-md text-label-md font-semibold transition-all flex-shrink-0 cursor-pointer" data-category="seni">
+          Seni &amp; Budaya
+        </button>
+<button class="facility-filter-btn px-space-lg py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:text-primary font-label-md text-label-md font-semibold transition-all flex-shrink-0 cursor-pointer" data-category="komunal">
+          Ruang Komunal &amp; Ibadah
+        </button>
+</div>
+<!-- Cards Grid (3 Columns Editorial Bento) -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter" id="facility-grid">
+<!-- CARD 1: Lab Sains & Bioteknologi (Akademik) -->
+<article class="facility-card flex flex-col rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-surface-container-lowest border border-outline-variant/40" data-item-category="akademik">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="High school Indonesian students wearing white lab coats and protective goggles conducting precision molecular biology experiments using advanced digital microscopes in a spacious, luminous laboratory with safety hoods and clean glass benches" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVnbskmoXzvaSprpPHDuhfHnledLgt99mw8SG5S8XNsmvTaK4T9xb5OUCNmFIOsVyl4ufdgNF0X_1kaSNTIkU-or0MFyv99jltSjZEVWSRPO70UOrHbYX_nHrEqA-t59XTqnBsQwBO9v2q6O6LRheugkGeR43TRRRmVTXYI60ZzQMsH7LwN1RWLC8FizYWEHSd2YMgZMxeackL5j4_P_3p1J4FDk8fv_XUIATQGpmfAlJnoGaks9Jt">
+<div class="absolute top-space-sm left-space-sm flex gap-space-xs">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full uppercase tracking-wider">SMP &amp; SMA</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">Gedung Saintika Lt. 3</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">groups</span>
+              Kapasitas: 36 Siswa / Lab
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">biotech</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Akademik &amp; Riset</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium mb-space-xs">Laboratorium Sains &amp; Bioteknologi Terpadu</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Dilengkapi perangkat mikroskop binokuler digital presisi 1000x, laminar air flow, fume hood bersirkulasi filtrasi karbon, serta modul percobaan biokimia bersertifikasi standar keselamatan K3.
+              </p>
+</div>
+<div class="pt-space-md border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">verified</span> 4 Unit Laboratorium Terpisah
+              </span>
+<button class="text-primary font-label-lg text-label-lg font-bold hover:text-primary-container flex items-center gap-1" onclick="openFacilityModal('lab-sains')">
+                Detail Ruang <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 2: Perpustakaan Digital & Reading Sanctuary (Akademik) -->
+<article class="facility-card flex flex-col rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-surface-container-lowest border border-outline-variant/40" data-item-category="akademik">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Expansive two-story educational library sanctuary with tall curved wooden bookshelves, ergonomic reading pods bathed in soft sunlight from high clerestory windows, quiet digital study booths with monitors, and warm indoor plants creating a calming atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBouGzHgwlBiDV1ALgRwtOTpLwW50fmpVGWtc201jZ0K3_bvLuMGGDc28G6ZY--zAGDsYh-KOzvTjnIr7mpKqmhm0BT6j760tP1XS-VHtCVlEUgotAwXdUeJt4E_YnlVknWeX9MRHnsSCJfqQx36LJHTnXKO_raXiUcUwuNFElG2ET_Z7Q77HvXbHCfdFNa0Fv-TZxQVTNKWeJ0EhSRwL16GS1n_d3Eo0XH0nfn0741vjvNigxYt1Vh">
+<div class="absolute top-space-sm left-space-sm flex gap-space-xs">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full uppercase tracking-wider">Seluruh Jenjang</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">Gedung Pusat Graha Mulia</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">groups</span>
+              250+ Kursi Baca
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">local_library</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Literasi &amp; Referensi Global</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium mb-space-xs">Perpustakaan Digital &amp; Reading Sanctuary</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Menyimpan 40.000+ volume literatur fisik terkurasi, langganan portal jurnal internasional (JSTOR, EBSCO), reading mezzanine privat, serta corner literasi visual interaktif untuk jenjang SD.
+              </p>
+</div>
+<div class="pt-space-md border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">wifi</span> E-Catalog &amp; RFID Check-out
+              </span>
+<button class="text-primary font-label-lg text-label-lg font-bold hover:text-primary-container flex items-center gap-1" onclick="openFacilityModal('perpustakaan')">
+                Detail Ruang <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 3: STEM Innovation Hub & FabLab (Akademik) -->
+<article class="facility-card flex flex-col rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-surface-container-lowest border border-outline-variant/40" data-item-category="akademik">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern maker laboratory and STEM FabLab with young students collaborating on educational robotics, laser cutters, industrial 3D printers, electronics workbenches with circuit boards, and clean architectural lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCmBVgGOFevYaGgBFi7ilAO-iDoB5R3tMjcBDNS-MyuVMaO5xdKBTF6rqNqlzigEtFNn5h-nUkDhn4x82YZfD7ypB8FZ5Y6am05kw0hqcwZ0sayHXESREEUrStFYZWOKzcDEcXQ7ERoKWysZZsja77_zKqcNHweo4JaEPbWd9pS976LsLEyk_HrjlRXDFVdyuGEr_rJcerCGC-tuP3OoTk0MHnaZY_b5TKYjI8Tot5iUjMtiXjLadVV">
+<div class="absolute top-space-sm left-space-sm flex gap-space-xs">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full uppercase tracking-wider">SD, SMP, SMA</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">Inovasi Paviliun Lt. 1</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">groups</span>
+              40 Workstations
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">precision_manufacturing</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Teknologi Terapan</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium mb-space-xs">STEM Innovation Hub &amp; FabLab</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Laboratorium prototyping terapan yang diperkuat 12 unit 3D printer presisi, pemotong akrilik CNC laser, kit mikrokontroler Arduino/Raspberry Pi, dan arena uji ketangkasan robotika internasional.
+              </p>
+</div>
+<div class="pt-space-md border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">memory</span> IoT &amp; Coding Suite
+              </span>
+<button class="text-primary font-label-lg text-label-lg font-bold hover:text-primary-container flex items-center gap-1" onclick="openFacilityModal('fablab')">
+                Detail Ruang <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 4: Gelanggang Olahraga & Kolam Renang Semi-Olympic (Olahraga) -->
+<article class="facility-card flex flex-col rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-surface-container-lowest border border-outline-variant/40" data-item-category="olahraga">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Pristine semi-olympic swimming pool facility in a contemporary sports complex with crystal turquoise water, lane dividers, timber rafter ceiling, natural daylight ventilation, and an adjacent FIBA standard indoor basketball court visible beyond glass partition" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSwPDBpK0XCwBXrBP6tb2XT6wCCtxhMYNLNoaLRi13zVnNe7iclcRJtaAxyPkPBJF_TWlGxP9Ry-REp_lrONZrly8ThuYZjCSs0UfyktLxdAKOMs2JJXT8zuAZlD-r8E3hh8L4hYqtIaMr_JA4rCpb7eZ4HFmt5sMcl_NjszVdWajpjrAhGPO5vL0e8bOCZCMePzeohQ7YcEt16dYUQwIhiopZJJn6w2Z6rbKkKCARREIYu9NH6YN9">
+<div class="absolute top-space-sm left-space-sm flex gap-space-xs">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full uppercase tracking-wider">Kompleks Bersama</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">Harapan Sports Dome</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">stadium</span>
+              Tribun 600 Penonton
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">pool</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Atletik &amp; Kebugaran</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium mb-space-xs">Gelanggang Olahraga &amp; Kolam Semi-Olympic</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Kolam 8 lintasan standar FINA dengan sistem filtrasi garam (tanpa kaporit tajam), lapangan basket indoor berlantai kayu maple standar FIBA, lapangan bulu tangkis berkarpet vinyl, dan trek lari karet sintetis.
+              </p>
+</div>
+<div class="pt-space-md border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">sports_volleyball</span> FINA &amp; FIBA Standard
+              </span>
+<button class="text-primary font-label-lg text-label-lg font-bold hover:text-primary-container flex items-center gap-1" onclick="openFacilityModal('sports-dome')">
+                Detail Ruang <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 5: Grand Auditorium 1.000 Kursi (Seni & Komunal) -->
+<article class="facility-card flex flex-col rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-surface-container-lowest border border-outline-variant/40" data-item-category="seni">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Grand theatrical school auditorium with tier seating for one thousand people, rich walnut acoustic wall baffling, warm amber stage lighting illuminating a student symphony orchestra on stage, pristine architectural grandeur" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNC_erYEHGazdagSpMqKYq7dMKaYN-ulTnY9d0wdmkEjWRtuQU2OTnlIIkIJSUXjD0JUH50vQ4GDjJGFTqs3jzmjYhHpvD49hmp5WQhiDKteP_HAUCuUa7PTOWre8xeMA3C4kx_X2F4e-C8JwivnQH1yMjfwilDZVk4RY354nRwTsl6H8bmef61IyR7bqeUZkYyFbU8m936ScjhjaWbX59XcFzzx6tsxYKdHP8-74Z8HYg0KG5vajA">
+<div class="absolute top-space-sm left-space-sm flex gap-space-xs">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full uppercase tracking-wider">Auditorium Pusat</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">Gedung Kesenian Lt. 1-2</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">theater_comedy</span>
+              1.000 Kursi Ergonomis
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">music_note</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Seni Pertunjukan &amp; Konferensi</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium mb-space-xs">Grand Auditorium "Graha Swara"</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Auditorium megah berakustik panggung simfoni dengan reverberation time terkalkulasi 1,4 detik. Didukung sound system line-array digital d&amp;b audiotechnik, tata lampu teater 64-channel DMX, dan ruang kontrol multimedia.
+              </p>
+</div>
+<div class="pt-space-md border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">mic</span> Akustik Teater Internasional
+              </span>
+<button class="text-primary font-label-lg text-label-lg font-bold hover:text-primary-container flex items-center gap-1" onclick="openFacilityModal('auditorium')">
+                Detail Ruang <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 6: Studio Seni Musik & Rupa (Seni) -->
+<article class="facility-card flex flex-col rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-surface-container-lowest border border-outline-variant/40" data-item-category="seni">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Sunlit fine arts workshop studio with large ceramic pottery wheels, easels with vibrant student landscape paintings, acoustic music practice booths in background, high ceilings and organized natural materials" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBnEpajq_TtUqNG3y__ckdKQ7CBWXQZl8X0SsM_gNWSiHBaz0n5Ct3gXQhlIzoykKPKT43ZDG3zWlSciVqk16MufnIUW0wfLyzXY98-al5Go3L8jShXuSlhUtiuUe1Bb00w9YMx2wUFGlzvn1DCiWn_jzlRS3WmU9PBDIouanrvS9HoLZR2ndApntevlZ_OfLlGMQhuz5FDNXUJbNMYgqFOGkxEXeQP5XEqJgAD7KlpbmIEsvFZHf2b">
+<div class="absolute top-space-sm left-space-sm flex gap-space-xs">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full uppercase tracking-wider">SD, SMP, SMA</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">Sayap Budaya Lt. 2</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">palette</span>
+              6 Studio Spesialis
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">brush</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Kreativitas &amp; Audio Visual</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium mb-space-xs">Studio Seni Musik &amp; Seni Rupa Terpadu</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Menyediakan 4 bilik studio kedap suara (soundproof booth), ruang rekaman instrumen ansambel, workshop kriya tembikar berputar listrik lengkap dengan tungku bakar glasir (kiln), serta ruang galeri pameran berkala.
+              </p>
+</div>
+<div class="pt-space-md border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">headphones</span> DAW ProTools &amp; Keramik Kiln
+              </span>
+<button class="text-primary font-label-lg text-label-lg font-bold hover:text-primary-container flex items-center gap-1" onclick="openFacilityModal('studio-seni')">
+                Detail Ruang <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 7: Masjid & Sentra Pembinaan Spiritual (Ruang Komunal & Ibadah) -->
+<article class="facility-card flex flex-col rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-surface-container-lowest border border-outline-variant/40" data-item-category="komunal">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Serene modern Islamic center and campus mosque with white geometric mashrabiya latticework, tranquil reflecting water ponds, warm timber finishes, soft ambient natural ventilation, and immaculate prayer carpets" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwzWckG4J4dWgRZhrclaVfRBnPAt2mS28tyG6Ctth0LcojPrQ0QobMFfOKWnQdprWjSXkZ29CDw882OJk52XEcblKMA9BaFxLdgL-MQrT22t64IIYgqqyC6cKIzq1Fkcpl85sZFpkKoJaCWsH0WNCNc5-fKOmUn4EjtyZVPDVfZv8lLWWOVH_3diTeP3bH0xiFyc8sHr6vQaIFOA6NTKmM3KC9Q2hf93tTGSnv1RGO2LF7y5N6ie5D">
+<div class="absolute top-space-sm left-space-sm flex gap-space-xs">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full uppercase tracking-wider">Sentra Spiritual</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">Taman Tengah Kampus</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">mosque</span>
+              Kapasitas: 1.200 Jamaah
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">self_improvement</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Karakter &amp; Nilai Ruhani</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium mb-space-xs">Masjid Al-Mulia &amp; Pusat Tahfidz</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Pusat ibadah dengan ventilasi alami silang, kolam refleksi air yang sejuk, ruang talaqqi hafalan Quran terpisah yang khusyuk, serta ruang pembinaan akhlak lintas kegiatan sosial dan keagamaan.
+              </p>
+</div>
+<div class="pt-space-md border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">spa</span> Ruang Tahfidz Akustik Tenang
+              </span>
+<button class="text-primary font-label-lg text-label-lg font-bold hover:text-primary-container flex items-center gap-1" onclick="openFacilityModal('masjid')">
+                Detail Ruang <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 8: Kantin Sehat Higienis & Kafetaria Komunitas (Ruang Komunal & Ibadah) -->
+<article class="facility-card flex flex-col rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-surface-container-lowest border border-outline-variant/40" data-item-category="komunal">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Airy, brightly lit school dining hall and nutrition cafeteria with clean wooden communal dining benches, stainless steel organic food serving stations, recycling sorting corners, and potted indoor ficus trees" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbCqDikN9A6JoZRiVhyJ76SFI5R8L_75ZqbJYE8eGgeVLi8e88qlP0T8SecE87VsjxAuEmc_S-pEVkVDWGaOEI9T-QJJHkCSm1lYI7VohiUvbDMdXS5oY2DZbY6fMQwv85IWsJYq5xY82lEjpDvK3nf-ERxiM5jB4Vh1Zwp5h4wfZBnWWL6FhWLRw1lYxEGoZeVW6e15PzEuUNH5x1B6Nyy4TQN8gW0cqSsAJq7xIj8x_2BW4Fzf78">
+<div class="absolute top-space-sm left-space-sm flex gap-space-xs">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full uppercase tracking-wider">Komunitas</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">Paviliun Boga Kampus</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">restaurant</span>
+              500 Kursi Sanitasi
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">nutrition</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Gizi Sehat &amp; Kebersamaan</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium mb-space-xs">Kantin Sehat Higienis &amp; Nutrisi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Menyajikan menu seimbang bersertifikasi higienitas Dinas Kesehatan tanpa MSG sintetik dan pewarna buatan. Sistem transaksi 100% cashless melalui kartu siswa, diawasi langsung oleh nutrisionis kampus.
+              </p>
+</div>
+<div class="pt-space-md border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">health_and_safety</span> Sertifikasi Higiene Grade A
+              </span>
+<button class="text-primary font-label-lg text-label-lg font-bold hover:text-primary-container flex items-center gap-1" onclick="openFacilityModal('kantin')">
+                Detail Ruang <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+<!-- CARD 9: Ruang UKS & Klinik Medis Kampus (Ruang Komunal & Kesehatan) -->
+<article class="facility-card flex flex-col rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 bg-surface-container-lowest border border-outline-variant/40" data-item-category="komunal">
+<div class="relative h-60 w-full overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Immaculate, reassuring campus medical wellness clinic with private examination beds, sanitized medical cabinets, nurse station in friendly light green and white tones, dedicated resting room for resting students" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBo7bZJN8KlFWpoqZFS1yr_14hQqjdpnS5PusR2MqiFBKheibpx6tMS53PHtu76YS-wcLe0fAeFlR6DbClf_M3kM6d0Cy2dE8dGVdzdu5a_BJIjCdTMWh4jCV5DUQB6m719_02k_9DfvkXW64tAuckSg75JdBedoeHs2IuG7MANsRSwpyacb2xkx8W6m-8mUPVLogE5HYOdY3gvBt6nYPtRfLgCg90zCI9Ci4QjYpBDimw9umjDMrLp">
+<div class="absolute top-space-sm left-space-sm flex gap-space-xs">
+<span class="bg-primary text-on-primary font-label-sm text-label-sm px-space-sm py-1 rounded-full uppercase tracking-wider">Layanan Medis</span>
+<span class="bg-surface-container-lowest/90 backdrop-blur-sm text-secondary font-label-sm text-label-sm px-space-sm py-1 rounded-full font-semibold">Gedung Pusat Lt. 1</span>
+</div>
+<div class="absolute bottom-space-sm right-space-sm bg-surface-container-lowest/90 backdrop-blur-sm text-primary font-label-sm text-label-sm px-space-sm py-0.5 rounded-full flex items-center gap-1 font-semibold">
+<span class="material-symbols-outlined text-[16px]">medical_services</span>
+              Dokter &amp; Perawat Standby
+            </div>
+</div>
+<div class="p-space-lg flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+<span class="material-symbols-outlined text-[18px]">healing</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Kesehatan &amp; Tanggap Medis</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary font-medium mb-space-xs">Klinik Medis &amp; Wellness UKS Terpadu</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-md">
+                Fasilitas perawatan kesehatan tingkat pertama yang diperkuat dokter umum jaga, perawat bersertifikasi trauma care, 8 ranjang observasi terpisah gender, tabung oksigen sentral, dan ambulans siaga 24 jam.
+              </p>
+</div>
+<div class="pt-space-md border-t border-outline-variant/30 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">ambulance</span> Ambulans &amp; RS Rujukan Siaga
+              </span>
+<button class="text-primary font-label-lg text-label-lg font-bold hover:text-primary-container flex items-center gap-1" onclick="openFacilityModal('klinik')">
+                Detail Ruang <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- SECTION 3: PROTOKOL KEAMANAN, KESEHATAN & AKSESIBILITAS -->
+<section class="w-full py-space-xl bg-surface-container-lowest border-t border-outline-variant/30">
+<div class="max-w-7xl mx-auto px-gutter">
+<!-- Section Title -->
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block mb-space-xs">Keamanan Tanpa Kompromi</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-normal leading-tight">
+          Lingkungan yang Menjaga Keselamatan Fisik dan Ketenangan Hati Orang Tua.
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm">
+          Fasilitas dirawat secara presisi dengan protokol preventif berlapis guna menjamin iklim belajar yang steril, aman dari bahaya, dan dapat diakses oleh seluruh anggota komunitas.
+        </p>
+</div>
+<!-- Feature Grid: 4 Pillared Framework -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col justify-between border border-outline-variant/40">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">videocam</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">CCTV 24/7 &amp; One-Gate Access</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              184 titik kamera pengawas resolusi tinggi yang terintegrasi ke Central Command Room dan gerbang tap-in siswa berbasis biometrik.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs text-primary font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span>
+            Verifikasi ID Tamu Ketat
+          </div>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col justify-between border border-outline-variant/40">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">air</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">HEPA Air Filtration &amp; Sanitasi</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Seluruh ruang kelas dan laboratorium dilengkapi penyaring udara HEPA H13 serta siklus sirkulasi udara bersih kontinu 6x per jam.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs text-primary font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span>
+            AQI Indoor Terjaga &lt; 25
+          </div>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col justify-between border border-outline-variant/40">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">emergency_share</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">Mitigasi Tanggap Darurat &amp; Gempa</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Gedung bersertifikasi ketahanan seismik dengan titik kumpul terbuka, jalur evakuasi bertanda fosfor, serta simulasi gempa berkala tiap semester.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs text-primary font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span>
+            SOP Sertifikasi BPBD
+          </div>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-surface-container-lowest p-space-lg rounded-lg shadow-sm flex flex-col justify-between border border-outline-variant/40">
+<div>
+<div class="w-12 h-12 rounded-full bg-surface-container flex items-center justify-center text-primary mb-space-md">
+<span class="material-symbols-outlined text-[28px]">accessible</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-primary mb-space-xs font-semibold">Universal Inclusivity Design</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+              Konektivitas tanpa hambatan antar lantai: elevator prioritas, tactile paving pemandu tunanetra, toilet ramah disabilitas di tiap koridor gedung.
+            </p>
+</div>
+<div class="mt-space-md pt-space-xs text-primary font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary-container">check_circle</span>
+            Standar Aksesibilitas PUPR
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: INTERACTIVE MAP & SPATIAL MASTERPLAN OVERVIEW -->
+<section class="w-full py-space-xl bg-surface-container-lowest">
+<div class="max-w-7xl mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Interactive Masterplan Highlights List -->
+<div class="lg:col-span-5 flex flex-col justify-center">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest block mb-space-xs">Zonasi Lingkungan</span>
+<h2 class="font-headline-xl text-headline-xl text-primary font-normal leading-tight mb-space-md">
+            Pembagian Zona yang Tertib, Alami, dan Fungsional.
+          </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-space-lg">
+            Kampus kami memisahkan alur kendaraan dari pedestrian untuk keamanan total siswa. Ruang terbuka hijau membentang di poros tengah sebagai ruang temu antar jenjang.
+          </p>
+<div class="space-y-space-sm">
+<div class="flex items-start gap-space-sm p-space-sm rounded hover:bg-surface-container transition-colors bg-surface-container-lowest border border-outline-variant/40">
+<div class="w-8 h-8 rounded-full bg-primary text-tertiary-fixed flex items-center justify-center flex-shrink-0 mt-0.5 font-bold font-label-sm text-label-sm">
+                A
+              </div>
+<div>
+<h4 class="font-label-lg text-label-lg font-bold text-primary">Zona A: Taman Kanak-Kanak &amp; Sekolah Dasar</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Dilengkapi sensory garden, playground ramah guncangan karet, dan sirkulasi penjemputan mobil terlindung kanopi.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded hover:bg-surface-container transition-colors bg-surface-container-lowest border border-outline-variant/40">
+<div class="w-8 h-8 rounded-full bg-primary text-tertiary-fixed flex items-center justify-center flex-shrink-0 mt-0.5 font-bold font-label-sm text-label-sm">
+                B
+              </div>
+<div>
+<h4 class="font-label-lg text-label-lg font-bold text-primary">Zona B: Sekolah Menengah (SMP &amp; SMA) &amp; Laboratorium</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pusat riset sains, tech studio, ruang kelas fleksibel ber-AC dengan peredam kebisingan tinggi.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded hover:bg-surface-container transition-colors bg-surface-container-lowest border border-outline-variant/40">
+<div class="w-8 h-8 rounded-full bg-primary text-tertiary-fixed flex items-center justify-center flex-shrink-0 mt-0.5 font-bold font-label-sm text-label-sm">
+                C
+              </div>
+<div>
+<h4 class="font-label-lg text-label-lg font-bold text-primary">Zona C: Harapan Sports Dome &amp; Sentra Kesenian</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Kolam renang, auditorium konser, masjid agung kampus, dan kantin komunitas.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Masterplan Architectural Visual Graphic -->
+<div class="lg:col-span-7">
+<div class="relative rounded-lg overflow-hidden shadow-lg p-2 bg-surface-container-lowest border border-outline-variant/40">
+<div class="relative w-full h-[420px] rounded overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="Detailed architectural isometric aerial view of a prestigious lush sustainable school campus masterplan showing zoned educational buildings, sports complex with swimming pool, green botanical gardens, solar panel arrays on roofs, and tree-lined pedestrian avenues" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOn_WVp6m6MqH6VPUHJu4F8ObG8EjLIch_gB_o6OEcPQSwHvagJ997_uT1ixUanyaRXAEFjYiP2EKpZr5AAM0DzrBGiltDaQZ4WLQ_BBgcbrX3ifUPsB02VPU4AbIMV-8qrKFxI0YCJj23-CPiuqbAtETB8Lg1KGPEFvMi7awkfEc8uHwcbEYvdinFL7jIzEqsD2RppOeYQ9aICtomMuz1YtdwCqYZxwiT6da3jSm7czU1z9emmFIb">
+<!-- Hotspot 1 -->
+<div class="absolute top-[28%] left-[24%] group cursor-pointer">
+<span class="flex h-6 w-6 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary-fixed opacity-75"></span>
+<span class="relative inline-flex rounded-full h-6 w-6 bg-primary text-tertiary-fixed font-bold text-[11px] items-center justify-center shadow-lg">1</span>
+</span>
+<div class="absolute left-8 top-0 hidden group-hover:block bg-surface-container-lowest text-primary p-2 rounded shadow-xl whitespace-nowrap z-20 font-body-sm text-body-sm border border-outline-variant/30">
+<strong>Zona SD:</strong> Sensory Park &amp; Kolam Edukasi
+                </div>
+</div>
+<!-- Hotspot 2 -->
+<div class="absolute top-[48%] left-[58%] group cursor-pointer">
+<span class="flex h-6 w-6 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary-fixed opacity-75"></span>
+<span class="relative inline-flex rounded-full h-6 w-6 bg-primary text-tertiary-fixed font-bold text-[11px] items-center justify-center shadow-lg">2</span>
+</span>
+<div class="absolute left-8 top-0 hidden group-hover:block bg-surface-container-lowest text-primary p-2 rounded shadow-xl whitespace-nowrap z-20 font-body-sm text-body-sm border border-outline-variant/30">
+<strong>Graha Saintika:</strong> Laboratorium Riset SMP-SMA
+                </div>
+</div>
+<!-- Hotspot 3 -->
+<div class="absolute top-[68%] left-[38%] group cursor-pointer">
+<span class="flex h-6 w-6 relative">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-tertiary-fixed opacity-75"></span>
+<span class="relative inline-flex rounded-full h-6 w-6 bg-primary text-tertiary-fixed font-bold text-[11px] items-center justify-center shadow-lg">3</span>
+</span>
+<div class="absolute left-8 top-0 hidden group-hover:block bg-surface-container-lowest text-primary p-2 rounded shadow-xl whitespace-nowrap z-20 font-body-sm text-body-sm border border-outline-variant/30">
+<strong>Sports Dome:</strong> Kolam Semi-Olympic &amp; Tribun
+                </div>
+</div>
+</div>
+<div class="p-space-sm bg-surface-container-lowest rounded-b flex items-center justify-between font-body-sm text-body-sm text-secondary">
+<span class="">*Arahkan kursor pada angka interaktif untuk melihat fungsi gedung</span>
+<span class="font-label-sm text-label-sm font-bold text-primary">Masterplan 2026</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: CTA VIRTUAL & DIRECT ON-SITE SCHOOL TOUR -->
+<section class="w-full py-space-xl bg-primary text-on-primary relative overflow-hidden" id="reservasi-tur">
+<!-- Atmospheric Background Pattern -->
+<div class="absolute -right-24 -bottom-24 w-96 h-96 rounded-full bg-primary-container opacity-40 blur-3xl pointer-events-none"></div>
+<div class="absolute -left-20 top-10 w-72 h-72 rounded-full bg-tertiary-fixed opacity-10 blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-gutter relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+<!-- Copy Column -->
+<div class="lg:col-span-7">
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-primary-container text-tertiary-fixed font-label-md text-label-md uppercase tracking-wider mb-space-md">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span>
+            Kunjungan Kampus Terbuka
+          </div>
+<h2 class="font-headline-2xl text-headline-2xl text-on-primary font-normal leading-tight mb-space-md">
+            Rasakan Sendiri Atmosfer Pembelajaran <span class="italic text-tertiary-fixed">Harapan Mulia.</span>
+</h2>
+<p class="font-body-xl text-body-xl text-surface-container-high leading-relaxed max-w-xl mb-space-lg">
+            Kami mengundang calon siswa beserta orang tua untuk berkeliling fasilitas kami secara langsung didampingi oleh konselor akademik dan duta siswa kami. Tersedia pula format Tur Virtual 360° interaktif.
+          </p>
+<div class="flex flex-wrap items-center gap-space-md">
+<div class="flex items-center gap-space-xs text-surface-container-highest font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+              Pendampingan Personal 1-on-1
+            </div>
+<div class="flex items-center gap-space-xs text-surface-container-highest font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+              Observasi Langsung Jam Belajar
+            </div>
+<div class="flex items-center gap-space-xs text-surface-container-highest font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-tertiary-fixed text-[20px]">check_circle</span>
+              Sesi Tanya-Jawab Admisi
+            </div>
+</div>
+</div>
+<!-- Tour Booking Form Card -->
+<div class="lg:col-span-5 mt-space-lg lg:mt-0">
+<div class="bg-surface-container-lowest text-on-surface p-space-lg md:p-space-xl rounded-lg shadow-2xl">
+<h3 class="font-headline-md text-headline-md text-primary font-semibold mb-space-xs">Formulir Reservasi Tur</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-md">Pilih jadwal kunjungan privat Anda (Senin – Sabtu).</p>
+<form class="space-y-space-sm" id="campus-tour-form" onsubmit="event.preventDefault(); handleTourSubmit();">
+<div>
+<label class="block font-label-md text-label-md uppercase tracking-wider text-secondary mb-1" for="parent-name">Nama Lengkap Orang Tua</label>
+<input class="w-full px-space-md py-space-sm rounded focus:ring-2 focus:ring-primary font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/50 bg-surface-container-lowest border border-outline-variant/40" id="parent-name" placeholder="Bpk / Ibu..." required="" type="text">
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div>
+<label class="block font-label-md text-label-md uppercase tracking-wider text-secondary mb-1" for="contact-whatsapp">Nomor WhatsApp</label>
+<input class="w-full px-space-md py-space-sm rounded focus:ring-2 focus:ring-primary font-body-md text-body-md text-on-surface placeholder:text-on-surface-variant/50 bg-surface-container-lowest border border-outline-variant/40" id="contact-whatsapp" placeholder="0812..." required="" type="tel">
+</div>
+<div>
+<label class="block font-label-md text-label-md uppercase tracking-wider text-secondary mb-1" for="grade-interest">Jenjang Minat</label>
+<select class="w-full px-space-md py-space-sm rounded focus:ring-2 focus:ring-primary font-body-md text-body-md text-on-surface bg-surface-container-lowest border border-outline-variant/40" id="grade-interest">
+<option value="SD">Sekolah Dasar (SD)</option>
+<option value="SMP">Sekolah Menengah Pertama (SMP)</option>
+<option value="SMA">Sekolah Menengah Atas (SMA)</option>
+<option value="Semua">Seluruh Kampus Terpadu</option>
+</select>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-sm">
+<div>
+<label class="block font-label-md text-label-md uppercase tracking-wider text-secondary mb-1" for="tour-date">Pilihan Tanggal</label>
+<input class="w-full px-space-md py-space-sm rounded focus:ring-2 focus:ring-primary font-body-md text-body-md text-on-surface bg-surface-container-lowest border border-outline-variant/40" id="tour-date" required="" type="date">
+</div>
+<div>
+<label class="block font-label-md text-label-md uppercase tracking-wider text-secondary mb-1" for="tour-type">Format Kunjungan</label>
+<select class="w-full px-space-md py-space-sm rounded focus:ring-2 focus:ring-primary font-body-md text-body-md text-on-surface bg-surface-container-lowest border border-outline-variant/40" id="tour-type">
+<option value="fisik">Kunjungan Langsung (On-Site)</option>
+<option value="virtual">Tur Virtual Interaktif 360°</option>
+</select>
+</div>
+</div>
+<div class="pt-space-sm">
+<button class="w-full py-space-sm rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-bold hover:bg-primary-container transition-colors shadow-md flex items-center justify-center gap-space-xs" type="submit">
+<span class="material-symbols-outlined text-[18px]">event_available</span>
+<span class="">Konfirmasi Jadwal Tur</span>
+</button>
+</div>
+<p class="hidden text-center font-body-sm text-body-sm text-primary font-bold pt-2" id="tour-success-msg">
+                Terima kasih! Tim Humas &amp; Admisi kami akan menghubungi Anda via WhatsApp dalam waktu maksimal 24 jam kerja.
+              </p>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- MODAL: SPESIFIKASI DETAIL RUANG FASILITAS -->
+<div class="fixed inset-0 z-50 flex items-center justify-center bg-primary/60 backdrop-blur-sm hidden p-gutter" id="facility-spec-modal">
+<div class="bg-surface-container-lowest text-on-surface rounded-lg max-w-2xl w-full max-h-[921px] overflow-y-auto p-space-lg shadow-2xl relative">
+<button aria-label="Tutup Jendela" class="absolute top-space-md right-space-md w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-surface-container-high transition-colors" onclick="closeFacilityModal()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+<div id="modal-content-placeholder">
+<!-- Injected via JavaScript -->
+</div>
+</div>
+</div>
+<!-- CLIENT-SIDE SCRIPT FOR FILTERING & MODAL INTERACTION -->
+<script>
+    // Tab Filter Logic
+    const filterButtons = document.querySelectorAll('.facility-filter-btn');
+    const cards = document.querySelectorAll('.facility-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Active button styles
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        btn.classList.add('bg-primary', 'text-on-primary');
+
+        const filterVal = btn.getAttribute('data-category');
+
+        cards.forEach(card => {
+          const itemCat = card.getAttribute('data-item-category');
+          if (filterVal === 'all' || itemCat === filterVal) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Facility Modal Data Dictionary
+    const facilitySpecs = {
+      'lab-sains': {
+        title: 'Laboratorium Sains & Bioteknologi Terpadu',
+        location: 'Gedung Saintika Lt. 3',
+        specs: [
+          '4 Ruang Lab Independen: Fisika Presisi, Kimia Analitik, Biologi Molekuler, & Agroteknologi.',
+          'Peralatan canggih: Mikroskop berkamera digital, PCR Mini, Spectrophotometer, Lemari Asam (Fume Hood).',
+          'Sistem K3: Sensor pendeteksi kebocoran gas otomatis, eye-washer station, safety shower darurat, dan APAR kelas ABC di setiap sudut.'
+        ],
+        hours: 'Senin - Jumat: 07.30 - 15.30 WIB (Praktikum & Ekstrakurikuler Riset)'
+      },
+      'perpustakaan': {
+        title: 'Perpustakaan Digital & Reading Sanctuary',
+        location: 'Gedung Pusat Graha Mulia Lt. 1 & 2',
+        specs: [
+          'Koleksi buku cetak melebihi 40.000 judul terbitan nasional dan internasional terakreditasi.',
+          'Akses berlangganan portal e-journal internasional JSTOR, Springer Nature, serta komik edukasi interaktif.',
+          'Area hening bersofa ergonomis, meja diskusi kelompok berpapan tulis kaca, dan 20 terminal iMac untuk riset komparatif.'
+        ],
+        hours: 'Senin - Sabtu: 07.00 - 17.00 WIB'
+      },
+      'fablab': {
+        title: 'STEM Innovation Hub & FabLab',
+        location: 'Inovasi Paviliun Lt. 1',
+        specs: [
+          '12 Unit FDM & SLA 3D Printers berkemampuan cetak polimer biodegradable presisi tinggi.',
+          'Laser cutting & engraving machine berdaya 80W untuk pengerjaan proyek arsitektur dan rancang bangun prototipe.',
+          'Ratusan sensor IoT, mikrokontroler Arduino Uno/Nano, ESP32, kit robotika LEGO Education SPIKE Prime.'
+        ],
+        hours: 'Senin - Jumat: 08.00 - 16.30 WIB'
+      },
+      'sports-dome': {
+        title: 'Gelanggang Olahraga & Kolam Renang Semi-Olympic',
+        location: 'Harapan Sports Dome',
+        specs: [
+          'Kolam renang 25m x 12.5m (8 lintasan) dengan teknologi filtrasi air garam ozonasi tanpa iritasi mata.',
+          'Gelanggang serbaguna indoor dengan lantai kayu maple berstandar peredaman benturan FIBA dan BWF.',
+          'Locker room berpenyejuk udara, shower air hangat, dan sistem lifeguard bersertifikat kedaruratan air nasional.'
+        ],
+        hours: 'Setiap Hari: 06.00 - 18.00 WIB (Siswa & Tim Pembinaan Atletik)'
+      },
+      'auditorium': {
+        title: 'Grand Auditorium "Graha Swara"',
+        location: 'Gedung Kesenian Lt. 1 - 2',
+        specs: [
+          '1.000 Kursi teater bertingkat dengan kenyamanan ergonomis dan sudut pandang panggung 100% bebas hambatan.',
+          'Akustik arsitektural kayu berpori dengan waktu dengung terkalibrasi khusus untuk orkestra simfoni dan orasi ilmiah.',
+          'Ruang kendali tata audio digital 32 channel, proyektor laser 4K Christie 20.000 lumens, dan 4 ruang ganti penampil privat.'
+        ],
+        hours: 'Digunakan terjadwal untuk perhelatan akbar, pementasan musikal, konferensi internasional, dan wisuda kelulusan.'
+      },
+      'studio-seni': {
+        title: 'Studio Seni Musik & Seni Rupa Terpadu',
+        location: 'Sayap Budaya Lt. 2',
+        specs: [
+          'Workshop keramik lengkap dengan 6 alat putar listrik, area pemodelan tanah liat, dan tungku pembakaran bersuhu 1200°C.',
+          'Studio musik berperedam rockwool 80kg/m3 dengan drum akustik Roland, piano akustik Yamaha Grand, keyboard sintetis, dan workstation DAW audio editing.',
+          'Ruang pamer galeri seni siswa bertata cahaya spotlight track yang memajang karya seni lukis dan fotografi.'
+        ],
+        hours: 'Senin - Jumat: 08.00 - 16.00 WIB'
+      },
+      'masjid': {
+        title: 'Masjid Al-Mulia & Sentra Pembinaan Spiritual',
+        location: 'Taman Tengah Kampus',
+        specs: [
+          'Bangunan semi-terbuka dengan pendinginan alami hemat energi, kolam air sirkulasi, dan mimbar marmer minimalis.',
+          'Kapasitas salat berjamaah hingga 1.200 jamaah sekaligus (pria dan wanita di area terpisah dan nyaman).',
+          '4 Bilik talaqqi tahfidz Quran kedap suara untuk pendampingan hafalan intensif bersama ustadz/ustadzah pembina.'
+        ],
+        hours: 'Buka sepanjang hari untuk ibadah salat fardhu, kultum dzuhur, dan kajian keagamaan berkala.'
+      },
+      'kantin': {
+        title: 'Kantin Sehat Higienis & Kafetaria Komunitas',
+        location: 'Paviliun Boga Kampus',
+        specs: [
+          'Dikelola melalui audit sanitasi berkala oleh ahli gizi kampus; bebas dari MSG sintetik berlebih, pengawet berbahaya, dan pewarna sintetis.',
+          'Sistem pembayaran nirsentuh (Cashless RFID Student Card) yang memungkinkan orang tua memantau riwayat asupan gizi anak via portal orang tua.',
+          'Area makan berkapasitas 500 orang dengan stasiun pemilahan sampah organik, anorganik, dan residu sisa makanan.'
+        ],
+        hours: 'Senin - Jumat: 07.00 - 15.30 WIB'
+      },
+      'klinik': {
+        title: 'Klinik Medis & Wellness UKS Terpadu',
+        location: 'Gedung Pusat Lt. 1',
+        specs: [
+          'Ditangani dokter umum terdaftar IDI dan dua perawat berlisensi setiap hari sekolah.',
+          'Ruang rawat observasi 8 bed pembaringan terpisah, tabung oksigen, AED (Automated External Defibrillator), dan obat-obatan esensial lengkap.',
+          'Kerja sama strategis rujukan gawat darurat dengan RS Pondok Indah Puri Indah / RS Siloam, didukung unit ambulans siaga.'
+        ],
+        hours: 'Senin - Sabtu: 07.00 - 16.30 WIB'
+      }
+    };
+
+    function openFacilityModal(key) {
+      const data = facilitySpecs[key];
+      if (!data) return;
+
+      const container = document.getElementById('modal-content-placeholder');
+      container.innerHTML = `
+        <div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+          <span class="material-symbols-outlined text-[20px]">apartment</span>
+          <span class="font-label-md text-label-md uppercase tracking-wider">${data.location}</span>
+        </div>
+        <h3 class="font-headline-lg text-headline-lg text-primary font-normal mb-space-md">${data.title}</h3>
+        
+        <div class="mb-space-md">
+          <h4 class="font-label-lg text-label-lg font-bold text-primary mb-space-xs uppercase tracking-wide">Rincian Spesifikasi &amp; Fasilitas:</h4>
+          <ul class="space-y-space-xs font-body-md text-body-md text-on-surface-variant list-disc pl-5">
+            ${data.specs.map(s => `<li>${s}</li>`).join('')}
+          </ul>
+        </div>
+
+        <div class="p-space-md bg-surface-container rounded mb-space-md">
+          <span class="font-label-sm text-label-sm font-bold text-primary block uppercase">Jadwal Operasional:</span>
+          <p class="font-body-md text-body-md text-on-surface">${data.hours}</p>
+        </div>
+
+        <div class="flex justify-end gap-space-sm pt-space-xs">
+          <a href="#reservasi-tur" onclick="closeFacilityModal()" class="px-space-lg py-space-xs rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-colors">
+            Tinjau dalam Tur Kampus
+          </a>
+        </div>
+      `;
+
+      document.getElementById('facility-spec-modal').classList.remove('hidden');
+    }
+
+    function closeFacilityModal() {
+      document.getElementById('facility-spec-modal').classList.add('hidden');
+    }
+
+    function handleTourSubmit() {
+      const successEl = document.getElementById('tour-success-msg');
+      if (successEl) {
+        successEl.classList.remove('hidden');
+        document.getElementById('campus-tour-form').reset();
+      }
+    }
+  </script>
+</div></main>
+<!-- BEGIN: SiteFooter -->
+<footer class="border-t pt-space-xl pb-space-lg bg-surface-container-lowest border-outline-variant/40" data-purpose="site-footer"><div class="max-w-7xl mx-auto px-gutter">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-gutter pb-space-lg border-b border-outline-variant/40">
+<!-- Col 1: Profil & Medsos -->
+<div class="lg:col-span-4 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-sm mb-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary-container text-tertiary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+<div>
+<span class="font-label-sm text-label-sm text-secondary block uppercase tracking-wider">Yayasan Pendidikan</span>
+<span class="font-headline-sm text-headline-sm text-primary leading-none">Harapan Mulia</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed max-w-sm mb-space-md">
+Mewujudkan generasi cerdas, berkarakter luhur, dan berdaya saing global melalui pendidikan holistik berlandaskan integritas.
+</p>
+</div>
+<div class="flex items-center gap-space-xs text-secondary">
+<a aria-label="Instagram" class="w-9 h-9 rounded-full bg-surface-container-lowest border border-outline-variant/50 flex items-center justify-center hover:bg-primary-container hover:text-surface-container-lowest transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</a>
+<a aria-label="Facebook" class="w-9 h-9 rounded-full bg-surface-container-lowest border border-outline-variant/50 flex items-center justify-center hover:bg-primary-container hover:text-surface-container-lowest transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">public</span>
+</a>
+<a aria-label="YouTube" class="w-9 h-9 rounded-full bg-surface-container-lowest border border-outline-variant/50 flex items-center justify-center hover:bg-primary-container hover:text-surface-container-lowest transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">play_circle</span>
+</a>
+</div>
+</div>
+<!-- Col 2: Tautan Cepat -->
+<div class="lg:col-span-2">
+<h4 class="font-label-lg text-label-lg font-bold text-primary uppercase tracking-wider mb-space-md">Tautan Cepat</h4>
+<ul class="space-y-space-xs font-body-md text-body-md text-on-surface-variant">
+<li class=""><a class="hover:text-primary transition-colors" href="#beranda">Beranda</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#tentang-kami">Tentang Kami</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#akademik">Akademik</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#fasilitas">Fasilitas</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#kehidupan-sekolah">Kehidupan Sekolah</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#prestasi">Prestasi</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#berita">Warta &amp; Berita</a></li>
+</ul>
+</div>
+<!-- Col 3: Unit Pendidikan -->
+<div class="lg:col-span-2">
+<h4 class="font-label-lg text-label-lg font-bold text-primary uppercase tracking-wider mb-space-md">Unit Pendidikan</h4>
+<ul class="space-y-space-xs font-body-md text-body-md text-on-surface-variant">
+<li class=""><a class="hover:text-primary transition-colors" href="#sd">SD Harapan Mulia</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#smp">SMP Harapan Mulia</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#sma">SMA Harapan Mulia</a></li>
+<li class=""><a class="hover:text-primary font-semibold text-primary" href="#ppdb">Portal PPDB 2026/2027</a></li>
+<li class=""><a class="hover:text-primary transition-colors" href="#ppdb">Beasiswa Prestasi</a></li>
+</ul>
+</div>
+<!-- Col 4: Hubungi Kami -->
+<div class="lg:col-span-4">
+<h4 class="font-label-lg text-label-lg font-bold text-primary uppercase tracking-wider mb-space-md">Hubungi Kami</h4>
+<ul class="space-y-space-sm font-body-md text-body-md text-on-surface-variant">
+<li class="flex items-start gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary mt-0.5 flex-shrink-0">location_on</span>
+<span class="">Jl. Pendidikan No. 1, Cilandak, Jakarta Selatan 12545</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary flex-shrink-0">call</span>
+<span class="">+62 21 1234 5678 / +62 812 3456 7890</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary flex-shrink-0">mail</span>
+<span class="">admisi@harapanmulia.sch.id</span>
+</li>
+<li class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary flex-shrink-0">schedule</span>
+<span class="">Senin - Jumat: 07.30 - 16.00 WIB</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Copyright & Legal -->
+<div class="pt-space-md flex flex-col sm:flex-row items-center justify-between font-body-sm text-body-sm text-secondary gap-space-sm">
+<p class="">© 2026 Yayasan Pendidikan Harapan Mulia. Hak Cipta Dilindungi.</p>
+<div class="flex items-center gap-space-md font-label-md text-label-md">
+<a class="hover:text-primary transition-colors" href="#kontak">Pusat Bantuan</a>
+<a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a>
+<a class="hover:text-primary transition-colors" href="#">Syarat &amp; Ketentuan</a>
+</div>
+</div>
+</div></footer>
+<!-- END: SiteFooter -->
+
+
+
+
+</body></html>

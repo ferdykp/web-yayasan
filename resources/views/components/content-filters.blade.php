@@ -1,0 +1,9 @@
+@props(['categories'=>[]])
+<form method="get" class="mb-6 flex flex-wrap items-end gap-3 rounded-2xl bg-white p-4" aria-label="Filter koleksi">
+<label class="flex-1 text-xs font-semibold text-secondary">Cari<input name="q" value="{{ request('q') }}" maxlength="150" placeholder="Cari judul atau informasi…" class="mt-2 block w-full min-w-40 rounded-full border-sage-border bg-cream text-sm focus:border-forest focus:ring-forest"></label>
+<label class="text-xs font-semibold text-secondary">Jenjang<select name="school" class="mt-2 block rounded-full border-sage-border bg-cream text-sm focus:ring-forest"><option value="">Semua jenjang</option>@foreach(['sd','smp','sma'] as $level)<option value="{{ $level }}" @selected(request('school')===$level)>{{ strtoupper($level) }}</option>@endforeach</select></label>
+@if(count($categories))<label class="text-xs font-semibold text-secondary">Kategori<select name="category" class="mt-2 block rounded-full border-sage-border bg-cream text-sm focus:ring-forest"><option value="">Semua kategori</option>@foreach($categories as $category)<option value="{{ $category }}" @selected(request('category')===$category)>{{ ucfirst($category) }}</option>@endforeach</select></label>@endif
+@if(request()->routeIs('achievements'))<label class="text-xs font-semibold text-secondary">Tahun<input name="year" value="{{ request('year') }}" type="number" min="1900" max="2200" class="mt-2 block w-24 rounded-full border-sage-border bg-cream text-sm"></label>@endif
+<button class="rounded-full bg-forest px-6 py-2.5 text-sm font-semibold text-white hover:bg-forest-dark">Terapkan</button><a href="{{ url()->current() }}#koleksi" class="px-3 py-2 text-sm text-secondary underline">Reset</a>
+</form>
+@if(isset($items) && $items->isEmpty())<p role="status" class="py-8 text-center text-secondary">Belum ada konten yang sesuai.</p>@endif

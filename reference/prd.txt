@@ -1,0 +1,1086 @@
+PAGE 1
+Product Requirements Document
+Website Profil Yayasan & Unit Sekolah SD, SMP, SMA
+V ersi: 1.0 Tipe Produk: Website Company/Institution Profile T arget:
+Yayasan Pendidikan dengan unit SD, SMP, dan SMA
+1. Latar Belakang
+Yayasan memiliki tiga unit pendidikan:
+• Sekolah Dasar (SD)
+• Sekolah Menengah Pertama (SMP)
+• Sekolah Menengah Atas (SMA)
+Saat ini dibutuhkan sebuah website resmi yang menjadi pusat informasi menge-
+nai yayasan dan seluruh sekolah di bawah naungannya.
+Website harus dapat digunakan oleh calon siswa, orang tua/wali, siswa aktif,
+alumni, masyarakat umum, serta pihak lain yang ingin mengetahui informasi
+mengenai yayasan dan masing-masing sekolah.
+Website tidak hanya berfungsi sebagai profil institusi, tetapi juga sebagai media
+komunikasi, publikasi kegiatan sekolah, prestasi, serta informasi penerimaan
+siswa baru.
+2. Tujuan Website
+Website dibuat untuk:
+1. Menjadi website resmi yayasan.
+2. Memperkenalkan profil dan sejarah yayasan.
+3. Menampilkan seluruh unit sekolah yang berada di bawah yayasan.
+4. Menampilkan profil khusus untuk SD, SMP, dan SMA.
+5. Menyediakan informasi penerimaan peserta didik baru.
+6. Menampilkan berita dan kegiatan sekolah.
+7. Menampilkan prestasi siswa dan sekolah.
+8. Menampilkan fasilitas pendidikan.
+9. Menampilkan galeri kegiatan.
+10. Menjadi pusat informasi kontak dan lokasi sekolah.
+11. Meningkatkan kredibilitas yayasan.
+12. Mempermudah calon orang tua siswa mendapatkan informasi sebelum
+mendaftar.
+1
+
+PAGE 2
+3. Target Pengguna
+Calon Orang T ua / W ali
+Kebutuhan utama:
+• Melihat kualitas sekolah.
+• Mengetahui fasilitas.
+• Melihat program pendidikan.
+• Mengetahui biaya pendidikan.
+• Mengetahui jadwal pendaftaran.
+• Mengetahui lokasi sekolah.
+• Menghubungi pihak sekolah.
+Calon Siswa
+Kebutuhan utama:
+• Melihat lingkungan sekolah.
+• Melihat kegiatan siswa.
+• Melihat ekstrakurikuler.
+• Melihat fasilitas.
+• Melihat prestasi sekolah.
+Siswa Aktif
+Kebutuhan:
+• Melihat berita sekolah.
+• Informasi kegiatan.
+• Pengumuman tertentu.
+• Dokumentasi kegiatan.
+Alumni
+Kebutuhan:
+• Mengetahui perkembangan sekolah.
+• Melihat kegiatan alumni.
+• Mengakses kontak sekolah.
+Masyarakat Umum
+Kebutuhan:
+• Mengetahui profil yayasan.
+• Mengetahui kegiatan sosial atau pendidikan yayasan.
+• Mengetahui sekolah yang dikelola yayasan.
+2
+
+PAGE 3
+4. Struktur Website
+Struktur utama website:
+Home
+￿
+￿￿￿ Tentang Yayasan
+￿ ￿￿￿ Profil Yayasan
+￿ ￿￿￿ Sejarah
+￿ ￿￿￿ Visi & Misi
+￿ ￿￿￿ Struktur Organisasi
+￿ ￿￿￿ Sambutan Ketua Yayasan
+￿
+￿￿￿ Unit Pendidikan
+￿ ￿
+￿ ￿￿￿ SD
+￿ ￿ ￿￿￿ Profil
+￿ ￿ ￿￿￿ Visi & Misi
+￿ ￿ ￿￿￿ Kepala Sekolah
+￿ ￿ ￿￿￿ Program Pendidikan
+￿ ￿ ￿￿￿ Fasilitas
+￿ ￿ ￿￿￿ Ekstrakurikuler
+￿ ￿ ￿￿￿ Prestasi
+￿ ￿ ￿￿￿ PPDB
+￿ ￿
+￿ ￿￿￿ SMP
+￿ ￿ ￿￿￿ Profil
+￿ ￿ ￿￿￿ Visi & Misi
+￿ ￿ ￿￿￿ Kepala Sekolah
+￿ ￿ ￿￿￿ Program Pendidikan
+￿ ￿ ￿￿￿ Fasilitas
+￿ ￿ ￿￿￿ Ekstrakurikuler
+￿ ￿ ￿￿￿ Prestasi
+￿ ￿ ￿￿￿ PPDB
+￿ ￿
+￿ ￿￿￿ SMA
+￿ ￿￿￿ Profil
+￿ ￿￿￿ Visi & Misi
+￿ ￿￿￿ Kepala Sekolah
+￿ ￿￿￿ Program Pendidikan
+￿ ￿￿￿ Fasilitas
+￿ ￿￿￿ Ekstrakurikuler
+￿ ￿￿￿ Prestasi
+￿ ￿￿￿ PPDB
+￿
+￿￿￿ Berita & Kegiatan
+3
+
+PAGE 4
+￿
+￿￿￿ Prestasi
+￿
+￿￿￿ Fasilitas
+￿
+￿￿￿ Galeri
+￿
+￿￿￿ PPDB
+￿
+￿￿￿ Kontak
+5. Homepage
+Homepage harus langsung memperkenalkan identitas yayasan dan sekolah.
+5.1 Hero Section
+Data yang diperlukan:
+• Nama yayasan.
+• Logo yayasan.
+• Tagline.
+• Foto/video utama sekolah.
+• Deskripsi singkat.
+• Tombol CTA.
+Contoh CTA:
+Lihat Sekolah
+Daftar Sekarang
+Informasi PPDB
+5.2 Tentang Yayasan
+Menampilkan ringkasan mengenai yayasan.
+Data:
+• Tahun berdiri.
+• Deskripsi singkat.
+• Fokus pendidikan.
+• Nilai atau filosofi yayasan.
+• Jumlah sekolah.
+• Jumlah siswa.
+4
+
+PAGE 5
+• Jumlah guru.
+Contoh statistik:
+3
+Unit Sekolah
+1.200+
+Siswa
+80+
+Tenaga Pendidik
+20+
+Tahun Pengalaman
+Angka bersifat dinamis dan harus dapat diubah melalui CMS.
+6. Unit Pendidikan
+Homepage menampilkan tiga unit utama:
+SD
+Informasi:
+• Nama resmi sekolah.
+• Logo.
+• Foto.
+• Deskripsi singkat.
+• Lokasi.
+• Tombol “Lihat SD” .
+SMP
+Informasi:
+• Nama resmi sekolah.
+• Logo.
+• Foto.
+• Deskripsi singkat.
+• Lokasi.
+• Tombol “Lihat SMP” .
+SMA
+Informasi:
+5
+
+PAGE 6
+• Nama resmi sekolah.
+• Logo.
+• Foto.
+• Deskripsi singkat.
+• Lokasi.
+• Tombol “Lihat SMA” .
+7. Profil Yayasan
+Halaman khusus mengenai yayasan.
+Data yang harus disiapkan
+Identitas
+• Nama resmi yayasan.
+• Nama singkat.
+• Logo.
+• Tahun berdiri.
+• Nomor legalitas yayasan jika ingin ditampilkan.
+• Alamat.
+• Nomor telepon.
+• Email.
+• Website.
+• Social media.
+Sejarah
+Minimal mencakup:
+• Tahun berdiri.
+• Pendiri.
+• Latar belakang berdirinya yayasan.
+• Perkembangan yayasan.
+• Tahun berdirinya SD.
+• Tahun berdirinya SMP.
+• Tahun berdirinya SMA.
+Visi
+Visi yayasan.
+Misi
+Daftar misi yayasan.
+6
+
+PAGE 7
+Nilai Y ayasan
+Contoh:
+• Integritas
+• Disiplin
+• Keunggulan
+• Kreativitas
+• Kepedulian
+• Religius
+Nilai sebenarnya disesuaikan dengan yayasan.
+8. Sambutan Ketua Yayasan
+Data:
+• Foto Ketua Yayasan.
+• Nama lengkap.
+• Jabatan.
+• Sambutan.
+• Tanda tangan digital opsional.
+9. Struktur Organisasi Yayasan
+Data:
+• Ketua Yayasan.
+• Wakil Ketua.
+• Sekretaris.
+• Bendahara.
+• Pengurus.
+• Pengawas.
+• Posisi lainnya.
+Bisa ditampilkan dalam bentuk:
+Ketua Yayasan
+￿
+￿￿￿￿￿￿￿￿￿￿￿
+Sekretaris Bendahara
+￿
+Pengelola Pendidikan
+7
+
+PAGE 8
+10. Halaman Profil Sekolah
+SD, SMP, dan SMA memiliki struktur halaman yang konsisten.
+URL direkomendasikan:
+/sekolah/sd
+/sekolah/smp
+/sekolah/sma
+atau:
+/sd
+/smp
+/sma
+11. Data Dasar Setiap Sekolah
+Untuk masing-masing SD, SMP , dan SMA , siapkan:
+Identitas Sekolah
+• Nama lengkap sekolah.
+• Nama singkat.
+• Logo sekolah.
+• NPSN.
+• Status sekolah.
+• Akreditasi.
+• Tahun berdiri.
+• Kepala sekolah.
+• Alamat.
+• Nomor telepon.
+• WhatsApp.
+• Email.
+• Google Maps.
+• Social media.
+12. Profil Kepala Sekolah
+Untuk setiap sekolah:
+• Foto kepala sekolah.
+• Nama lengkap.
+• Gelar.
+8
+
+PAGE 9
+• Jabatan.
+• Sambutan kepala sekolah.
+• Masa jabatan opsional.
+13. Visi & Misi Sekolah
+Setiap sekolah dapat memiliki visi dan misi sendiri.
+Data:
+Visi SD
+Misi SD
+Visi SMP
+Misi SMP
+Visi SMA
+Misi SMA
+14. Program Pendidikan
+Setiap sekolah dapat menampilkan program unggulan.
+Contoh:
+SD
+• Pendidikan karakter.
+• Literasi.
+• Numerasi.
+• English program.
+• Tahfidz.
+• Digital learning.
+SMP
+• STEM.
+• Bahasa Inggris.
+• Coding.
+• Leadership.
+• Entrepreneurship.
+9
+
+PAGE 10
+SMA
+• Program persiapan universitas.
+• Olimpiade.
+• Career preparation.
+• Bahasa asing.
+• Research program.
+Semua program harus bisa ditambah/edit dari CMS.
+15. Kurikulum
+Data yang perlu disiapkan:
+• Kurikulum yang digunakan.
+• Pendekatan pembelajaran.
+• Program tambahan.
+• Sistem evaluasi.
+• Program unggulan.
+Contoh:
+Kurikulum Nasional
++
+Project Based Learning
++
+Digital Learning
++
+Character Building
+16. Fasilitas
+Setiap fasilitas mempunyai:
+• Nama fasilitas.
+• Deskripsi.
+• Foto.
+• Unit sekolah.
+Contoh:
+• Ruang kelas.
+• Laboratorium komputer.
+• Laboratorium IPA.
+• Perpustakaan.
+10
+
+PAGE 11
+• Aula.
+• Lapangan olahraga.
+• Musholla/Masjid.
+• UKS.
+• Kantin.
+• Ruang multimedia.
+• Studio seni.
+• Area bermain.
+• Ruang konseling.
+CMS harus memungkinkan fasilitas tertentu digunakan oleh beberapa sekolah.
+17. Ekstrakurikuler
+Data:
+• Nama ekstrakurikuler.
+• Deskripsi.
+• Foto.
+• Tingkat sekolah.
+Contoh:
+Basket
+Futsal
+Badminton
+Pramuka
+Paskibra
+PMR
+English Club
+Science Club
+Coding Club
+Robotics
+Tahfidz
+Musik
+Tari
+Fotografi
+18. Prestasi
+Website menyediakan database prestasi.
+Kategori:
+11
+
+PAGE 12
+• Akademik.
+• Non-akademik.
+• Olahraga.
+• Seni.
+• Sains.
+• Teknologi.
+• Keagamaan.
+• Prestasi sekolah.
+Data per prestasi:
+• Judul.
+• Nama siswa/tim.
+• Sekolah.
+• Tingkat lomba.
+• Juara.
+• Nama kompetisi.
+• Penyelenggara.
+• Tahun.
+• Foto.
+• Deskripsi.
+Filter:
+Semua
+SD
+SMP
+SMA
+Opsional filter berdasarkan tahun dan kategori.
+19. Berita & Kegiatan
+Website menyediakan artikel berita.
+Contoh:
+Kegiatan MPLS
+Study Tour
+Upacara Hari Kemerdekaan
+Kompetisi Sains
+Wisuda
+12
+
+PAGE 13
+Class Meeting
+Kegiatan Ramadhan
+Kegiatan Sosial
+Data:
+• Judul.
+• Thumbnail.
+• Isi berita.
+• Tanggal.
+• Penulis.
+• Sekolah terkait.
+• Foto.
+• Tag.
+Kategori:
+Yayasan
+SD
+SMP
+SMA
+20. Galeri
+Galeri dapat dibagi menjadi:
+Galeri F oto
+Data:
+• Judul album.
+• Tanggal.
+• Deskripsi.
+• Sekolah.
+• Daftar foto.
+Galeri Video
+Bisa menggunakan:
+• YouTube embed.
+• Video hosting eksternal.
+Direkomendasikan tidak menyimpan video berukuran besar langsung di server
+website.
+13
+
+PAGE 14
+21. PPDB
+PPDB menjadi salah satu halaman paling penting.
+Homepage harus mempunyai tombol:
+Daftar Sekarang
+atau
+Informasi PPDB
+22. Landing Page PPDB
+Struktur:
+PPDB Tahun Ajaran 2027/2028
+Pilih Jenjang
+[ SD ]
+[ SMP ]
+[ SMA ]
+Setiap jenjang mempunyai informasi berbeda.
+23. Data PPDB Per Sekolah
+Siapkan:
+• Tahun ajaran.
+• Periode pendaftaran.
+• Kuota.
+• Syarat pendaftaran.
+• Dokumen yang diperlukan.
+• Tahapan pendaftaran.
+• Jadwal seleksi.
+• Jadwal pengumuman.
+• Biaya pendaftaran.
+• Uang pangkal.
+• SPP.
+• Biaya lainnya.
+14
+
+PAGE 15
+• Kontak PPDB.
+Jika biaya tidak ingin dipublikasikan, bisa menggunakan:
+Hubungi Admin PPDB
+24. Flow PPDB
+Untuk versi awal:
+Website
+↓
+Pilih Sekolah
+↓
+Baca Informasi PPDB
+↓
+Klik Daftar
+↓
+External Form / WhatsApp / Sistem PPDB
+Website profil tidak harus langsung mempunyai sistem PPDB lengkap.
+Tombol pendaftaran dapat mengarah ke:
+• Website PPDB khusus.
+• Google Form.
+• WhatsApp.
+• Sistem admission internal.
+25. Kontak
+Data:
+Y ayasan
+• Alamat.
+• Telepon.
+• WhatsApp.
+• Email.
+SD
+• Alamat.
+• Telepon.
+• WhatsApp.
+15
+
+PAGE 16
+• Email.
+SMP
+• Alamat.
+• Telepon.
+• WhatsApp.
+• Email.
+SMA
+• Alamat.
+• Telepon.
+• WhatsApp.
+• Email.
+26. Google Maps
+Jika seluruh sekolah berada di lokasi yang sama, cukup gunakan satu peta.
+Jika berbeda lokasi, tampilkan:
+Lokasi Yayasan
+Lokasi SD
+Lokasi SMP
+Lokasi SMA
+27. Social Media
+Website dapat terhubung ke:
+• Instagram.
+• YouTube.
+• TikTok.
+• Facebook.
+• LinkedIn.
+Social media dapat berbeda antara yayasan dan setiap sekolah.
+28. Footer
+Footer berisi:
+16
+
+PAGE 17
+Logo Yayasan
+Tentang
+- Profil
+- Visi Misi
+- Sejarah
+Sekolah
+- SD
+- SMP
+- SMA
+Informasi
+- Berita
+- Prestasi
+- PPDB
+Kontak
+Alamat
+Email
+Telepon
+Social Media
+Tambahkan:
+© 2026 Nama Yayasan
+All Rights Reserved
+29. CMS / Admin Website
+Website harus mempunyai CMS agar admin sekolah dapat mengubah konten
+tanpa mengedit source code.
+Admin dapat mengelola:
+• Profil yayasan.
+• Profil sekolah.
+• Berita.
+• Prestasi.
+• Galeri.
+• Fasilitas.
+• Ekstrakurikuler.
+• Program pendidikan.
+• PPDB.
+17
+
+PAGE 18
+• Informasi kontak.
+• Homepage banner.
+• Statistik.
+30. Role Admin
+Direkomendasikan minimal memiliki:
+Super Admin
+Dapat mengelola seluruh website.
+Admin Y ayasan
+Dapat mengelola:
+• Yayasan.
+• Homepage.
+• Berita yayasan.
+• Informasi umum.
+Admin SD
+Hanya mengelola konten SD.
+Admin SMP
+Hanya mengelola konten SMP.
+Admin SMA
+Hanya mengelola konten SMA.
+31. Content Status
+Artikel menggunakan workflow:
+Draft
+↓
+Published
+↓
+Archived
+Opsional:
+18
+
+PAGE 19
+Draft
+↓
+Review
+↓
+Published
+jika konten harus mendapatkan persetujuan yayasan terlebih dahulu.
+32. Search
+Website menyediakan pencarian untuk:
+• Berita.
+• Prestasi.
+• Program.
+• Informasi sekolah.
+33. Responsive Design
+Website wajib optimal di:
+• Desktop.
+• Laptop.
+• Tablet.
+• Smartphone.
+Prioritas tinggi diberikan kepada smartphone karena sebagian besar orang tua
+kemungkinan mengakses website melalui perangkat mobile.
+34. SEO
+Setiap halaman harus memiliki:
+• Meta title.
+• Meta description.
+• Open Graph image.
+• Canonical URL.
+• Sitemap.
+• Robots.txt.
+Structured data direkomendasikan untuk:
+• Organization.
+19
+
+PAGE 20
+• School.
+• Article.
+• Breadcrumb.
+35. URL Structure
+Contoh:
+/
+/tentang
+/tentang/sejarah
+/tentang/visi-misi
+/sekolah
+/sekolah/sd
+/sekolah/smp
+/sekolah/sma
+/berita
+/berita/{slug}
+/prestasi
+/prestasi/{slug}
+/fasilitas
+/galeri
+/ppdb
+/ppdb/sd
+/ppdb/smp
+/ppdb/sma
+/kontak
+36. Performance
+Target:
+• First Load cepat.
+• Optimasi gambar.
+20
+
+PAGE 21
+• Lazy loading.
+• CDN image jika diperlukan.
+• Cache static content.
+Target Google Lighthouse:
+Performance > 85
+Accessibility > 90
+Best Practices > 90
+SEO > 90
+37. Security
+Minimal:
+• HTTPS.
+• Secure admin authentication.
+• Password hashing.
+• Rate limiting login.
+• CSRF protection.
+• File upload validation.
+• Role-based access.
+• Backup database.
+• Audit log untuk admin opsional.
+38. Analytics
+Pasang:
+• Google Analytics 4.
+• Google Search Console.
+Event yang sebaiknya dicatat:
+Klik WhatsApp
+Klik PPDB
+Klik Daftar
+Pilih SD
+Pilih SMP
+Pilih SMA
+Klik Google Maps
+Klik telepon
+Klik social media
+21
+
+PAGE 22
+Hal ini berguna untuk mengetahui halaman sekolah mana yang paling banyak
+menghasilkan calon siswa.
+39. Bahasa
+Versi pertama:
+Bahasa Indonesia
+Optional fase berikutnya:
+English
+Jika target yayasan juga mencakup sekolah bilingual/internasional, multi-
+language dapat dipertimbangkan sejak awal arsitektur website.
+40. Design Direction
+Karakter desain:
+• Modern.
+• Profesional.
+• Edukatif.
+• Friendly.
+• Terpercaya.
+• Tidak terlalu corporate.
+• Menampilkan banyak aktivitas nyata siswa.
+Gunakan foto asli sekolah dibandingkan stock photo.
+41. Homepage Recommended Layout
+Navbar
+Hero
+↓
+Introduction Yayasan
+↓
+SD | SMP | SMA
+↓
+Why Choose Us
+↓
+22
+
+PAGE 23
+Program Unggulan
+↓
+Statistik Yayasan
+↓
+Fasilitas
+↓
+Prestasi Terbaru
+↓
+Berita & Kegiatan
+↓
+Galeri
+↓
+PPDB CTA
+↓
+Lokasi & Kontak
+↓
+Footer
+42. Why Choose Us
+Data yang perlu disiapkan yayasan.
+Contoh:
+Tenaga Pendidik Berkualitas
+Pendidikan Karakter
+Lingkungan Belajar Nyaman
+Fasilitas Modern
+Program Akademik Berkualitas
+Pengembangan Minat & Bakat
+Usahakan menggunakan keunggulan yang benar-benar dimiliki sekolah, bukan
+sekadar klaim marketing umum.
+43. Database / Content Model
+Minimal entity CMS:
+23
+
+PAGE 24
+F oundation
+name
+logo
+description
+history
+vision
+mission
+address
+phone
+email
+social_media
+School
+name
+level
+logo
+description
+npsn
+accreditation
+established_year
+principal
+address
+phone
+whatsapp
+email
+maps
+level:
+SD
+SMP
+SMA
+News
+title
+slug
+thumbnail
+content
+school
+category
+published_at
+author
+status
+24
+
+PAGE 25
+Achievement
+title
+student_name
+school
+competition
+rank
+level
+year
+description
+image
+F acility
+name
+description
+image
+schools
+Extracurricular
+name
+description
+image
+schools
+Gallery
+title
+description
+school
+date
+images
+Admission / PPDB
+school
+academic_year
+registration_start
+registration_end
+requirements
+registration_fee
+tuition_fee
+registration_url
+contact
+status
+25
+
+PAGE 26
+44. Data yang Harus Disiapkan Sebelum Devel-
+opment
+A. Yayasan
+□ Nama yayasan
+□ Logo resolusi tinggi
+□ Brand guideline jika ada
+□ Warna utama
+□ Warna sekunder
+□ Tagline
+□ Profil yayasan
+□ Sejarah
+□ Visi
+□ Misi
+□ Nilai yayasan
+□ Struktur organisasi
+□ Foto pengurus
+□ Sambutan Ketua Yayasan
+□ Alamat
+□ Telepon
+□ WhatsApp
+□ Email
+□ Social media
+□ Google Maps
+45. Data SD
+□ Nama resmi
+□ Logo
+□ NPSN
+□ Akreditasi
+□ Tahun berdiri
+□ Profil
+□ Visi
+□ Misi
+□ Foto kepala sekolah
+□ Sambutan kepala sekolah
+□ Kurikulum
+□ Program unggulan
+□ Ekstrakurikuler
+□ Fasilitas
+□ Prestasi
+26
+
+PAGE 27
+□ Foto sekolah
+□ Foto kegiatan
+□ Informasi PPDB
+□ Biaya pendidikan jika ingin ditampilkan
+□ Alamat
+□ WhatsApp
+□ Email
+□ Social media
+46. Data SMP
+□ Nama resmi
+□ Logo
+□ NPSN
+□ Akreditasi
+□ Tahun berdiri
+□ Profil
+□ Visi
+□ Misi
+□ Foto kepala sekolah
+□ Sambutan kepala sekolah
+□ Kurikulum
+□ Program unggulan
+□ Ekstrakurikuler
+□ Fasilitas
+□ Prestasi
+□ Foto sekolah
+□ Foto kegiatan
+□ Informasi PPDB
+□ Biaya pendidikan jika ingin ditampilkan
+□ Alamat
+□ WhatsApp
+□ Email
+□ Social media
+47. Data SMA
+□ Nama resmi
+□ Logo
+□ NPSN
+□ Akreditasi
+27
+
+PAGE 28
+□ Tahun berdiri
+□ Profil
+□ Visi
+□ Misi
+□ Foto kepala sekolah
+□ Sambutan kepala sekolah
+□ Kurikulum
+□ Program/jurusan
+□ Program unggulan
+□ Ekstrakurikuler
+□ Fasilitas
+□ Prestasi
+□ Data kelulusan
+□ Data universitas alumni jika tersedia
+□ Foto sekolah
+□ Foto kegiatan
+□ Informasi PPDB
+□ Biaya pendidikan jika ingin ditampilkan
+□ Alamat
+□ WhatsApp
+□ Email
+□ Social media
+48. Asset Foto yang Harus Disiapkan
+Minimal:
+Y ayasan
+• Gedung utama.
+• Ketua yayasan.
+• Pengurus.
+• Foto bersama.
+Setiap Sekolah
+Minimal:
+• Exterior gedung.
+• Ruang kelas.
+• Guru mengajar.
+• Siswa belajar.
+• Laboratorium.
+• Perpustakaan.
+• Lapangan.
+28
+
+PAGE 29
+• Kegiatan olahraga.
+• Ekstrakurikuler.
+• Event sekolah.
+• Prestasi siswa.
+• Foto kepala sekolah.
+Direkomendasikan minimal:
+15–30 foto berkualitas per unit sekolah.
+Gunakan foto landscape berkualitas tinggi untuk hero dan banner.
+49. Prioritas MVP
+Untuk versi pertama website, fitur wajib:
+P0 / W ajib
+Homepage
+Profil Yayasan
+SD
+SMP
+SMA
+Berita
+Prestasi
+Fasilitas
+Galeri
+PPDB
+Kontak
+CMS
+Responsive
+SEO dasar
+P1 / Setelah Launch
+Advanced Search
+Newsletter
+FAQ
+Testimonial
+Alumni
+Event Calendar
+Multiple Language
+Analytics Dashboard
+P2 / F uture Development
+PPDB Online
+Student Portal
+29
+
+PAGE 30
+Parent Portal
+LMS Integration
+Payment Integration
+Alumni Portal
+Job Vacancy
+Scholarship Portal
+50. Success Metrics
+Keberhasilan website dapat diukur dari:
+• Jumlah visitor.
+• Jumlah halaman sekolah yang dikunjungi.
+• Jumlah klik WhatsApp.
+• Jumlah klik PPDB.
+• Jumlah calon siswa menuju halaman pendaftaran.
+• Organic traﬀic Google.
+• Ranking keyword sekolah.
+• Engagement berita.
+• Mobile performance.
+Metric utama direkomendasikan:
+Website Visitor
+↓
+School Profile View
+↓
+PPDB Page View
+↓
+Click Daftar / WhatsApp
+51. Outcome
+Website akhir harus membuat visitor dapat memahami dalam waktu singkat:
+Siapa yayasannya?
+Sekolah apa saja yang dimiliki?
+Apa keunggulan sekolahnya?
+Bagaimana fasilitas dan aktivitas siswanya?
+Apa prestasinya?
+Bagaimana cara mendaftarkan anak?
+30
+
+PAGE 31
+Idealnya calon orang tua dapat berpindah dari homepage menuju informasi
+pendaftaran dalam maksimal:
+2–3 klik
+Struktur website harus tetap berpusat pada identitas yayasan, tetapi SD, SMP,
+dan SMA mempunyai identitas, konten, berita, prestasi, fasilitas, dan informasi
+PPDB masing-masing.
+31

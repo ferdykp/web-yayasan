@@ -1,0 +1,736 @@
+portal_ppdb_2026_2027_yayasan_pendidikan_harapan_mulia
+
+
+    function openModal(type) {
+      const container = document.getElementById('modal-container');
+      const content = document.getElementById('modal-content');
+      
+      let title = "Informasi Pendaftaran";
+      let details = "";
+
+      if(type === 'modal-sd') {
+        title = "Panduan & Estimasi Biaya SD Harapan Mulia";
+        details = `
+          <div class="space-y-4 pt-2">
+            <span class="px-3 py-1 bg-surface-container text-primary font-label-sm rounded-full">Tahun Ajaran 2026/2027</span>
+            <h3 class="font-headline-md text-headline-md text-primary font-bold">${title}</h3>
+            <p class="font-body-md text-on-surface-variant">Rincian estimasi investasi pendidikan jenjang Sekolah Dasar (SD) Harapan Mulia:</p>
+            <div class="bg-surface-container-low p-4 rounded-DEFAULT space-y-2 font-body-sm">
+              <div class="flex justify-between py-1 border-b border-outline-variant/20"><span>Formulir & Asesmen:</span><span class="font-bold text-primary">Rp 450.000</span></div>
+              <div class="flex justify-between py-1 border-b border-outline-variant/20"><span>Uang Pangkal (Gelombang 1):</span><span class="font-bold text-primary">Rp 14.500.000</span></div>
+              <div class="flex justify-between py-1 border-b border-outline-variant/20"><span>SPP Bulanan (Termasuk Catering Sehat):</span><span class="font-bold text-primary">Rp 1.400.000 / bln</span></div>
+              <div class="flex justify-between py-1"><span>Seragam & Buku Paket:</span><span class="font-bold text-primary">Rp 1.850.000 / thn</span></div>
+            </div>
+            <a href="#" class="w-full inline-flex items-center justify-center gap-2 py-3 rounded-full bg-primary text-on-primary font-label-lg">Unduh Dokumen Brosur PDF</a>
+          </div>
+        `;
+      } else if (type === 'modal-smp') {
+        title = "Panduan & Estimasi Biaya SMP Harapan Mulia";
+        details = `
+          <div class="space-y-4 pt-2">
+            <span class="px-3 py-1 bg-surface-container text-primary font-label-sm rounded-full">Tahun Ajaran 2026/2027</span>
+            <h3 class="font-headline-md text-headline-md text-primary font-bold">${title}</h3>
+            <p class="font-body-md text-on-surface-variant">Rincian estimasi investasi pendidikan jenjang Sekolah Menengah Pertama (SMP):</p>
+            <div class="bg-surface-container-low p-4 rounded-DEFAULT space-y-2 font-body-sm">
+              <div class="flex justify-between py-1 border-b border-outline-variant/20"><span>Formulir & Tes Diagnostik:</span><span class="font-bold text-primary">Rp 500.000</span></div>
+              <div class="flex justify-between py-1 border-b border-outline-variant/20"><span>Uang Pangkal (Gelombang 1):</span><span class="font-bold text-primary">Rp 17.500.000</span></div>
+              <div class="flex justify-between py-1 border-b border-outline-variant/20"><span>SPP Bulanan (Termasuk Lab Digital):</span><span class="font-bold text-primary">Rp 1.650.000 / bln</span></div>
+              <div class="flex justify-between py-1"><span>Kegiatan Kepemimpinan Tahunan:</span><span class="font-bold text-primary">Rp 2.100.000 / thn</span></div>
+            </div>
+            <a href="#" class="w-full inline-flex items-center justify-center gap-2 py-3 rounded-full bg-primary text-on-primary font-label-lg">Unduh Dokumen Brosur PDF</a>
+          </div>
+        `;
+      } else if (type === 'modal-sma') {
+        title = "Panduan & Estimasi Biaya SMA Harapan Mulia";
+        details = `
+          <div class="space-y-4 pt-2">
+            <span class="px-3 py-1 bg-surface-container text-primary font-label-sm rounded-full">Tahun Ajaran 2026/2027</span>
+            <h3 class="font-headline-md text-headline-md text-primary font-bold">${title}</h3>
+            <p class="font-body-md text-on-surface-variant">Rincian estimasi investasi pendidikan jenjang Sekolah Menengah Atas (SMA):</p>
+            <div class="bg-surface-container-low p-4 rounded-DEFAULT space-y-2 font-body-sm">
+              <div class="flex justify-between py-1 border-b border-outline-variant/20"><span>Formulir & Asesmen Karir:</span><span class="font-bold text-primary">Rp 550.000</span></div>
+              <div class="flex justify-between py-1 border-b border-outline-variant/20"><span>Uang Pangkal (Gelombang 1):</span><span class="font-bold text-primary">Rp 19.500.000</span></div>
+              <div class="flex justify-between py-1 border-b border-outline-variant/20"><span>SPP Bulanan (Pra-Kuliah & TOEFL):</span><span class="font-bold text-primary">Rp 1.850.000 / bln</span></div>
+              <div class="flex justify-between py-1"><span>Modul & Praktikum Laboratorium:</span><span class="font-bold text-primary">Rp 2.400.000 / thn</span></div>
+            </div>
+            <a href="#" class="w-full inline-flex items-center justify-center gap-2 py-3 rounded-full bg-primary text-on-primary font-label-lg">Unduh Dokumen Brosur PDF</a>
+          </div>
+        `;
+      }
+
+      content.innerHTML = details;
+      container.classList.remove('hidden');
+    }
+
+    function openTourModal() {
+      const container = document.getElementById('modal-container');
+      const content = document.getElementById('modal-content');
+      content.innerHTML = `
+        <div class="space-y-4 pt-2">
+          <span class="px-3 py-1 bg-secondary-container text-primary font-label-sm rounded-full">Reservasi Kunjungan Langsung</span>
+          <h3 class="font-headline-md text-headline-md text-primary font-bold">Booking Jadwal School Tour</h3>
+          <p class="font-body-md text-on-surface-variant">Kunjungi kampus kami bersama keluarga untuk melihat fasilitas kelas, laboratorium, lapangan olahraga, dan sarana ibadah secara langsung.</p>
+          <form onsubmit="event.preventDefault(); alert('Terima kasih! Tim Humas Harapan Mulia akan mengonfirmasi slot kunjungan Anda via WhatsApp.'); closeModal();" class="space-y-3 font-body-sm">
+            <div>
+              <label class="block font-semibold mb-1 text-on-surface">Nama Lengkap Orang Tua</label>
+              <input required type="text" class="w-full p-2.5 rounded-DEFAULT border border-outline-variant bg-surface-container-low text-on-surface focus:outline-none focus:border-primary" placeholder="Bpk/Ibu ..."/>
+            </div>
+            <div>
+              <label class="block font-semibold mb-1 text-on-surface">Nomor WhatsApp Aktif</label>
+              <input required type="tel" class="w-full p-2.5 rounded-DEFAULT border border-outline-variant bg-surface-container-low text-on-surface focus:outline-none focus:border-primary" placeholder="08xxxxxxxxxx"/>
+            </div>
+            <div>
+              <label class="block font-semibold mb-1 text-on-surface">Pilihan Jenjang & Hari Kunjungan</label>
+              <select class="w-full p-2.5 rounded-DEFAULT border border-outline-variant bg-surface-container-low text-on-surface focus:outline-none focus:border-primary">
+                <option>SD - Hari Kerja (09.00 WIB)</option>
+                <option>SMP - Hari Kerja (10.00 WIB)</option>
+                <option>SMA - Hari Kerja (13.30 WIB)</option>
+                <option>Seluruh Jenjang - Sabtu Pagi (08.30 WIB)</option>
+              </select>
+            </div>
+            <button type="submit" class="w-full py-3 rounded-full bg-primary text-on-primary font-label-lg font-bold mt-2 hover:bg-primary-container">Konfirmasi Reservasi Jadwal</button>
+          </form>
+        </div>
+      `;
+      container.classList.remove('hidden');
+    }
+
+    function closeModal() {
+      const container = document.getElementById('modal-container');
+      container.classList.add('hidden');
+    }
+
+    // Close modal on click outside
+    document.getElementById('modal-container').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closeModal();
+      }
+    });
+  
+
+smp_harapan_mulia_eksplorasi_nalar_kepemimpinan_remaja
+
+
+      function toggleFaq(btn) {
+        const content = btn.nextElementSibling;
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (content.classList.contains('hidden')) {
+          content.classList.remove('hidden');
+          icon.classList.add('rotate-180');
+        } else {
+          content.classList.add('hidden');
+          icon.classList.remove('rotate-180');
+        }
+      }
+    
+
+yayasan_pendidikan_harapan_mulia_rekam_prestasi_siswa
+
+
+    (function initPrestasiFiltering() {
+      const levelButtons = document.querySelectorAll('[data-filter-type="level"]');
+      const categoryButtons = document.querySelectorAll('[data-filter-type="category"]');
+      const yearButtons = document.querySelectorAll('.year-btn');
+      const cards = document.querySelectorAll('.prestasi-card');
+      const recordCountEl = document.getElementById('record-count');
+
+      let currentLevel = 'all';
+      let currentCategory = 'all';
+
+      function updateActiveStyles(buttonGroup, activeBtn) {
+        buttonGroup.forEach(btn => {
+          btn.classList.remove('bg-primary', 'text-on-primary', 'active-pill');
+          btn.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        });
+        activeBtn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+        activeBtn.classList.add('bg-primary', 'text-on-primary', 'active-pill');
+      }
+
+      function filterCards() {
+        let visibleCount = 0;
+        cards.forEach(card => {
+          const cardLevel = card.getAttribute('data-level');
+          const cardCategory = card.getAttribute('data-category');
+
+          const matchLevel = (currentLevel === 'all' || cardLevel === currentLevel);
+          const matchCategory = (currentCategory === 'all' || cardCategory === currentCategory);
+
+          if (matchLevel && matchCategory) {
+            card.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+
+        if (recordCountEl) {
+          recordCountEl.textContent = visibleCount;
+        }
+      }
+
+      levelButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          currentLevel = btn.getAttribute('data-value');
+          updateActiveStyles(levelButtons, btn);
+          filterCards();
+        });
+      });
+
+      categoryButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          currentCategory = btn.getAttribute('data-value');
+          updateActiveStyles(categoryButtons, btn);
+          filterCards();
+        });
+      });
+
+      yearButtons.forEach(btn => {
+        btn.addEventListener('click', () => {
+          yearButtons.forEach(y => {
+            y.classList.remove('bg-primary', 'text-on-primary', 'font-bold');
+            y.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+          });
+          btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+          btn.classList.add('bg-primary', 'text-on-primary', 'font-bold');
+        });
+      });
+    })();
+  
+
+sd_harapan_mulia_fondasi_karakter_pembelajaran_menyenangkan
+
+
+yayasan_pendidikan_harapan_mulia_kontak_kunjungan_kampus
+
+
+  function showSuccessToast() {
+    const banner = document.getElementById('form-success-banner');
+    if (banner) {
+      banner.classList.remove('hidden');
+      banner.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      setTimeout(() => {
+        const form = document.getElementById('contact-inquiry-form');
+        if (form) form.reset();
+      }, 1500);
+    }
+  }
+
+
+yayasan_pendidikan_harapan_mulia_warta_cerita_sekolah
+
+
+  (function() {
+    const categoryButtons = document.querySelectorAll('.category-btn');
+    const searchInput = document.getElementById('article-search-input');
+    const articles = document.querySelectorAll('.article-card');
+    const emptyState = document.getElementById('no-articles-found');
+    const countLabel = document.getElementById('article-count-label');
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterSuccess = document.getElementById('newsletter-success');
+
+    let currentCategory = 'all';
+    let searchQuery = '';
+
+    function filterArticles() {
+      let visibleCount = 0;
+
+      articles.forEach(card => {
+        const category = card.getAttribute('data-category');
+        const textContent = card.innerText.toLowerCase();
+
+        const matchesCategory = (currentCategory === 'all' || category === currentCategory);
+        const matchesSearch = searchQuery === '' || textContent.includes(searchQuery.toLowerCase());
+
+        if (matchesCategory && matchesSearch) {
+          card.classList.remove('hidden');
+          visibleCount++;
+        } else {
+          card.classList.add('hidden');
+        }
+      });
+
+      if (countLabel) {
+        countLabel.textContent = `Menampilkan ${visibleCount} Cerita`;
+      }
+
+      if (emptyState) {
+        if (visibleCount === 0) {
+          emptyState.classList.remove('hidden');
+        } else {
+          emptyState.classList.add('hidden');
+        }
+      }
+    }
+
+    categoryButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        categoryButtons.forEach(btn => {
+          btn.classList.remove('bg-primary-container', 'text-on-primary', 'shadow-sm');
+          btn.classList.add('text-secondary');
+        });
+
+        button.classList.remove('text-secondary');
+        button.classList.add('bg-primary-container', 'text-on-primary', 'shadow-sm');
+
+        currentCategory = button.getAttribute('data-category');
+        filterArticles();
+      });
+    });
+
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value.trim();
+        filterArticles();
+      });
+    }
+
+    if (newsletterForm) {
+      newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const input = document.getElementById('newsletter-email-input');
+        if (input && input.value) {
+          newsletterForm.classList.add('opacity-50', 'pointer-events-none');
+          setTimeout(() => {
+            newsletterForm.classList.add('hidden');
+            if (newsletterSuccess) {
+              newsletterSuccess.classList.remove('hidden');
+              newsletterSuccess.classList.add('flex');
+            }
+          }, 400);
+        }
+      });
+    }
+  })();
+
+
+yayasan_pendidikan_harapan_mulia_kehidupan_siswa_galeri
+
+
+  document.addEventListener('DOMContentLoaded', () => {
+    // Gallery Filter Tabs Interactive Switching
+    const filterBtns = document.querySelectorAll('.gallery-filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Reset button states
+        filterBtns.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+          b.classList.add('bg-surface-container-low', 'text-secondary');
+          b.setAttribute('aria-selected', 'false');
+        });
+
+        // Activate clicked button
+        btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+        btn.classList.remove('bg-surface-container-low', 'text-secondary');
+        btn.setAttribute('aria-selected', 'true');
+
+        const filterCategory = btn.getAttribute('data-category');
+
+        // Filter cards
+        galleryItems.forEach(item => {
+          if (filterCategory === 'all' || item.getAttribute('data-category') === filterCategory) {
+            item.style.display = 'flex';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Load more dummy handler
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', () => {
+        loadMoreBtn.innerHTML = `
+          <span class="material-symbols-outlined text-[20px] animate-spin">sync</span>
+          <span>Menyiapkan Foto Arsip...</span>
+        `;
+        setTimeout(() => {
+          loadMoreBtn.innerHTML = `
+            <span class="material-symbols-outlined text-[20px]">check_circle</span>
+            <span>Seluruh Koleksi Semester Ini Telah Tampil</span>
+          `;
+          loadMoreBtn.disabled = true;
+          loadMoreBtn.classList.add('opacity-70', 'cursor-default');
+        }, 800);
+      });
+    }
+  });
+
+
+yayasan_pendidikan_harapan_mulia_beranda
+
+
+yayasan_pendidikan_harapan_mulia_menumbuhkan_sikap_inquiry_adab
+
+
+    (function() {
+      // 1. Reading Progress Bar
+      window.addEventListener('scroll', function() {
+        const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = (winScroll / height) * 100;
+        const bar = document.getElementById('scroll-indicator');
+        if (bar) {
+          bar.style.width = scrolled + '%';
+        }
+      });
+
+      // 2. Font Resizer
+      let currentFontScale = 1;
+      const articleContainer = document.getElementById('article-content-container');
+      const btnIncrease = document.getElementById('btn-font-increase');
+      const btnDecrease = document.getElementById('btn-font-decrease');
+
+      if (btnIncrease && articleContainer) {
+        btnIncrease.addEventListener('click', function() {
+          if (currentFontScale < 1.25) {
+            currentFontScale += 0.08;
+            articleContainer.style.fontSize = (currentFontScale * 100) + '%';
+          }
+        });
+      }
+
+      if (btnDecrease && articleContainer) {
+        btnDecrease.addEventListener('click', function() {
+          if (currentFontScale > 0.85) {
+            currentFontScale -= 0.08;
+            articleContainer.style.fontSize = (currentFontScale * 100) + '%';
+          }
+        });
+      }
+
+      // 3. Like Appreciation Button
+      const btnLike = document.getElementById('btn-like');
+      const likeCounter = document.getElementById('like-counter');
+      const likeIcon = document.getElementById('like-icon');
+      let isLiked = false;
+
+      if (btnLike && likeCounter && likeIcon) {
+        btnLike.addEventListener('click', function() {
+          let count = parseInt(likeCounter.innerText);
+          if (!isLiked) {
+            count += 1;
+            likeCounter.innerText = count;
+            likeIcon.style.fontVariationSettings = "'FILL' 1";
+            btnLike.classList.add('bg-primary', 'text-on-primary');
+            btnLike.classList.remove('bg-surface-container-lowest', 'text-primary');
+            isLiked = true;
+          } else {
+            count -= 1;
+            likeCounter.innerText = count;
+            likeIcon.style.fontVariationSettings = "'FILL' 0";
+            btnLike.classList.remove('bg-primary', 'text-on-primary');
+            btnLike.classList.add('bg-surface-container-lowest', 'text-primary');
+            isLiked = false;
+          }
+        });
+      }
+
+      // 4. Bookmark Toggle
+      const btnBookmark = document.getElementById('btn-bookmark');
+      const bookmarkIcon = document.getElementById('bookmark-icon');
+      let isBookmarked = false;
+
+      if (btnBookmark && bookmarkIcon) {
+        btnBookmark.addEventListener('click', function() {
+          isBookmarked = !isBookmarked;
+          if (isBookmarked) {
+            bookmarkIcon.style.fontVariationSettings = "'FILL' 1";
+            alert('Artikel disimpan ke daftar bacaan Anda.');
+          } else {
+            bookmarkIcon.style.fontVariationSettings = "'FILL' 0";
+          }
+        });
+      }
+    })();
+  
+
+yayasan_pendidikan_harapan_mulia_tentang_kami
+
+
+  const timelineData = [
+    {
+      year: "2005",
+      title: "Pendirian Yayasan Harapan Mulia",
+      desc: "Didirikan oleh para akademisi dan tokoh pendidik di Jakarta Selatan dengan komitmen menghadirkan model pendidikan berbasis keadaban, keterbukaan pikiran, serta pembentukan karakter generasi muda bangsa.",
+      milestone: "Akta Notaris & Legalitas Yayasan Diresmikan",
+      imgAlt: "Historic documentary style photo of school founders looking over building blueprints inside a sunny colonial style hall, warm retro editorial mood, candid professional founding moment in Jakarta"
+    },
+    {
+      year: "2008",
+      title: "Pembukaan SD Harapan Mulia",
+      desc: "Memulai angkatan pertama pendidikan dasar dengan penekanan pada penanaman budi pekerti, literasi bilingual awal, serta konsep active learning berbasis eksplorasi alam terbuka.",
+      milestone: "Penerimaan Angkatan Pertama 120 Siswa SD",
+      imgAlt: "Elementary school children in neat green and white uniforms sitting on wooden desks reading storybooks with a kind teacher helping them, sunlit classroom atmosphere"
+    },
+    {
+      year: "2013",
+      title: "Peresmian SMP Harapan Mulia",
+      desc: "Merentang sayap ke jenjang menengah pertama guna mendampingi masa transisi remaja dengan pembiasaan riset saintifik sederhana, kepemimpinan OSIS, dan penguatan minat bakat seni.",
+      milestone: "Perolehan Akreditasi A Pertama Tingkat Menengah",
+      imgAlt: "Middle school students in clean science laboratory uniforms examining botanical plant specimens under microscopes, smiling collaboratively"
+    },
+    {
+      year: "2018",
+      title: "Kampus SMA Unggulan Diresmikan",
+      desc: "Fasilitas kampus terpadu jenjang SMA didirikan guna mempersiapkan calon pemimpin masa depan menembus universitas terkemuka dunia dan perguruan tinggi negeri unggulan Indonesia.",
+      milestone: "Laboratorium Riset & Gedung Audiovisual Berstandar Global",
+      imgAlt: "High school senior students in blazer uniforms presenting interactive architectural project slides on large digital touch screen in modern auditorium"
+    },
+    {
+      year: "2024",
+      title: "Transformasi Kampus Terpadu & Merdeka",
+      desc: "Implementasi penuh ekosistem Kurikulum Merdeka Terpadu, panel tenaga surya ramah lingkungan di seluruh atap gedung, serta peluncuran beasiswa generasi berprestasi berintegritas.",
+      milestone: "Sertifikasi Eco-Campus & Kolaborasi Riset Luar Negeri",
+      imgAlt: "Modern aerial view of integrated green sustainable school campus with solar roof panels, central lush library quadrangle, happy students gathered"
+    }
+  ];
+
+  function switchTimeline(index) {
+    const buttons = document.querySelectorAll('#timeline-buttons .timeline-btn');
+    buttons.forEach((btn, i) => {
+      if (i === index) {
+        btn.classList.remove('bg-surface-container-lowest', 'text-on-surface-variant');
+        btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+      } else {
+        btn.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+        btn.classList.add('bg-surface-container-lowest', 'text-on-surface-variant');
+      }
+    });
+
+    const item = timelineData[index];
+    const yearEl = document.getElementById('tl-year');
+    const titleEl = document.getElementById('tl-title');
+    const descEl = document.getElementById('tl-desc');
+    const milestoneEl = document.getElementById('tl-milestone');
+    const imgEl = document.getElementById('tl-img');
+
+    if (yearEl) yearEl.textContent = item.year;
+    if (titleEl) titleEl.textContent = item.title;
+    if (descEl) descEl.textContent = item.desc;
+    if (milestoneEl) milestoneEl.textContent = item.milestone;
+    if (imgEl) {
+      imgEl.style.opacity = '0.4';
+      imgEl.setAttribute('data-alt', item.imgAlt);
+      setTimeout(() => {
+        imgEl.style.opacity = '1';
+      }, 150);
+    }
+  }
+
+
+yayasan_pendidikan_harapan_mulia_direktori_sekolah
+
+
+sma_harapan_mulia_program_kurikulum_jenjang_atas
+
+
+yayasan_pendidikan_harapan_mulia_akademik_program_pendidikan
+
+
+  (function() {
+    const filterButtons = document.querySelectorAll('#level-filter-bar .filter-btn');
+    const cards = document.querySelectorAll('#programs-grid .program-card');
+
+    if (!filterButtons.length || !cards.length) return;
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const filter = button.getAttribute('data-filter');
+
+        // Update Button States
+        filterButtons.forEach(btn => {
+          btn.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+          btn.classList.add('text-secondary');
+        });
+
+        button.classList.remove('text-secondary');
+        button.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+
+        // Filter Cards
+        cards.forEach(card => {
+          const levels = card.getAttribute('data-levels') || '';
+          if (filter === 'all' || levels.includes(filter)) {
+            card.style.display = 'flex';
+            card.classList.add('animate-fade-in');
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+  })();
+
+
+yayasan_pendidikan_harapan_mulia_fasilitas_kampus_terpadu
+
+
+    // Tab Filter Logic
+    const filterButtons = document.querySelectorAll('.facility-filter-btn');
+    const cards = document.querySelectorAll('.facility-card');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        // Active button styles
+        filterButtons.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container', 'text-on-surface-variant');
+        });
+        btn.classList.remove('bg-surface-container', 'text-on-surface-variant');
+        btn.classList.add('bg-primary', 'text-on-primary');
+
+        const filterVal = btn.getAttribute('data-category');
+
+        cards.forEach(card => {
+          const itemCat = card.getAttribute('data-item-category');
+          if (filterVal === 'all' || itemCat === filterVal) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Facility Modal Data Dictionary
+    const facilitySpecs = {
+      'lab-sains': {
+        title: 'Laboratorium Sains & Bioteknologi Terpadu',
+        location: 'Gedung Saintika Lt. 3',
+        specs: [
+          '4 Ruang Lab Independen: Fisika Presisi, Kimia Analitik, Biologi Molekuler, & Agroteknologi.',
+          'Peralatan canggih: Mikroskop berkamera digital, PCR Mini, Spectrophotometer, Lemari Asam (Fume Hood).',
+          'Sistem K3: Sensor pendeteksi kebocoran gas otomatis, eye-washer station, safety shower darurat, dan APAR kelas ABC di setiap sudut.'
+        ],
+        hours: 'Senin - Jumat: 07.30 - 15.30 WIB (Praktikum & Ekstrakurikuler Riset)'
+      },
+      'perpustakaan': {
+        title: 'Perpustakaan Digital & Reading Sanctuary',
+        location: 'Gedung Pusat Graha Mulia Lt. 1 & 2',
+        specs: [
+          'Koleksi buku cetak melebihi 40.000 judul terbitan nasional dan internasional terakreditasi.',
+          'Akses berlangganan portal e-journal internasional JSTOR, Springer Nature, serta komik edukasi interaktif.',
+          'Area hening bersofa ergonomis, meja diskusi kelompok berpapan tulis kaca, dan 20 terminal iMac untuk riset komparatif.'
+        ],
+        hours: 'Senin - Sabtu: 07.00 - 17.00 WIB'
+      },
+      'fablab': {
+        title: 'STEM Innovation Hub & FabLab',
+        location: 'Inovasi Paviliun Lt. 1',
+        specs: [
+          '12 Unit FDM & SLA 3D Printers berkemampuan cetak polimer biodegradable presisi tinggi.',
+          'Laser cutting & engraving machine berdaya 80W untuk pengerjaan proyek arsitektur dan rancang bangun prototipe.',
+          'Ratusan sensor IoT, mikrokontroler Arduino Uno/Nano, ESP32, kit robotika LEGO Education SPIKE Prime.'
+        ],
+        hours: 'Senin - Jumat: 08.00 - 16.30 WIB'
+      },
+      'sports-dome': {
+        title: 'Gelanggang Olahraga & Kolam Renang Semi-Olympic',
+        location: 'Harapan Sports Dome',
+        specs: [
+          'Kolam renang 25m x 12.5m (8 lintasan) dengan teknologi filtrasi air garam ozonasi tanpa iritasi mata.',
+          'Gelanggang serbaguna indoor dengan lantai kayu maple berstandar peredaman benturan FIBA dan BWF.',
+          'Locker room berpenyejuk udara, shower air hangat, dan sistem lifeguard bersertifikat kedaruratan air nasional.'
+        ],
+        hours: 'Setiap Hari: 06.00 - 18.00 WIB (Siswa & Tim Pembinaan Atletik)'
+      },
+      'auditorium': {
+        title: 'Grand Auditorium "Graha Swara"',
+        location: 'Gedung Kesenian Lt. 1 - 2',
+        specs: [
+          '1.000 Kursi teater bertingkat dengan kenyamanan ergonomis dan sudut pandang panggung 100% bebas hambatan.',
+          'Akustik arsitektural kayu berpori dengan waktu dengung terkalibrasi khusus untuk orkestra simfoni dan orasi ilmiah.',
+          'Ruang kendali tata audio digital 32 channel, proyektor laser 4K Christie 20.000 lumens, dan 4 ruang ganti penampil privat.'
+        ],
+        hours: 'Digunakan terjadwal untuk perhelatan akbar, pementasan musikal, konferensi internasional, dan wisuda kelulusan.'
+      },
+      'studio-seni': {
+        title: 'Studio Seni Musik & Seni Rupa Terpadu',
+        location: 'Sayap Budaya Lt. 2',
+        specs: [
+          'Workshop keramik lengkap dengan 6 alat putar listrik, area pemodelan tanah liat, dan tungku pembakaran bersuhu 1200°C.',
+          'Studio musik berperedam rockwool 80kg/m3 dengan drum akustik Roland, piano akustik Yamaha Grand, keyboard sintetis, dan workstation DAW audio editing.',
+          'Ruang pamer galeri seni siswa bertata cahaya spotlight track yang memajang karya seni lukis dan fotografi.'
+        ],
+        hours: 'Senin - Jumat: 08.00 - 16.00 WIB'
+      },
+      'masjid': {
+        title: 'Masjid Al-Mulia & Sentra Pembinaan Spiritual',
+        location: 'Taman Tengah Kampus',
+        specs: [
+          'Bangunan semi-terbuka dengan pendinginan alami hemat energi, kolam air sirkulasi, dan mimbar marmer minimalis.',
+          'Kapasitas salat berjamaah hingga 1.200 jamaah sekaligus (pria dan wanita di area terpisah dan nyaman).',
+          '4 Bilik talaqqi tahfidz Quran kedap suara untuk pendampingan hafalan intensif bersama ustadz/ustadzah pembina.'
+        ],
+        hours: 'Buka sepanjang hari untuk ibadah salat fardhu, kultum dzuhur, dan kajian keagamaan berkala.'
+      },
+      'kantin': {
+        title: 'Kantin Sehat Higienis & Kafetaria Komunitas',
+        location: 'Paviliun Boga Kampus',
+        specs: [
+          'Dikelola melalui audit sanitasi berkala oleh ahli gizi kampus; bebas dari MSG sintetik berlebih, pengawet berbahaya, dan pewarna sintetis.',
+          'Sistem pembayaran nirsentuh (Cashless RFID Student Card) yang memungkinkan orang tua memantau riwayat asupan gizi anak via portal orang tua.',
+          'Area makan berkapasitas 500 orang dengan stasiun pemilahan sampah organik, anorganik, dan residu sisa makanan.'
+        ],
+        hours: 'Senin - Jumat: 07.00 - 15.30 WIB'
+      },
+      'klinik': {
+        title: 'Klinik Medis & Wellness UKS Terpadu',
+        location: 'Gedung Pusat Lt. 1',
+        specs: [
+          'Ditangani dokter umum terdaftar IDI dan dua perawat berlisensi setiap hari sekolah.',
+          'Ruang rawat observasi 8 bed pembaringan terpisah, tabung oksigen, AED (Automated External Defibrillator), dan obat-obatan esensial lengkap.',
+          'Kerja sama strategis rujukan gawat darurat dengan RS Pondok Indah Puri Indah / RS Siloam, didukung unit ambulans siaga.'
+        ],
+        hours: 'Senin - Sabtu: 07.00 - 16.30 WIB'
+      }
+    };
+
+    function openFacilityModal(key) {
+      const data = facilitySpecs[key];
+      if (!data) return;
+
+      const container = document.getElementById('modal-content-placeholder');
+      container.innerHTML = `
+        <div class="flex items-center gap-space-xs text-secondary mb-space-xs">
+          <span class="material-symbols-outlined text-[20px]">apartment</span>
+          <span class="font-label-md text-label-md uppercase tracking-wider">${data.location}</span>
+        </div>
+        <h3 class="font-headline-lg text-headline-lg text-primary font-normal mb-space-md">${data.title}</h3>
+        
+        <div class="mb-space-md">
+          <h4 class="font-label-lg text-label-lg font-bold text-primary mb-space-xs uppercase tracking-wide">Rincian Spesifikasi &amp; Fasilitas:</h4>
+          <ul class="space-y-space-xs font-body-md text-body-md text-on-surface-variant list-disc pl-5">
+            ${data.specs.map(s => `<li>${s}</li>`).join('')}
+          </ul>
+        </div>
+
+        <div class="p-space-md bg-surface-container rounded mb-space-md">
+          <span class="font-label-sm text-label-sm font-bold text-primary block uppercase">Jadwal Operasional:</span>
+          <p class="font-body-md text-body-md text-on-surface">${data.hours}</p>
+        </div>
+
+        <div class="flex justify-end gap-space-sm pt-space-xs">
+          <a href="#reservasi-tur" onclick="closeFacilityModal()" class="px-space-lg py-space-xs rounded-full bg-primary text-on-primary font-label-md text-label-md font-bold hover:bg-primary-container transition-colors">
+            Tinjau dalam Tur Kampus
+          </a>
+        </div>
+      `;
+
+      document.getElementById('facility-spec-modal').classList.remove('hidden');
+    }
+
+    function closeFacilityModal() {
+      document.getElementById('facility-spec-modal').classList.add('hidden');
+    }
+
+    function handleTourSubmit() {
+      const successEl = document.getElementById('tour-success-msg');
+      if (successEl) {
+        successEl.classList.remove('hidden');
+        document.getElementById('campus-tour-form').reset();
+      }
+    }
+  

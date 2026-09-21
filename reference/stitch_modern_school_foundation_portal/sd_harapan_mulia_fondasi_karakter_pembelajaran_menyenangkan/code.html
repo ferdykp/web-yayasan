@@ -1,0 +1,371 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>SD Harapan Mulia - Yayasan Pendidikan Harapan Mulia</title>
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500;1,6..72,600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-tertiary-container": "#a3ba57",
+          "on-error": "#ffffff",
+          "surface-dim": "#b9e3d3",
+          "outline-variant": "#c0c9c3",
+          "primary-container": "#174c3c",
+          "surface-container": "#cdf7e6",
+          "surface-bright": "#e6fff4",
+          "on-primary-container": "#87bba7",
+          "background": "#e6fff4",
+          "tertiary": "#263100",
+          "outline": "#707974",
+          "error-container": "#ffdad6",
+          "surface-container-lowest": "#ffffff",
+          "inverse-surface": "#0e372c",
+          "on-secondary-container": "#486a57",
+          "tertiary-fixed": "#d5ed84",
+          "on-error-container": "#93000a",
+          "on-surface-variant": "#404945",
+          "secondary-fixed": "#c6ebd3",
+          "primary": "#003527",
+          "primary-fixed-dim": "#9dd2bc",
+          "on-primary-fixed": "#002117",
+          "error": "#ba1a1a",
+          "inverse-primary": "#9dd2bc",
+          "on-primary-fixed-variant": "#1b4f3f",
+          "secondary-fixed-dim": "#aacfb8",
+          "on-primary": "#ffffff",
+          "on-secondary-fixed-variant": "#2c4d3c",
+          "on-tertiary": "#ffffff",
+          "primary-fixed": "#b8eed8",
+          "on-secondary": "#ffffff",
+          "on-background": "#002018",
+          "secondary": "#446653",
+          "inverse-on-surface": "#d0fae9",
+          "surface-container-highest": "#c2ecdb",
+          "tertiary-container": "#3a4900",
+          "surface-container-low": "#d2fdec",
+          "on-secondary-fixed": "#002112",
+          "tertiary-fixed-dim": "#b9d06b",
+          "surface": "#e6fff4",
+          "on-tertiary-fixed-variant": "#3d4d00",
+          "on-tertiary-fixed": "#171e00",
+          "on-surface": "#002018",
+          "surface-variant": "#c2ecdb",
+          "surface-tint": "#356856",
+          "surface-container-high": "#c7f1e1",
+          "secondary-container": "#c3e9d0"
+        },
+        "borderRadius": {
+          "DEFAULT": "1rem",
+          "lg": "2rem",
+          "xl": "3rem",
+          "full": "9999px"
+        },
+        "fontFamily": {
+          "headline-2xl": ["Newsreader", "serif"],
+          "headline-xl": ["Newsreader", "serif"],
+          "headline-lg": ["Newsreader", "serif"],
+          "headline-md": ["Newsreader", "serif"],
+          "headline-sm": ["Newsreader", "serif"],
+          "body-xl": ["Manrope", "sans-serif"],
+          "body-lg": ["Manrope", "sans-serif"],
+          "body-md": ["Manrope", "sans-serif"],
+          "body-sm": ["Manrope", "sans-serif"],
+          "label-lg": ["Manrope", "sans-serif"],
+          "label-md": ["Manrope", "sans-serif"],
+          "label-sm": ["Manrope", "sans-serif"]
+        }
+      }
+    }
+  };
+</script>
+<style>
+  @layer base {
+    html {
+      color: #002018;
+      background-color: #FAF9F5;
+      font-family: 'Manrope', sans-serif;
+    }
+  }
+  .font-serif-title {
+    font-family: 'Newsreader', serif;
+  }
+</style>
+<meta content="web_standard" name="shell-type">
+</head>
+<body class="bg-[#FAF9F5] text-on-surface antialiased selection:bg-tertiary-fixed selection:text-primary">
+<!-- BEGIN: NavigationHeader -->
+<header class="fixed top-0 inset-x-0 z-50 bg-[#FAF9F5]/90 backdrop-blur-md border-b border-outline-variant/30" data-purpose="site-header">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+<!-- Brand Identity -->
+<a aria-label="Harapan Mulia Home" class="flex items-center gap-3 group focus:outline-none flex-shrink-0" data-path="beranda" href="#">
+<div class="w-11 h-11 rounded-full bg-primary text-tertiary-fixed flex items-center justify-center shadow-md transition-transform duration-300 group-hover:scale-105" data-purpose="brand-logo">
+<span class="material-symbols-outlined text-[24px]">school</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-[11px] uppercase tracking-wider text-secondary font-bold">Yayasan Pendidikan</span>
+<span class="font-serif-title text-[20px] font-semibold text-primary leading-none">Harapan Mulia</span>
+</div>
+</a>
+<!-- Desktop Navigation Menu -->
+<nav aria-label="Main Navigation" class="hidden lg:flex items-center gap-5" data-purpose="main-nav"><a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors" data-path="beranda" href="#">Beranda</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a>
+<div class="relative group py-2">
+<a class="inline-flex items-center gap-1 text-sm font-bold text-primary" data-path="sekolah" href="#">
+<span class="">Sekolah</span>
+<span class="material-symbols-outlined text-[16px] transition-transform duration-200 group-hover:rotate-180">expand_more</span>
+</a>
+<div class="absolute left-0 top-full hidden group-hover:block w-60 pt-2 z-50">
+<div class="bg-surface-container-lowest rounded-2xl shadow-xl border border-outline-variant/30 py-2">
+<a class="flex items-center gap-2.5 px-4 py-2.5 text-sm font-semibold text-primary bg-surface-container-low transition-colors" data-path="sd-harapan-mulia" href="#">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+SD Harapan Mulia
+</a>
+<a class="block px-4 py-2.5 text-sm font-medium text-on-surface-variant hover:bg-surface-container-low hover:text-primary transition-colors" data-path="smp-harapan-mulia" href="#">SMP Harapan Mulia</a>
+<a class="block px-4 py-2.5 text-sm font-medium text-on-surface-variant hover:bg-surface-container-low hover:text-primary transition-colors" data-path="sma-harapan-mulia" href="#">SMA Harapan Mulia</a>
+</div>
+</div>
+</div>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors" data-path="akademik" href="#">Akademik</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors" data-path="fasilitas" href="#">Fasilitas</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors" data-path="kehidupan-sekolah" href="#">Kehidupan Sekolah</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors" data-path="prestasi" href="#">Prestasi</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors" data-path="berita" href="#">Warta &amp; Berita</a>
+<a class="text-sm font-medium text-on-surface-variant hover:text-primary transition-colors" data-path="kontak" href="#">Kontak</a></nav>
+<!-- Header Actions -->
+<div class="flex items-center gap-3">
+<button aria-label="Pencarian" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">search</span>
+</button>
+<a class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-primary text-on-primary font-label-lg text-sm font-semibold hover:bg-primary-container transition-all duration-200 shadow-sm hover:shadow-md hover:scale-[1.02] flex-shrink-0" data-path="ppdb-2026-2027" href="#alur-pendaftaran">
+<span class="">PPDB 2026/2027</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</header>
+<!-- END: NavigationHeader -->
+<main class="pt-20" id="main-content">
+<div class="flex flex-col w-full">
+<!-- Section 1: Editorial Hero & Header Context -->
+<section class="relative overflow-hidden pt-8 pb-16 md:pb-24 bg-surface-container-lowest">
+<!-- Ambient organic green blur -->
+<div class="absolute -top-32 right-[-10%] w-[540px] h-[540px] bg-amber-100/30 rounded-full blur-3xl pointer-events-none -z-0"></div>
+<div class="absolute bottom-[-10%] -left-20 w-[420px] h-[420px] bg-[#FAF9F5] rounded-full blur-2xl pointer-events-none -z-0"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<!-- Breadcrumb & Badges Bar -->
+<div class="flex flex-wrap items-center justify-between gap-4 mb-8">
+<nav aria-label="Breadcrumb" class="flex items-center gap-2 text-xs font-medium text-on-surface-variant">
+<a class="hover:text-primary transition-colors" data-path="beranda" href="#">Beranda</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<a class="hover:text-primary transition-colors" data-path="sekolah" href="#">Sekolah</a>
+<span class="material-symbols-outlined text-[14px]">chevron_right</span>
+<span class="font-bold text-primary">SD Harapan Mulia</span>
+</nav>
+<div class="flex flex-wrap items-center gap-2"><span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary text-white text-xs font-semibold uppercase tracking-wider"><span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">verified</span>Akreditasi A Unggul</span><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-white text-primary border border-neutral-300 text-xs font-semibold uppercase tracking-wider"><span class="material-symbols-outlined text-[14px]">child_care</span>Usia 6 - 12 Tahun</span><span class="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-amber-100 text-amber-900 border border-amber-300 text-xs font-semibold uppercase tracking-wider"><span class="material-symbols-outlined text-[14px]">psychology</span>Fase Fondasi Karakter</span></div>
+</div>
+<!-- Hero Grid Layout -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+<!-- Left: Editorial Typography & Actions -->
+<div class="lg:col-span-7 flex flex-col items-start pr-0 lg:pr-6">
+<div class="inline-flex items-center gap-2 mb-5 px-4 py-1.5 rounded-full bg-[#FAF9F5] text-primary font-label-md text-xs font-semibold tracking-wide border border-neutral-300 shadow-sm"><span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span><span class="">Tahun Ajaran 2026/2027 Telah Dibuka</span></div>
+<h1 class="font-serif-title text-4xl sm:text-5xl lg:text-[54px] font-normal text-primary tracking-tight leading-[1.1] mb-6">
+              Membangun Rasa Ingin Tahu, <span class="italic font-normal text-secondary">Memupuk Budi Pekerti</span> Sejak Dini.
+            </h1>
+<p class="font-body-xl text-base sm:text-lg text-on-surface-variant leading-relaxed mb-8 max-w-2xl">
+              Pendidikan tingkat dasar yang merangkul fitrah bermain dan belajar alami anak. Kami mengintegrasikan literasi naratif yang kaya, eksplorasi sains kontekstual di alam terbuka, dan penanaman adab luhur tanpa membebani mental ananda.
+            </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 mb-10">
+<a class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-primary text-on-primary font-label-lg text-sm font-semibold shadow-md hover:bg-primary-container hover:-translate-y-0.5 transition-all duration-200" href="#alur-pendaftaran">
+<span class="">Daftar PPDB SD 2026/2027</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-white text-primary font-label-lg text-sm font-semibold hover:bg-[#FAF9F5] transition-colors border border-neutral-300 shadow-sm" href="#kurikulum"><span class="material-symbols-outlined text-[18px]">download_for_offline</span><span class="">Unduh Silabus &amp; Kurikulum (PDF)</span></a>
+</div>
+<!-- Tabular Stats Row -->
+<div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-3 bg-white border border-neutral-200 rounded-2xl p-4 sm:p-5 shadow-sm"><div class="flex flex-col p-2"><span class="font-serif-title text-3xl font-bold text-primary">1:14</span><span class="font-body-sm text-xs text-on-surface-variant font-medium leading-snug mt-1">Rasio Guru-Siswa Ramah Interaksi</span></div><div class="flex flex-col p-2 border-l border-neutral-200"><span class="font-serif-title text-3xl font-bold text-primary">100%</span><span class="font-body-sm text-xs text-on-surface-variant font-medium leading-snug mt-1">Guru Tersertifikasi Literasi Anak</span></div><div class="flex flex-col p-2 sm:border-l border-neutral-200"><span class="font-serif-title text-3xl font-bold text-primary">4 Kelas</span><span class="font-body-sm text-xs text-on-surface-variant font-medium leading-snug mt-1">Rombel Eksklusif Tiap Angkatan</span></div><div class="flex flex-col p-2 border-l border-neutral-200"><span class="font-serif-title text-3xl font-bold text-primary">Bilingual</span><span class="font-body-sm text-xs text-on-surface-variant font-medium leading-snug mt-1">Metode Phonics &amp; Cerita Kontekstual</span></div></div>
+</div>
+<!-- Right: Photographic Collage & Floating Quote -->
+<div class="lg:col-span-5 relative">
+<div class="relative mx-auto max-w-md lg:max-w-none">
+<!-- Main Hero Image Window -->
+<div class="relative rounded-3xl overflow-hidden shadow-2xl bg-surface-container-high aspect-[4/5] border border-outline-variant/20">
+<img alt="Elementary school students joyfully exploring natural science outdoors in a lush tropical garden school laboratory" class="w-full h-full object-cover" data-alt="Elementary school students joyfully exploring natural science outdoors in a lush tropical garden school laboratory, accompanied by a caring Indonesian female teacher pointing at green leaves and flora, warm afternoon sunlight, natural candid editorial photography, rich forest green and cream environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyHjiBR1R9rmKUsXm-EiaQ-GKeuqaiAMby3XWtngjXQZDVVQCvSE2LSnxjBXmXL_2t8GG3Y1tUYwZhiUhd5wP_bpdAt_O8WzACQhtnZIQNBVvqtF0SQq1gtTW94G17xjmIxLNwWRWPT5IwxjH5YSH6jmAFGYM0_bmLIfFcDbYGdnTtf3j-St0YrzEsLg9uLkyIifTbQ5kx6A2p1LeszaL8YARarqMQ9fyVX5HxvjE">
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6 text-on-primary">
+<span class="font-label-sm text-xs uppercase tracking-wider text-tertiary-fixed font-bold block mb-1">Laboratorium Kebun Cilik</span>
+<p class="font-serif-title text-xl text-on-primary font-normal leading-snug">Belajar Biologi &amp; Botani Konkret di Taman Kampus Harapan Mulia</p>
+</div>
+</div>
+<!-- Floating Asymmetric Quote Card -->
+<div class="absolute -bottom-8 -left-4 sm:-left-8 max-w-xs bg-surface-container-lowest p-5 rounded-2xl shadow-xl border border-outline-variant/30 z-20">
+<div class="flex items-center gap-1.5 mb-2 text-secondary">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">format_quote</span>
+<span class="font-label-sm text-[11px] font-bold uppercase tracking-wider">Prinsip Kami</span>
+</div>
+<p class="font-serif-title text-base italic text-primary leading-snug">
+                  "Belajar adalah petualangan yang menyenangkan, bukan beban hafalan."
+                </p>
+<span class="block mt-2 text-xs text-on-surface-variant font-medium">— Komitmen Guru SD Harapan Mulia</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Section 2: Sambutan Kepala Sekolah SD -->
+<section class="py-16 md:py-24 bg-[#FAF9F5] border-t border-b border-neutral-200 relative"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="bg-white rounded-3xl p-8 sm:p-12 lg:p-16 shadow-sm border border-neutral-200"><div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center"><div class="lg:col-span-4 flex flex-col items-center"><div class="relative w-56 sm:w-64 aspect-[4/5] rounded-2xl overflow-hidden shadow-md bg-primary"><img alt="Dra. Hj. Siti Aminah, M.Pd." class="w-full h-full object-cover" data-alt="Dignified Indonesian female primary school principal wearing modern soft sage green hijab and modest professional academic blazer, smiling warm and gently in front of a warm sunlit library, high quality editorial portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqtvW-uaa7aruJpM08L_qE5HGsn0Ho-1XDO9DRj6Q0vNzRUwjGaPkhjzKdhAV3ggwpTUnaMhmhkLqYqxLNVA3wmg8EWH_8t6jRuUMxrWcKeCHjnI0AWeDbVu3kqVIq_NGhMbP9G0Y1jl7KkcHvMgIQL6-xe0KmzJEzeutyrcA7R-O1MaScPWjYTIxhGT7wGUwnQcA9Ma6mLemDHQFEGHWrjm0VelIi3UWhhUDKnLs"></div><div class="mt-4 text-center"><h3 class="font-serif-title text-xl font-bold text-primary">Dra. Hj. Siti Aminah, M.Pd.</h3><p class="font-label-md text-xs font-semibold text-primary tracking-wider uppercase mt-1">Kepala Sekolah SD Harapan Mulia</p><span class="inline-block mt-2 text-xs text-primary font-bold bg-amber-100 border border-amber-300 px-3 py-1 rounded-full">24+ Tahun Mengabdi di Pendidikan Dasar</span></div></div><div class="lg:col-span-8 flex flex-col"><div class="inline-flex items-center gap-2 text-primary font-label-md text-xs font-bold uppercase tracking-wider mb-3"><span class="material-symbols-outlined text-[18px]">school</span><span class="">Sambutan Kepemimpinan Akademik</span></div><h2 class="font-serif-title text-2xl sm:text-3xl lg:text-4xl text-primary font-normal leading-tight mb-6">"Di Usia Emas Ini, Kita Tidak Hanya Menabur Angka, Melainkan Menumbuhkan Nurani dan Keberanian Berpikir."</h2><div class="space-y-4 font-body-lg text-sm sm:text-base text-on-surface-variant leading-relaxed"><p class="">Selamat datang di lingkungan belajar SD Harapan Mulia. Masa sekolah dasar adalah masa pembentukan fondasi batin anak: rasa percaya diri saat bertanya, kelembutan hati saat berbagi pensil warna, dan ketahanan diri saat menghadapi tugas yang menantang.</p><p class="">Kami menolak konsep pembelajaran yang menuntut anak duduk membisu mendengarkan ceramah satu arah. Melalui pendekatan inquiry terarah, anak-anak kami diajak memegang tanah, menghitung dedaunan dengan metode Singapura Math, menyusun cerita fiksi lewat bilingual phonics, serta terbiasa menatap mata lawan bicara dengan sopan santun yang teduh.</p><p class="font-medium text-primary">Mari bermitra bersama kami untuk menghantarkan ananda menjadi pribadi beriman kokoh, berwawasan luas, dan mencintai proses menuntut ilmu seumur hidupnya.</p></div><div class="mt-8 pt-6 border-t border-neutral-200 flex items-center justify-between"><div><span class="font-serif-title text-base italic text-primary block">Wassalamu'alaikum Warahmatullahi Wabarakatuh,</span><span class="text-xs uppercase tracking-wider text-on-surface-variant font-semibold">Kepala SD Harapan Mulia</span></div><div class="w-24 h-10 opacity-70 flex items-center justify-center"><svg class="w-full h-full text-primary fill-none stroke-current" stroke-linecap="round" stroke-width="2" viewBox="0 0 140 40"><path d="M10,25 C30,5 35,35 50,20 C65,5 75,30 90,15 C105,2 120,28 135,18"></path></svg></div></div></div></div></div></div></section>
+<!-- Section 3: Pilar Kurikulum Terpadu SD -->
+<section class="py-16 md:py-24 bg-surface-container-lowest relative" id="kurikulum">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+<div class="max-w-2xl">
+<span class="font-label-md text-xs font-bold uppercase tracking-wider text-secondary block mb-2">Kurikulum Holistik Terintegrasi</span>
+<h2 class="font-serif-title text-3xl sm:text-4xl lg:text-5xl text-primary leading-tight font-normal">
+              Empat Pilar Pembelajaran <br><span class="italic text-secondary">Fondasi Akal dan Nurani</span>
+</h2>
+</div>
+<p class="text-sm sm:text-base text-on-surface-variant max-w-md leading-relaxed">
+            Dirancang selaras dengan Kurikulum Merdeka Kemendikbudristek yang diperkaya standar literasi internasional Cambridge Primary dan kurikulum Adab Karakter Mulia.
+          </p>
+</div>
+<!-- 4 Core Focus Cards Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"><div class="flex flex-col justify-between bg-white hover:shadow-md border border-neutral-200 rounded-2xl p-6 transition-all duration-300 group shadow-sm"><div><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center shadow-sm mb-6 group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-[26px]">translate</span></div><span class="text-[11px] uppercase tracking-wider font-bold text-primary block mb-2">Pilar I: Bahasa &amp; Cerita</span><h3 class="font-serif-title text-xl text-primary font-bold mb-3">Bilingual Phonics &amp; Literasi Naratif</h3><p class="text-sm text-on-surface-variant leading-relaxed mb-6">Penguasaan dwibahasa aktif (Bahasa Indonesia &amp; Inggris) sejak dini dengan metode Jolly Phonics, visual reading, serta panggung mini drama dongeng mingguan.</p></div><ul class="space-y-2 pt-4 bg-[#FAF9F5] border border-neutral-200 rounded-xl p-3 text-on-surface-variant text-xs font-medium"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Journaling Bergambar Harian</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Morning English Speech Circle</li></ul></div><div class="flex flex-col justify-between bg-white hover:shadow-md border border-neutral-200 rounded-2xl p-6 transition-all duration-300 group shadow-sm"><div><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center shadow-sm mb-6 group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-[26px]">calculate</span></div><span class="text-[11px] uppercase tracking-wider font-bold text-primary block mb-2">Pilar II: Logika Nyata</span><h3 class="font-serif-title text-xl text-primary font-bold mb-3">Nature &amp; Math Lab (Singapura Math)</h3><p class="text-sm text-on-surface-variant leading-relaxed mb-6">Memahami logika matematika konkret-piktorial-abstrak lewat benda nyata di alam: menghitung kerikil, mengukur curah hujan mini, serta problem-solving kontekstual.</p></div><ul class="space-y-2 pt-4 bg-[#FAF9F5] border border-neutral-200 rounded-xl p-3 text-on-surface-variant text-xs font-medium"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span>CPA Approach (Concrete-Pictorial)</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Eksplorasi Kebun Hidroponik Anak</li></ul></div><div class="flex flex-col justify-between bg-white hover:shadow-md border border-neutral-200 rounded-2xl p-6 transition-all duration-300 group shadow-sm"><div><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center shadow-sm mb-6 group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-[26px]">volunteer_activism</span></div><span class="text-[11px] uppercase tracking-wider font-bold text-primary block mb-2">Pilar III: Pembiasaan Mulia</span><h3 class="font-serif-title text-xl text-primary font-bold mb-3">Adab, Budi Pekerti &amp; Kemandirian</h3><p class="text-sm text-on-surface-variant leading-relaxed mb-6">Pembiasaan shalat Dhuha &amp; Dhuhur berjamaah, mencuci wadah makan sendiri pasca makan siang, adab berteman tanpa perundungan, dan respek pada sesama.</p></div><ul class="space-y-2 pt-4 bg-[#FAF9F5] border border-neutral-200 rounded-xl p-3 text-on-surface-variant text-xs font-medium"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Jurnal Adab Kejujuran Anak</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Tahsin &amp; Tahfidz Juz 30 Bertahap</li></ul></div><div class="flex flex-col justify-between bg-white hover:shadow-md border border-neutral-200 rounded-2xl p-6 transition-all duration-300 group shadow-sm"><div><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center shadow-sm mb-6 group-hover:scale-105 transition-transform"><span class="material-symbols-outlined text-[26px]">palette</span></div><span class="text-[11px] uppercase tracking-wider font-bold text-primary block mb-2">Pilar IV: Estetika &amp; Kinestetik</span><h3 class="font-serif-title text-xl text-primary font-bold mb-3">Art, Rhythm &amp; Olahraga Motorik</h3><p class="text-sm text-on-surface-variant leading-relaxed mb-6">Harmonisasi otak kanan-kiri melalui ansambel musik tradisional (gamelan dan angklung), tari nusantara, renang dasar teratur, dan sirkuit ketangkasan fisik.</p></div><ul class="space-y-2 pt-4 bg-[#FAF9F5] border border-neutral-200 rounded-xl p-3 text-on-surface-variant text-xs font-medium"><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Pekan Budaya &amp; Pentas Seni Anak</li><li class="flex items-center gap-2"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span>Aquatic &amp; Motor Skill Foundation</li></ul></div></div>
+</div>
+</section>
+<!-- Section 4: Sehari di SD Harapan Mulia (Timeline) -->
+<section class="py-16 md:py-24 bg-[#FAF9F5] border-t border-b border-neutral-200 relative"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="text-center max-w-2xl mx-auto mb-16"><span class="font-label-md text-xs uppercase tracking-wider text-primary font-bold block mb-2">Keseimbangan Belajar &amp; Istirahat</span><h2 class="font-serif-title text-3xl sm:text-4xl lg:text-5xl text-primary font-normal leading-tight">Sehari Bersama Kami: <span class="italic text-primary">Ritme Ramah Anak</span></h2><p class="text-sm sm:text-base text-on-surface-variant mt-4 leading-relaxed">Jadwal disusun berirama agar anak tidak mengalami kelelahan mental, mengombinasikan fokus kognitif, keleluasaan bergerak, dan istirahat gizi seimbang.</p></div><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"><div class="bg-white rounded-2xl p-6 shadow-sm border border-neutral-200 flex flex-col justify-between hover:shadow-md transition-shadow"><div><div class="flex items-center justify-between mb-4"><span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full">07.15 - 08.00 WIB</span><span class="material-symbols-outlined text-amber-600 text-[22px]">wb_sunny</span></div><h4 class="font-serif-title text-lg font-bold text-primary mb-2">Morning Greeting &amp; Circle Time</h4><p class="text-sm text-on-surface-variant leading-relaxed">Penyambutan hangat oleh para guru di gerbang sekolah, senyum dan jabat tangan, dilanjutkan dengan doa fajar, shalawat, dan obrolan kabar perasaan di kelas.</p></div></div><div class="bg-white rounded-2xl p-6 shadow-sm border border-neutral-200 flex flex-col justify-between hover:shadow-md transition-shadow"><div><div class="flex items-center justify-between mb-4"><span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full">08.00 - 10.00 WIB</span><span class="material-symbols-outlined text-amber-600 text-[22px]">menu_book</span></div><h4 class="font-serif-title text-lg font-bold text-primary mb-2">Inquiry Block &amp; Literasi Ceria</h4><p class="text-sm text-on-surface-variant leading-relaxed">Fase fokus intelektual tertinggi anak. Belajar membaca naratif, bedah buku cerita bergambar, pengenalan kosa kata dwi-bahasa, dan pemecahan puzzle logika.</p></div></div><div class="bg-white rounded-2xl p-6 shadow-sm border border-neutral-200 flex flex-col justify-between hover:shadow-md transition-shadow"><div><div class="flex items-center justify-between mb-4"><span class="inline-block px-3 py-1 bg-amber-500 text-white text-xs font-bold rounded-full">10.00 - 10.30 WIB</span><span class="material-symbols-outlined text-amber-600 text-[22px]">restaurant</span></div><h4 class="font-serif-title text-lg font-bold text-primary mb-2">Snack Sehat Organik &amp; Free Play</h4><p class="text-sm text-on-surface-variant leading-relaxed">Menikmati camilan buah segar dan susu hangat bergizi, dilanjutkan bermain bebas di playground beralaskan rumput sintetis lembut untuk melepas ketegangan.</p></div></div><div class="bg-white rounded-2xl p-6 shadow-sm border border-neutral-200 flex flex-col justify-between hover:shadow-md transition-shadow"><div><div class="flex items-center justify-between mb-4"><span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full">10.30 - 12.00 WIB</span><span class="material-symbols-outlined text-amber-600 text-[22px]">science</span></div><h4 class="font-serif-title text-lg font-bold text-primary mb-2">Eksplorasi Tematik &amp; STEM Mini</h4><p class="text-sm text-on-surface-variant leading-relaxed">Praktik sains ramah anak: eksperimen air, mengamati serangga di mikroskop digital mini, hingga kreasi origami matematika bersama kelompok belajar kecil.</p></div></div><div class="bg-white rounded-2xl p-6 shadow-sm border border-neutral-200 flex flex-col justify-between hover:shadow-md transition-shadow"><div><div class="flex items-center justify-between mb-4"><span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full">12.00 - 13.30 WIB</span><span class="material-symbols-outlined text-amber-600 text-[22px]">diversity_3</span></div><h4 class="font-serif-title text-lg font-bold text-primary mb-2">Makan Bersama &amp; Shalat Berjamaah</h4><p class="text-sm text-on-surface-variant leading-relaxed">Makan siang menu seimbang bersama wali kelas dengan adab makan santun, berwudhu rapi, dan menunaikan ibadah shalat berjamaah di musholla sekolah.</p></div></div><div class="bg-white rounded-2xl p-6 shadow-sm border border-neutral-200 flex flex-col justify-between hover:shadow-md transition-shadow"><div><div class="flex items-center justify-between mb-4"><span class="inline-block px-3 py-1 bg-primary text-white text-xs font-bold rounded-full">13.30 - 15.00 WIB</span><span class="material-symbols-outlined text-amber-600 text-[22px]">sports_soccer</span></div><h4 class="font-serif-title text-lg font-bold text-primary mb-2">Refleksi Hari &amp; Minat Bakat (Ekskul)</h4><p class="text-sm text-on-surface-variant leading-relaxed">Penulisan jurnal harian rasa syukur, latihan minat bakat (robotika, renang, seni tari, pramuka siaga), serta kepulangan dengan penjemputan teratur.</p></div></div></div></div></section>
+<!-- Section 5: Fasilitas Khusus Anak SD -->
+<section class="py-16 md:py-24 bg-surface-container-lowest relative">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-14 gap-6">
+<div>
+<span class="font-label-md text-xs uppercase tracking-wider text-secondary font-bold block mb-2">Ruang Tumbuh &amp; Eksplorasi Aman</span>
+<h2 class="font-serif-title text-3xl sm:text-4xl lg:text-5xl text-primary font-normal">
+              Fasilitas Ramah Anak <span class="italic text-secondary">Berstandar Ergonomis</span>
+</h2>
+</div>
+<p class="text-sm sm:text-base text-on-surface-variant max-w-md leading-relaxed">
+            Seluruh sudut dirancang aman dari sudut tajam, berlantai peredam getaran, serta sarat warna alam yang menenangkan indera visual anak.
+          </p>
+</div>
+<!-- Facility Mosaic / Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5"><div class="bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col justify-between hover:border-primary/50 shadow-sm transition-all"><div class="w-full aspect-[4/3] rounded-xl overflow-hidden mb-4 bg-neutral-100"><img alt="Playground Motorik" class="w-full h-full object-cover" data-alt="Safe colorful children playground with soft shock-absorbing green rubber flooring, wooden monkey bars and swings, lush trees around, cheerful Indonesian elementary kids playing joyfully" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUNaf80HC9yM8zMM6OgRjplyDzCn4ZqOos48vZvg03ilOAar_0xCjeSVRBc2GxOUIARJiQYFyZVVs4eNzrMjgmzawUGg4Gh4QIURFXk_5arEA7gaPDkoUCQwgKFt1kfWaJN1vmqfI6El8Rmch3yiO6axbodg5f-1tGjTjwwvXRURTIy4NqP-LgLSPgMtjSXaDKQ1dofL-xL3vCeY8e18BHfuSxxSdrmHeVvQk6pV0"></div><div><h4 class="font-serif-title text-base font-bold text-primary mb-1">Playground Motorik</h4><p class="text-xs text-on-surface-variant leading-relaxed">Lantai karet lentur anti cedera, spider web climbing, dan ayunan keseimbangan.</p></div></div><div class="bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col justify-between hover:border-primary/50 shadow-sm transition-all"><div class="w-full aspect-[4/3] rounded-xl overflow-hidden mb-4 bg-neutral-100"><img alt="Perpustakaan Dongeng" class="w-full h-full object-cover" data-alt="Cozy fairy tale themed library for elementary school with wooden low bookshelves, soft bean bags, round reading carpets, children browsing picture books peacefully" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBd283kxYgZIwHXYJAWq3_zmKEZP0O7EeUiJAObyRqv0xamCYcRw6iRiU5ndfyNWsdt_j9_7URQ1DiwlCv0edoIM0uhxNZth0CcdNGYH2aT5-Q1uRP2jYBY31wDi3_tmFT25qKZmCw6UI-XCjTlEM1CJccHHyDsYcUBwUfunYCN6D-2WU2BF87YXHhZeOxFI09J37_1KMCQIz10ZGKgQAHDXfUm1oiL_HfS1XRhDAs"></div><div><h4 class="font-serif-title text-base font-bold text-primary mb-1">Perpustakaan Dongeng</h4><p class="text-xs text-on-surface-variant leading-relaxed">Koleksi 4.000+ buku bergambar kurasi, area membaca lesehan bertingkat nyaman.</p></div></div><div class="bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col justify-between hover:border-primary/50 shadow-sm transition-all"><div class="w-full aspect-[4/3] rounded-xl overflow-hidden mb-4 bg-neutral-100"><img alt="Mini Greenhouse &amp; Kolam" class="w-full h-full object-cover" data-alt="School miniature botanical greenhouse with transparent roof, potted herbs and small organic vegetables, children watering plants with small watering cans" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4AmPgZQDVGO9ANxhi9DfS4Xr9tkWofXO2F19GSUnxKNMx1Dl4gb0gYnX8bpBU1U-537V5xOqg2AgrjcFpZ2XcLS2o8qjWp25dHUJ1z-dMpvNopQHftIJYKaTcFTvVYTODjXe4xFSIEhqcQx-be7Ib-Ko_DIb2yDJhLaeKtcctXqwiApsTwh3mty979nuiSwyw1uWsYFvMI6LjQZXdqqDKF7k_ScEevgLqmSpoRyQ"></div><div><h4 class="font-serif-title text-base font-bold text-primary mb-1">Mini Greenhouse &amp; Kolam</h4><p class="text-xs text-on-surface-variant leading-relaxed">Laboratorium alam terbuka: ekosistem katak, ikan nila, dan hidroponik sayuran.</p></div></div><div class="bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col justify-between hover:border-primary/50 shadow-sm transition-all"><div class="w-full aspect-[4/3] rounded-xl overflow-hidden mb-4 bg-neutral-100"><img alt="Lab Sains Sensori" class="w-full h-full object-cover" data-alt="Sensory science laboratory designed for kids with child-sized wooden tables, child-safe colorful beakers, magnifying glasses, tactile exploration boxes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9bNSpDM9fl5JUxMWPX3CqZsLvmOhR_S0yZiHRm1E3tlyxTzea12E2d7w4Nj1Y-NGdIHHTxrm2Hjv1P_0YWLkMUWxT9hqa9bqgoY99bhIh5Fw6NovJMkkYLJgD30nbBL6vNd7FKqIklLt_5XTWsnbjPZuqgJ2gI1rswpcE1cbPyqYTZjhSGOqUUH51PETlmrltTUikSrg3LP1mauMJgMkRmwHCg14CpFKMR5ZDmSo"></div><div><h4 class="font-serif-title text-base font-bold text-primary mb-1">Lab Sains Sensori</h4><p class="text-xs text-on-surface-variant leading-relaxed">Eksplorasi tekstur, mikroskop ramah sentuh, dan meja eksperimen aman anak.</p></div></div><div class="bg-white border border-neutral-200 rounded-2xl p-4 flex flex-col justify-between hover:border-primary/50 shadow-sm transition-all"><div class="w-full aspect-[4/3] rounded-xl overflow-hidden mb-4 bg-neutral-100"><img alt="UKS Ramah Anak" class="w-full h-full object-cover" data-alt="Clean calming pediatric clinic room inside elementary school, pastel green walls, friendly nurse smiling warmly next to a comfortable examination bed with soft plush toys" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCbJMvZTEnApNDokooh4y-PjTFy4Hq7v26Iphdi2w1g5UhfOfSWC2Ud8C4rqICHHO3rrDWxQHdZxLaRMDH38srWjL__NidHqXx0aJ2OaR3GgNP__PphbmBoM4HRfEYdEgX5z8BGjZrbJ4BGLuX3Ac1v0OELix5H_oQpAWkwmMUk40arexc8rdgtDGePEPh1lsPPM2XUP1UGT0i3vH741WJLFuu0qqlUDbX18gE0TM"></div><div><h4 class="font-serif-title text-base font-bold text-primary mb-1">UKS Ramah Anak</h4><p class="text-xs text-on-surface-variant leading-relaxed">Perawat bersertifikasi jaga penuh, konsultasi dokter anak &amp; pemantauan gizi.</p></div></div></div>
+</div>
+</section>
+<!-- Section 6: Ekstrakurikuler & Pembinaan Bakat Usia Dini -->
+<section class="py-16 md:py-24 bg-[#FAF9F5] border-t border-b border-neutral-200 relative"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="max-w-2xl mb-12"><span class="font-label-md text-xs uppercase tracking-wider text-primary font-bold block mb-2">Eksplorasi Minat &amp; Talenta</span><h2 class="font-serif-title text-3xl sm:text-4xl lg:text-5xl text-primary font-normal">Mekar Sesuai Fitrah Keunikan Diri</h2><p class="text-sm sm:text-base text-on-surface-variant mt-2 leading-relaxed">Pilihan kegiatan ekstrakurikuler yang fokus pada stimulasi motorik, kecerdasan spasial, estetika seni, dan kepemimpinan beregu.</p></div><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"><div class="bg-white rounded-2xl p-6 flex items-start gap-4 shadow-sm border border-neutral-200 hover:shadow-md transition-shadow"><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-[24px]">hiking</span></div><div><h4 class="font-serif-title text-lg font-bold text-primary mb-1">Pramuka Siaga</h4><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Penanaman dasa darma praktis, tali-temali dasar, navigasi kompas sederhana, dan berkemah ceria di taman sekolah.</p></div></div><div class="bg-white rounded-2xl p-6 flex items-start gap-4 shadow-sm border border-neutral-200 hover:shadow-md transition-shadow"><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-[24px]">smart_toy</span></div><div><h4 class="font-serif-title text-lg font-bold text-primary mb-1">Robotika Lego Mindstorms</h4><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Pengenalan coding visual berbasis balok warna, sensor gerak sederhana, dan melatih ketekunan berpikir algoritma awal.</p></div></div><div class="bg-white rounded-2xl p-6 flex items-start gap-4 shadow-sm border border-neutral-200 hover:shadow-md transition-shadow"><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-[24px]">medical_services</span></div><div><h4 class="font-serif-title text-lg font-bold text-primary mb-1">Dokter Kecil &amp; Peduli Lingkungan</h4><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Pelatihan P3K ringan, kampanye cuci tangan 6 langkah, pemilahan sampah organik, serta pengolahan kompos dedaunan.</p></div></div><div class="bg-white rounded-2xl p-6 flex items-start gap-4 shadow-sm border border-neutral-200 hover:shadow-md transition-shadow"><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-[24px]">brush</span></div><div><h4 class="font-serif-title text-lg font-bold text-primary mb-1">Klub Mewarnai &amp; Keramik Liat</h4><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Sensori raba melalui lempung tanah liat, melukis cat air ramah lingkungan, dan membuat prakarya hias karya sendiri.</p></div></div><div class="bg-white rounded-2xl p-6 flex items-start gap-4 shadow-sm border border-neutral-200 hover:shadow-md transition-shadow"><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-[24px]">music_note</span></div><div><h4 class="font-serif-title text-lg font-bold text-primary mb-1">Paduan Suara "Bocah Mulia"</h4><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Olah vokal ramah anak, lagu-lagu nasional, nasyid merdu, dan pengenalan tangga nada solmisasi dengan alat perkusi ringan.</p></div></div><div class="bg-white rounded-2xl p-6 flex items-start gap-4 shadow-sm border border-neutral-200 hover:shadow-md transition-shadow"><div class="w-12 h-12 rounded-2xl bg-primary text-white flex items-center justify-center flex-shrink-0"><span class="material-symbols-outlined text-[24px]">pool</span></div><div><h4 class="font-serif-title text-lg font-bold text-primary mb-1">Futsal Cilik &amp; Renang Dasar</h4><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Pelatihan stamina dan koordinasi motorik, sportivitas tim sepak bola cilik, serta kelas adaptasi air bersama instruktur berlisensi.</p></div></div></div></div></section>
+<!-- Section 7: Testimoni Orang Tua Siswa SD -->
+<section class="py-16 md:py-24 bg-surface-container-lowest relative">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-md text-xs uppercase tracking-wider text-secondary font-bold block mb-2">Kemitraan Hangat Orang Tua</span>
+<h2 class="font-serif-title text-3xl sm:text-4xl lg:text-5xl text-primary font-normal leading-tight">
+            Suara Hati Bunda &amp; Ayah
+          </h2>
+<p class="text-sm sm:text-base text-on-surface-variant mt-3 leading-relaxed">
+            Melihat senyum anak pulang sekolah dengan mata berbinar adalah ukuran keberhasilan terbesar kami.
+          </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto"><div class="bg-white border border-neutral-200 rounded-3xl p-8 relative flex flex-col justify-between shadow-sm"><div class="mb-6"><div class="flex items-center gap-1 text-amber-500 mb-4"><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span></div><p class="font-serif-title text-lg sm:text-xl text-primary italic leading-relaxed mb-6">"Kekhawatiran kami tentang anak yang pemalu langsung sirna. Di SD Harapan Mulia, para guru sangat telaten mengamati kecenderungan anak. Baru semester pertama kelas 1, Malik sudah berani memimpin doa di meja makan rumah dan begitu antusias menceritakan proyek sains kebunnya."</p></div><div class="flex items-center gap-4 pt-4 border-t border-neutral-200"><div class="w-12 h-12 rounded-full overflow-hidden bg-neutral-200 flex-shrink-0"><img alt="Ibu Ratna Paramitha, S.Psi." class="w-full h-full object-cover" data-alt="Portrait of an Indonesian mother in warm cream hijab smiling happily, natural daylight, soft bokeh background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_hzNv2aPBQfefZQzp_Zm5blfYmcIvPmvir8PCWVxiJypgp3-eXlzm4E6TIplN4HNqvlEwLVGkrFQanC_Pg6zQ5lMqFwnf7qvhSiIV0d2QnuHhBnzFQK_e9c_AWcB8IJGsv4wBPEzgtsYMWGYSHJ5mJfO2pwT2QqvvllJsDklvpmAltn87bx8Pma8nvQQdP5wIhozuLfq6a4K2kbm1W6EfhXIEmTqbHxtBjrtavtk"></div><div><h5 class="font-serif-title text-base font-bold text-primary">Ibu Ratna Paramitha, S.Psi.</h5><p class="text-xs text-on-surface-variant">Ibunda dari Malik (Siswa Kelas 2 SD Harapan Mulia)</p></div></div></div><div class="bg-white border border-neutral-200 rounded-3xl p-8 relative flex flex-col justify-between shadow-sm"><div class="mb-6"><div class="flex items-center gap-1 text-amber-500 mb-4"><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span></div><p class="font-serif-title text-lg sm:text-xl text-primary italic leading-relaxed mb-6">"Pendekatan Singapura Math di sini sangat logis, anak tidak dipaksa menghafal rumus melainkan diajak mengerti konsep lewat visualisasi. Ditambah lagi nilai adabnya: sebelum tidur Naura rutin merapikan tas sendiri tanpa disuruh. Luar biasa dampaknya!"</p></div><div class="flex items-center gap-4 pt-4 border-t border-neutral-200"><div class="w-12 h-12 rounded-full overflow-hidden bg-neutral-200 flex-shrink-0"><img alt="dr. Hendra Kurniawan, Sp.A" class="w-full h-full object-cover" data-alt="Portrait of a modern Indonesian father smiling proudly, wearing casual smart shirt, natural authentic warmth" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBiBYgsVGVuNJETFCGq8TTA4U6Riqg3zrfqflkTvS7yoXLt9YA2YIQwKvjGrvI78Rro1uI8-yb6eIuZUKGaMTNV0Jtbfm3KLZLxcwzoMizxdwGlUBTW5JoUnfqrM3YgeEjQ9RAqhr3NeXjxV_rlrX1wtu6_xaCyDda0vzK6CdP9toVGdPgJ-obvc6LOw12p90EUk1EKf5vVqmGn3Vosx-nzuXHS59k7tKA-xGzK4OQ"></div><div><h5 class="font-serif-title text-base font-bold text-primary">dr. Hendra Kurniawan, Sp.A</h5><p class="text-xs text-on-surface-variant">Ayahanda dari Naura (Siswi Kelas 4 SD Harapan Mulia)</p></div></div></div></div>
+</div>
+</section>
+<!-- Section 8: Alur Penerimaan PPDB SD & Call-to-Action Banner -->
+<section class="py-16 md:py-24 bg-[#FAF9F5] border-t border-neutral-200 relative" id="alur-pendaftaran"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="bg-white rounded-3xl p-8 sm:p-12 shadow-sm border border-neutral-200 mb-12"><div class="max-w-3xl mb-10"><span class="font-label-md text-xs uppercase tracking-wider text-primary font-bold block mb-1">Panduan Penerimaan Murid Baru</span><h3 class="font-serif-title text-2xl sm:text-3xl lg:text-4xl text-primary font-normal">Alur Pendaftaran PPDB SD Tahun Ajaran 2026/2027</h3><p class="text-sm sm:text-base text-on-surface-variant mt-2 leading-relaxed">Proses observasi yang menyenangkan tanpa tes calistung tertulis yang menegangkan bagi anak.</p></div><div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 relative"><div class="flex flex-col bg-[#FAF9F5] border border-neutral-200 p-6 rounded-2xl"><span class="w-9 h-9 rounded-full bg-primary text-white font-label-md text-sm flex items-center justify-center font-bold mb-4 shadow-sm">1</span><h5 class="font-serif-title text-lg font-bold text-primary mb-2">Registrasi Daring</h5><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Mengisi formulir digital via website, melengkapi berkas KK &amp; Akta Lahir, serta memilih jadwal School Tour.</p></div><div class="flex flex-col bg-[#FAF9F5] border border-neutral-200 p-6 rounded-2xl"><span class="w-9 h-9 rounded-full bg-primary text-white font-label-md text-sm flex items-center justify-center font-bold mb-4 shadow-sm">2</span><h5 class="font-serif-title text-lg font-bold text-primary mb-2">Play-Based Observation</h5><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Observasi kesiapan motorik, sensori, dan kemandirian anak dalam format bermain interaktif santai bersama psikolog anak.</p></div><div class="flex flex-col bg-[#FAF9F5] border border-neutral-200 p-6 rounded-2xl"><span class="w-9 h-9 rounded-full bg-primary text-white font-label-md text-sm flex items-center justify-center font-bold mb-4 shadow-sm">3</span><h5 class="font-serif-title text-lg font-bold text-primary mb-2">Wawancara Orang Tua</h5><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Dialog penyelarasan visi pendidikan antara orang tua dan tim kepala sekolah demi kesinambungan pola asuh di rumah.</p></div><div class="flex flex-col bg-[#FAF9F5] border border-neutral-200 p-6 rounded-2xl"><span class="w-9 h-9 rounded-full bg-primary text-white font-label-md text-sm flex items-center justify-center font-bold mb-4 shadow-sm">4</span><h5 class="font-serif-title text-lg font-bold text-primary mb-2">Pengumuman &amp; Orientasi</h5><p class="text-xs sm:text-sm text-on-surface-variant leading-relaxed">Penerimaan hasil secara daring, registrasi ulang, pengukuran seragam, serta Parent Induction Day.</p></div></div></div><div class="relative overflow-hidden rounded-3xl bg-primary text-white p-8 sm:p-12 lg:p-16 shadow-2xl"><div class="absolute right-0 top-0 bottom-0 w-1/2 opacity-10 pointer-events-none hidden lg:block"><svg class="w-full h-full stroke-current fill-none" stroke-width="1.5" viewBox="0 0 400 400"><circle cx="200" cy="200" r="150"></circle><path d="M50 200 Q 200 50 350 200 T 50 200"></path><circle cx="200" cy="200" r="80"></circle></svg></div><div class="relative z-10 max-w-3xl"><div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-500/20 text-amber-300 font-label-sm text-xs uppercase tracking-wider mb-4 border border-amber-400/40"><span class="w-2 h-2 rounded-full bg-amber-300 animate-pulse"></span><span class="">Gelombang I: Kuota Terbatas (4 Rombel)</span></div><h3 class="font-serif-title text-3xl sm:text-4xl lg:text-5xl text-white font-normal leading-tight mb-6">Hantarkan Langkah Pertama Ananda Bersama SD Harapan Mulia.</h3><p class="text-base sm:text-lg text-emerald-100 leading-relaxed mb-8 max-w-2xl">Pendaftaran Gelombang 1 mendapatkan prioritas pemilihan sesi observasi dan subsidi biaya orientasi murid baru. Hubungi tim admisi kami untuk konsultasi langsung.</p><div class="flex flex-wrap items-center gap-4"><a class="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-amber-500 text-slate-900 font-label-lg text-sm font-bold shadow hover:bg-amber-400 hover:scale-105 transition-all duration-200" href="https://wa.me/6281234567890" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">chat</span><span class="">Hubungi Admisi SD via WhatsApp</span></a><a class="inline-flex items-center gap-2 px-7 py-4 rounded-full bg-white/10 text-white font-label-lg text-sm font-semibold hover:bg-white/20 transition-colors border border-white/20" href="#"><span class="material-symbols-outlined text-[20px]">calendar_month</span><span class="">Jadwalkan Kunjungan Kampus</span></a></div><div class="mt-8 flex flex-wrap items-center gap-6 text-emerald-200 text-xs sm:text-sm"><span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[18px]">call</span>(021) 1234 5678 ext. 102 (SD)</span><span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-[18px]">schedule</span>Senin - Jumat: 07.30 - 15.30 WIB</span></div></div></div></div></section>
+</div>
+</main>
+<!-- BEGIN: SiteFooter -->
+<footer class="bg-surface-container-lowest border-t border-outline-variant/30 pt-16 pb-12" data-purpose="site-footer">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-outline-variant/30">
+<!-- Col 1: Brand & Tagline -->
+<div class="lg:col-span-4">
+<div class="flex items-center gap-3 mb-4">
+<div class="w-10 h-10 rounded-full bg-primary text-tertiary-fixed flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[22px]">school</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-[11px] uppercase tracking-wider text-secondary font-bold">Yayasan Pendidikan</span>
+<span class="font-serif-title text-xl font-bold text-primary leading-none">Harapan Mulia</span>
+</div>
+</div>
+<p class="text-sm text-on-surface-variant leading-relaxed max-w-sm mb-6">
+          Bersama Mendidik, Bersama Membangun Masa Depan generasi bangsa dengan integritas, kepemimpinan, dan kecerdasan seimbang.
+        </p>
+<div class="flex items-center gap-3 text-on-surface-variant">
+<a aria-label="Instagram" class="w-9 h-9 rounded-full bg-surface-container-low flex items-center justify-center hover:bg-primary hover:text-on-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">photo_camera</span>
+</a>
+<a aria-label="Email" class="w-9 h-9 rounded-full bg-surface-container-low flex items-center justify-center hover:bg-primary hover:text-on-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+</a>
+<a aria-label="Telepon" class="w-9 h-9 rounded-full bg-surface-container-low flex items-center justify-center hover:bg-primary hover:text-on-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[18px]">call</span>
+</a>
+</div>
+</div>
+<!-- Col 2: Tautan Cepat -->
+<div class="lg:col-span-2">
+<h4 class="text-xs uppercase tracking-wider text-primary font-bold mb-4">Tautan Cepat</h4>
+<ul class="space-y-2 text-sm text-on-surface-variant"><li class=""><a class="hover:text-primary transition-colors" data-path="beranda" href="#">Beranda</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="tentang-kami" href="#">Tentang Kami</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="sekolah" href="#">Sekolah</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="akademik" href="#">Akademik</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="fasilitas" href="#">Fasilitas</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="kehidupan-sekolah" href="#">Kehidupan Sekolah</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="prestasi" href="#">Prestasi</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="berita" href="#">Warta &amp; Berita</a></li></ul>
+</div>
+<!-- Col 3: Unit Pendidikan -->
+<div class="lg:col-span-3">
+<h4 class="text-xs uppercase tracking-wider text-primary font-bold mb-4">Unit Pendidikan</h4>
+<ul class="space-y-2 text-sm text-on-surface-variant">
+<li class=""><a class="font-semibold text-primary hover:underline flex items-center gap-1.5" data-path="sd-harapan-mulia" href="#"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span>SD Harapan Mulia</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="smp-harapan-mulia" href="#">SMP Harapan Mulia</a></li>
+<li class=""><a class="hover:text-primary transition-colors" data-path="sma-harapan-mulia" href="#">SMA Harapan Mulia</a></li>
+<li class="pt-2"><a class="text-xs font-bold text-secondary hover:text-primary uppercase tracking-wider inline-flex items-center gap-1" data-path="ppdb-2026-2027" href="#alur-pendaftaran">Informasi PPDB 2026/2027 →</a></li>
+</ul>
+</div>
+<!-- Col 4: Hubungi Kami -->
+<div class="lg:col-span-3">
+<h4 class="text-xs uppercase tracking-wider text-primary font-bold mb-4">Hubungi Kami</h4>
+<ul class="space-y-3 text-sm text-on-surface-variant">
+<li class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-[18px] text-primary mt-0.5 flex-shrink-0">location_on</span>
+<span class="">Jl. Pendidikan No. 1, Cilandak, Jakarta Selatan 12545</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[18px] text-primary flex-shrink-0">call</span>
+<span class="">+62 21 1234 5678</span>
+</li>
+<li class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[18px] text-primary flex-shrink-0">mail</span>
+<span class="">info@harapanmulia.sch.id</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Bottom Copyright Note -->
+<div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-on-surface-variant gap-4">
+<p class="">© 2026 Yayasan Pendidikan Harapan Mulia. Hak Cipta Dilindungi.</p>
+<div class="flex items-center gap-6">
+<a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a>
+<a class="hover:text-primary transition-colors" href="#">Syarat &amp; Ketentuan</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- END: SiteFooter -->
+
+
+
+
+</body></html>
