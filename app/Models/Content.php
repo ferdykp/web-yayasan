@@ -21,6 +21,7 @@ abstract class Content extends Model {
   if($user->role==='foundation_admin')return $this instanceof Foundation ? $query : ($this instanceof School ? $query->whereRaw('1=0') : $query->whereNull('school_id'));
   if($user->role==='school_admin'&&$user->school_id){
    if($this instanceof Foundation)return $query->whereRaw('1=0');
+   if(in_array(static::class,[Facility::class,Program::class,Extracurricular::class]))$query->whereDoesntHave('schools',fn(Builder $q)=>$q->where('schools.id','!=',$user->school_id));
    return $query->where($this instanceof School ? 'id' : 'school_id',$user->school_id);
   }
   return $query->whereRaw('1=0');
@@ -35,6 +36,7 @@ abstract class Content extends Model {
  public function getImageUrlAttribute():string{return self::mediaUrl($this->image);}
  public function getPublicUrlAttribute():string {
   $prefix=match(static::class){School::class=>'sekolah',News::class=>'berita',Achievement::class=>'prestasi',Program::class=>'program',Gallery::class=>'galeri',Facility::class=>'fasilitas',Extracurricular::class=>'ekstrakurikuler',Admission::class=>'ppdb',default=>''};
+  if($this instanceof Admission) return url('/ppdb/'.($this->school?->slug ?? $this->slug));
   return url('/'.$prefix.'/'.$this->slug);
  }
 }

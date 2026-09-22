@@ -1,693 +1,693 @@
 {
-  "Achievement": [
-    {
-      "title": "Olimpiade Astronomi & Astrofisika Indonesia",
-      "description": "Kompetisi analisa spektrometri bintang dan penentuan orbit planet kecil yang diselenggarakan oleh Observatorium Bosscha & ITB.",
-      "image": null,
-      "slug": "olimpiade-astronomi-astrofisika-indonesia",
-      "data": {
-        "copy": {
-          "text_1": "Medali Perak Nasional",
-          "text_2": "SMA • 2025",
-          "text_3": "Dimas Arya Pratama (Kelas XII IPA 1)",
-          "text_4": "Pembina: Wahyu Hidayat, M.Si."
+    "Achievement": [
+        {
+            "title": "Olimpiade Astronomi & Astrofisika Indonesia",
+            "description": "Kompetisi analisa spektrometri bintang dan penentuan orbit planet kecil yang diselenggarakan oleh Observatorium Bosscha & ITB.",
+            "image": null,
+            "slug": "olimpiade-astronomi-astrofisika-indonesia",
+            "data": {
+                "copy": {
+                    "text_1": "Medali Perak Nasional",
+                    "text_2": "SMA • 2025",
+                    "text_3": "Dimas Arya Pratama (Kelas XII IPA 1)",
+                    "text_4": "Pembina: Wahyu Hidayat, M.Si."
+                },
+                "images": {},
+                "category": "sains",
+                "year": 2025,
+                "competition": "Olimpiade Astronomi & Astrofisika Indonesia",
+                "student_name": "Dimas Arya Pratama (Kelas XII IPA 1)",
+                "rank": "military_tech Medali Perak Nasional"
+            },
+            "school": "sma"
         },
-        "images": {},
-        "category": "sains",
-        "year": 2025,
-        "competition": "Olimpiade Astronomi & Astrofisika Indonesia",
-        "student_name": "Dimas Arya Pratama (Kelas XII IPA 1)",
-        "rank": "military_tech Medali Perak Nasional"
-      },
-      "school": "sma"
-    },
-    {
-      "title": "Kejuaraan Taekwondo Kyorugi Junior Putra",
-      "description": "Kemenangan mutlak pada babak final kelas Under 48kg dalam Kejurda Taekwondo Pelajar se-Jabodetabek.",
-      "image": null,
-      "slug": "kejuaraan-taekwondo-kyorugi-junior-putra",
-      "data": {
-        "copy": {
-          "text_1": "Juara 1 Kejurda DKI",
-          "text_2": "SMP • 2025",
-          "text_3": "Kevyn Danendra (Kelas VIII-C)",
-          "text_4": "Pelatih Fisik: Sabeumnim Donny R."
+        {
+            "title": "Kejuaraan Taekwondo Kyorugi Junior Putra",
+            "description": "Kemenangan mutlak pada babak final kelas Under 48kg dalam Kejurda Taekwondo Pelajar se-Jabodetabek.",
+            "image": null,
+            "slug": "kejuaraan-taekwondo-kyorugi-junior-putra",
+            "data": {
+                "copy": {
+                    "text_1": "Juara 1 Kejurda DKI",
+                    "text_2": "SMP • 2025",
+                    "text_3": "Kevyn Danendra (Kelas VIII-C)",
+                    "text_4": "Pelatih Fisik: Sabeumnim Donny R."
+                },
+                "images": {},
+                "category": "olahraga",
+                "year": 2025,
+                "competition": "Kejuaraan Taekwondo Kyorugi Junior Putra",
+                "student_name": "Kevyn Danendra (Kelas VIII-C)",
+                "rank": "sports_martial_arts Juara 1 Kejurda DKI"
+            },
+            "school": "smp"
         },
-        "images": {},
-        "category": "olahraga",
-        "year": 2025,
-        "competition": "Kejuaraan Taekwondo Kyorugi Junior Putra",
-        "student_name": "Kevyn Danendra (Kelas VIII-C)",
-        "rank": "sports_martial_arts Juara 1 Kejurda DKI"
-      },
-      "school": "smp"
-    },
-    {
-      "title": "Kangaroo Math Competition (KMC) Indonesia",
-      "description": "Meraih skor sempurna 120/120 pada kategori Ecolier dengan pemecahan logika spasial dan aritmatika non-rutin.",
-      "image": null,
-      "slug": "kangaroo-math-competition-kmc-indonesia",
-      "data": {
-        "copy": {
-          "text_1": "Medali Emas Matematika",
-          "text_2": "SD • 2025",
-          "text_3": "Ayla Zahra Khairunnisa (Kelas V SD)",
-          "text_4": "Pembina: Nurul Hidayati, S.Pd."
+        {
+            "title": "Kangaroo Math Competition (KMC) Indonesia",
+            "description": "Meraih skor sempurna 120/120 pada kategori Ecolier dengan pemecahan logika spasial dan aritmatika non-rutin.",
+            "image": null,
+            "slug": "kangaroo-math-competition-kmc-indonesia",
+            "data": {
+                "copy": {
+                    "text_1": "Medali Emas Matematika",
+                    "text_2": "SD • 2025",
+                    "text_3": "Ayla Zahra Khairunnisa (Kelas V SD)",
+                    "text_4": "Pembina: Nurul Hidayati, S.Pd."
+                },
+                "images": {},
+                "category": "sains",
+                "year": 2025,
+                "competition": "Kangaroo Math Competition (KMC) Indonesia",
+                "student_name": "Ayla Zahra Khairunnisa (Kelas V SD)",
+                "rank": "functions Medali Emas Matematika"
+            },
+            "school": "sd"
         },
-        "images": {},
-        "category": "sains",
-        "year": 2025,
-        "competition": "Kangaroo Math Competition (KMC) Indonesia",
-        "student_name": "Ayla Zahra Khairunnisa (Kelas V SD)",
-        "rank": "functions Medali Emas Matematika"
-      },
-      "school": "sd"
-    },
-    {
-      "title": "National University Debating Championship (NUDC Junior)",
-      "description": "Parlemen debat bahasa Indonesia format Asian Parliamentary mengenai tata kelola etika kecerdasan buatan dalam kurikulum nasional.",
-      "image": null,
-      "slug": "national-university-debating-championship-nudc-junior",
-      "data": {
-        "copy": {
-          "text_1": "Juara 1 Nasional",
-          "text_2": "SMA • 2025",
-          "text_3": "Fathir Rahman & Michelle Tan",
-          "text_4": "Pembina: Rian Kusuma, M.Hum."
+        {
+            "title": "National University Debating Championship (NUDC Junior)",
+            "description": "Parlemen debat bahasa Indonesia format Asian Parliamentary mengenai tata kelola etika kecerdasan buatan dalam kurikulum nasional.",
+            "image": null,
+            "slug": "national-university-debating-championship-nudc-junior",
+            "data": {
+                "copy": {
+                    "text_1": "Juara 1 Nasional",
+                    "text_2": "SMA • 2025",
+                    "text_3": "Fathir Rahman & Michelle Tan",
+                    "text_4": "Pembina: Rian Kusuma, M.Hum."
+                },
+                "images": {},
+                "category": "kepemimpinan",
+                "year": 2025,
+                "competition": "National University Debating Championship (NUDC Junior)",
+                "student_name": "Fathir Rahman & Michelle Tan",
+                "rank": "campaign Juara 1 Nasional"
+            },
+            "school": "sma"
         },
-        "images": {},
-        "category": "kepemimpinan",
-        "year": 2025,
-        "competition": "National University Debating Championship (NUDC Junior)",
-        "student_name": "Fathir Rahman & Michelle Tan",
-        "rank": "campaign Juara 1 Nasional"
-      },
-      "school": "sma"
-    },
-    {
-      "title": "Festival Seni & Literasi Digital Nusantara",
-      "description": "Karya ilustrasi naratif bertema “Pahlawan Masa Kini: Menjaga Kelestarian Hutan Mangrove Pantai Utara”.",
-      "image": null,
-      "slug": "festival-seni-literasi-digital-nusantara",
-      "data": {
-        "copy": {
-          "text_1": "Juara 2 Komik Digital",
-          "text_2": "SMP • 2025",
-          "text_3": "Carissa Clarinta (Kelas IX-A)",
-          "text_4": "Pembina Seni Grafis: Arif Wibisono, S.Ds."
+        {
+            "title": "Festival Seni & Literasi Digital Nusantara",
+            "description": "Karya ilustrasi naratif bertema “Pahlawan Masa Kini: Menjaga Kelestarian Hutan Mangrove Pantai Utara”.",
+            "image": null,
+            "slug": "festival-seni-literasi-digital-nusantara",
+            "data": {
+                "copy": {
+                    "text_1": "Juara 2 Komik Digital",
+                    "text_2": "SMP • 2025",
+                    "text_3": "Carissa Clarinta (Kelas IX-A)",
+                    "text_4": "Pembina Seni Grafis: Arif Wibisono, S.Ds."
+                },
+                "images": {},
+                "category": "seni",
+                "year": 2025,
+                "competition": "Festival Seni & Literasi Digital Nusantara",
+                "student_name": "Carissa Clarinta (Kelas IX-A)",
+                "rank": "draw Juara 2 Komik Digital"
+            },
+            "school": "smp"
         },
-        "images": {},
-        "category": "seni",
-        "year": 2025,
-        "competition": "Festival Seni & Literasi Digital Nusantara",
-        "student_name": "Carissa Clarinta (Kelas IX-A)",
-        "rank": "draw Juara 2 Komik Digital"
-      },
-      "school": "smp"
-    },
-    {
-      "title": "Kejuaraan Renang Pelajar Provinsi DKI Jakarta",
-      "description": "Torehan waktu tercepat di nomor 50m Gaya Dada, 100m Gaya Bebas, dan 50m Gaya Kupu-kupu Putra Kelompok Umur IV.",
-      "image": null,
-      "slug": "kejuaraan-renang-pelajar-provinsi-dki-jakarta",
-      "data": {
-        "copy": {
-          "text_1": "3 Medali Emas Renang",
-          "text_2": "SD • 2025",
-          "text_3": "Brian Rafael Jonathan (Kelas IV SD)",
-          "text_4": "Pelatih: Coach Bambang Pamungkas"
+        {
+            "title": "Kejuaraan Renang Pelajar Provinsi DKI Jakarta",
+            "description": "Torehan waktu tercepat di nomor 50m Gaya Dada, 100m Gaya Bebas, dan 50m Gaya Kupu-kupu Putra Kelompok Umur IV.",
+            "image": null,
+            "slug": "kejuaraan-renang-pelajar-provinsi-dki-jakarta",
+            "data": {
+                "copy": {
+                    "text_1": "3 Medali Emas Renang",
+                    "text_2": "SD • 2025",
+                    "text_3": "Brian Rafael Jonathan (Kelas IV SD)",
+                    "text_4": "Pelatih: Coach Bambang Pamungkas"
+                },
+                "images": {},
+                "category": "olahraga",
+                "year": 2025,
+                "competition": "Kejuaraan Renang Pelajar Provinsi DKI Jakarta",
+                "student_name": "Brian Rafael Jonathan (Kelas IV SD)",
+                "rank": "pool 3 Medali Emas Renang"
+            },
+            "school": "sd"
         },
-        "images": {},
-        "category": "olahraga",
-        "year": 2025,
-        "competition": "Kejuaraan Renang Pelajar Provinsi DKI Jakarta",
-        "student_name": "Brian Rafael Jonathan (Kelas IV SD)",
-        "rank": "pool 3 Medali Emas Renang"
-      },
-      "school": "sd"
-    },
-    {
-      "title": "Indonesia IoT Student Challenge Universitas Indonesia",
-      "description": "Pengembangan alat pantau kadar nutrisi hidroponik berbasis sensor ESP32 terhubung dashboard cloud otomatis.",
-      "image": null,
-      "slug": "indonesia-iot-student-challenge-universitas-indonesia",
-      "data": {
-        "copy": {
-          "text_1": "Best Innovation Award",
-          "text_2": "SMA • 2025",
-          "text_3": "Tim IoT Makers (SMA Harapan Mulia)",
-          "text_4": "Pembina: Irfan Maulana, M.Kom."
+        {
+            "title": "Indonesia IoT Student Challenge Universitas Indonesia",
+            "description": "Pengembangan alat pantau kadar nutrisi hidroponik berbasis sensor ESP32 terhubung dashboard cloud otomatis.",
+            "image": null,
+            "slug": "indonesia-iot-student-challenge-universitas-indonesia",
+            "data": {
+                "copy": {
+                    "text_1": "Best Innovation Award",
+                    "text_2": "SMA • 2025",
+                    "text_3": "Tim IoT Makers (SMA Harapan Mulia)",
+                    "text_4": "Pembina: Irfan Maulana, M.Kom."
+                },
+                "images": {},
+                "category": "robotika",
+                "year": 2025,
+                "competition": "Indonesia IoT Student Challenge Universitas Indonesia",
+                "student_name": "Tim IoT Makers (SMA Harapan Mulia)",
+                "rank": "memory Best Innovation Award"
+            },
+            "school": "sma"
         },
-        "images": {},
-        "category": "robotika",
-        "year": 2025,
-        "competition": "Indonesia IoT Student Challenge Universitas Indonesia",
-        "student_name": "Tim IoT Makers (SMA Harapan Mulia)",
-        "rank": "memory Best Innovation Award"
-      },
-      "school": "sma"
-    },
-    {
-      "title": "Olimpiade Sains Nasional Bidang Ilmu Pengetahuan Sosial",
-      "description": "Kajian mendalam mengenai mitigasi kebencanaan kearifan lokal masyarakat pesisir di Selat Sunda.",
-      "image": null,
-      "slug": "olimpiade-sains-nasional-bidang-ilmu-pengetahuan-sosial",
-      "data": {
-        "copy": {
-          "text_1": "Juara Harapan 1 OSN IPS",
-          "text_2": "SMP • 2025",
-          "text_3": "Shabira Althea (Kelas IX-B)",
-          "text_4": "Pembina: Dra. Sri Wahyuningsih"
+        {
+            "title": "Olimpiade Sains Nasional Bidang Ilmu Pengetahuan Sosial",
+            "description": "Kajian mendalam mengenai mitigasi kebencanaan kearifan lokal masyarakat pesisir di Selat Sunda.",
+            "image": null,
+            "slug": "olimpiade-sains-nasional-bidang-ilmu-pengetahuan-sosial",
+            "data": {
+                "copy": {
+                    "text_1": "Juara Harapan 1 OSN IPS",
+                    "text_2": "SMP • 2025",
+                    "text_3": "Shabira Althea (Kelas IX-B)",
+                    "text_4": "Pembina: Dra. Sri Wahyuningsih"
+                },
+                "images": {},
+                "category": "sains",
+                "year": 2025,
+                "competition": "Olimpiade Sains Nasional Bidang Ilmu Pengetahuan Sosial",
+                "student_name": "Shabira Althea (Kelas IX-B)",
+                "rank": "psychology Juara Harapan 1 OSN IPS"
+            },
+            "school": "smp"
+        }
+    ],
+    "News": [
+        {
+            "title": "Kelas Tanpa Dinding: Menemukan Matematika Pola Fraktal pada Daun Pakis Kebun Sekolah",
+            "description": "Siswa kelas 4 SD diajak mengamati alam secara langsung, membuktikan bahwa matematika adalah bahasa semesta yang hidup, logis, dan sangat menyenangkan saat disentuh dengan jemari kecil mereka.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCp8F-XufX1HvZ_Iuwt4H66xYor6ornRtbekaAhpimHzUY6PsbJ4cnBQWTlry_fB5mL-MzENdssDVbGpInOABdxeHI8CslY-T6I5HDMCA-ZyaXJQmYl1_t6O30MV16rEFl3cDkz8Y1SikqLcAjgsJsJ-f3-oryGr65MOoAVwG050s3aSnJxK8glHRuUFlslb6zbT6fMYyQm44VPf9iXavNT6RtwBCY6rkiohw8PdrP-rzTtsBd8_bFz",
+            "slug": "kelas-tanpa-dinding-menemukan-matematika-pola-fraktal-pada-daun-pakis-kebun-sekolah",
+            "data": {
+                "copy": {
+                    "text_1": "SD • Kurikulum Berbasis Alam",
+                    "text_2": "20 Februari 2026",
+                    "text_3": "Wali Kelas IV-B & Tim Sains Dasar",
+                    "text_4": "Baca"
+                },
+                "images": {},
+                "category": "sd",
+                "author": "Wali Kelas IV-B & Tim Sains Dasar"
+            },
+            "school": "sd"
         },
-        "images": {},
-        "category": "sains",
-        "year": 2025,
-        "competition": "Olimpiade Sains Nasional Bidang Ilmu Pengetahuan Sosial",
-        "student_name": "Shabira Althea (Kelas IX-B)",
-        "rank": "psychology Juara Harapan 1 OSN IPS"
-      },
-      "school": "smp"
-    }
-  ],
-  "News": [
-    {
-      "title": "Kelas Tanpa Dinding: Menemukan Matematika Pola Fraktal pada Daun Pakis Kebun Sekolah",
-      "description": "Siswa kelas 4 SD diajak mengamati alam secara langsung, membuktikan bahwa matematika adalah bahasa semesta yang hidup, logis, dan sangat menyenangkan saat disentuh dengan jemari kecil mereka.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCp8F-XufX1HvZ_Iuwt4H66xYor6ornRtbekaAhpimHzUY6PsbJ4cnBQWTlry_fB5mL-MzENdssDVbGpInOABdxeHI8CslY-T6I5HDMCA-ZyaXJQmYl1_t6O30MV16rEFl3cDkz8Y1SikqLcAjgsJsJ-f3-oryGr65MOoAVwG050s3aSnJxK8glHRuUFlslb6zbT6fMYyQm44VPf9iXavNT6RtwBCY6rkiohw8PdrP-rzTtsBd8_bFz",
-      "slug": "kelas-tanpa-dinding-menemukan-matematika-pola-fraktal-pada-daun-pakis-kebun-sekolah",
-      "data": {
-        "copy": {
-          "text_1": "SD • Kurikulum Berbasis Alam",
-          "text_2": "20 Februari 2026",
-          "text_3": "Wali Kelas IV-B & Tim Sains Dasar",
-          "text_4": "Baca"
+        {
+            "title": "Dari Sensor Sederhana ke Solusi Kompos Otomatis: Karya Inovasi Mandiri Kelas 8",
+            "description": "Eksplorasi modul mikrokontroler membangkitkan rasa percaya diri siswa untuk merancang sistem pemantau suhu dan kelembaban pupuk organik kampus terpadu demi mendukung kantin nir-limbah.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCXHjcuM6z2_3kWFgRr1Z8076p6LsOkfNkW5uOy-mJw1kfGhdFvxsAVYx_aw_zw6SgarAzp9ii06ERbegARUR-h0IWwOKcbCK4aWh3miRg2QtGX3zKb6AqPGUTf8CEkKfJDSp-1Ae6TWjoW__PKc8y3RA9H_anTsjU97TBUgUgOtAh_NBIrUHp5RT1czTP3ieHvO6t9RG2aeUdyqtknMer9Hk9tD6m9pA1__aG8ViBq8WklDBi6sNYv",
+            "slug": "dari-sensor-sederhana-ke-solusi-kompos-otomatis-karya-inovasi-mandiri-kelas-8",
+            "data": {
+                "copy": {
+                    "text_1": "SMP • Teknologi Terapan",
+                    "text_2": "17 Februari 2026",
+                    "text_3": "Koordinator STEM SMP",
+                    "text_4": "Baca"
+                },
+                "images": {},
+                "category": "smp",
+                "author": "Koordinator STEM SMP"
+            },
+            "school": "smp"
         },
-        "images": {},
-        "category": "sd",
-        "author": "Wali Kelas IV-B & Tim Sains Dasar"
-      },
-      "school": "sd"
-    },
-    {
-      "title": "Dari Sensor Sederhana ke Solusi Kompos Otomatis: Karya Inovasi Mandiri Kelas 8",
-      "description": "Eksplorasi modul mikrokontroler membangkitkan rasa percaya diri siswa untuk merancang sistem pemantau suhu dan kelembaban pupuk organik kampus terpadu demi mendukung kantin nir-limbah.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCXHjcuM6z2_3kWFgRr1Z8076p6LsOkfNkW5uOy-mJw1kfGhdFvxsAVYx_aw_zw6SgarAzp9ii06ERbegARUR-h0IWwOKcbCK4aWh3miRg2QtGX3zKb6AqPGUTf8CEkKfJDSp-1Ae6TWjoW__PKc8y3RA9H_anTsjU97TBUgUgOtAh_NBIrUHp5RT1czTP3ieHvO6t9RG2aeUdyqtknMer9Hk9tD6m9pA1__aG8ViBq8WklDBi6sNYv",
-      "slug": "dari-sensor-sederhana-ke-solusi-kompos-otomatis-karya-inovasi-mandiri-kelas-8",
-      "data": {
-        "copy": {
-          "text_1": "SMP • Teknologi Terapan",
-          "text_2": "17 Februari 2026",
-          "text_3": "Koordinator STEM SMP",
-          "text_4": "Baca"
+        {
+            "title": "Refleksi Delegasi Singapore MUN: Mengasah Diplomasi Global Tanpa Kehilangan Identitas Nusantara",
+            "description": "Dua delegasi SMA Harapan Mulia membagikan pelajaran berharga mengenai negosiasi krisis iklim dan kerendahan hati saat memimpin kaukus multilateral bersama 200 pelajar internasional.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDj-6HdAX6HyR3TA6B2ohjKIf4z18uzwBbDGrhQzGWaMkPKnoB9iRJme8g8nHaL0XieYOwSklQfzKMy26kDI8OarwkCLxIy76lkHNKJfJUCRVmvLpjBGQO8Mgly_PhScyARtYIG8_qjXb5P3Gk9-A40eo41XAbwP3Zdtm8m0sH7-gQb7J5CJ--Y2teC2Z5F0Wf9UhKtxBx3n4ymx4NuA6QvOSTR6ihCnaGN1zHbnrs4DotJ4l1A_KR3",
+            "slug": "refleksi-delegasi-singapore-mun-mengasah-diplomasi-global-tanpa-kehilangan-identitas-nusantara",
+            "data": {
+                "copy": {
+                    "text_1": "SMA • Prestasi Internasional",
+                    "text_2": "12 Februari 2026",
+                    "text_3": "Klub Bahasa & Diplomasi",
+                    "text_4": "Baca"
+                },
+                "images": {},
+                "category": "sma",
+                "author": "Klub Bahasa & Diplomasi"
+            },
+            "school": "sma"
         },
-        "images": {},
-        "category": "smp",
-        "author": "Koordinator STEM SMP"
-      },
-      "school": "smp"
-    },
-    {
-      "title": "Refleksi Delegasi Singapore MUN: Mengasah Diplomasi Global Tanpa Kehilangan Identitas Nusantara",
-      "description": "Dua delegasi SMA Harapan Mulia membagikan pelajaran berharga mengenai negosiasi krisis iklim dan kerendahan hati saat memimpin kaukus multilateral bersama 200 pelajar internasional.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDj-6HdAX6HyR3TA6B2ohjKIf4z18uzwBbDGrhQzGWaMkPKnoB9iRJme8g8nHaL0XieYOwSklQfzKMy26kDI8OarwkCLxIy76lkHNKJfJUCRVmvLpjBGQO8Mgly_PhScyARtYIG8_qjXb5P3Gk9-A40eo41XAbwP3Zdtm8m0sH7-gQb7J5CJ--Y2teC2Z5F0Wf9UhKtxBx3n4ymx4NuA6QvOSTR6ihCnaGN1zHbnrs4DotJ4l1A_KR3",
-      "slug": "refleksi-delegasi-singapore-mun-mengasah-diplomasi-global-tanpa-kehilangan-identitas-nusantara",
-      "data": {
-        "copy": {
-          "text_1": "SMA • Prestasi Internasional",
-          "text_2": "12 Februari 2026",
-          "text_3": "Klub Bahasa & Diplomasi",
-          "text_4": "Baca"
+        {
+            "title": "Transisi Energi Bersih: Kampus Terpadu Resmikan Pemasangan Solar Microgrid 45 kWp",
+            "description": "Langkah nyata yayasan mewujudkan kampus biophilic ramah lingkungan sekaligus laboratorium hidup keberlanjutan bagi seluruh peserta didik dalam menekan jejak karbon institusi.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAI5TUJ2wejNPA0RIQiVIe6sXGauqHFW6eyYaPZYqduaESh6S1jVIfzBAIyTvKxmwiXUlkusCrwaYjUQCJegeZk1S-5WFU3t_CV2cD_zXVPbaA5iHhWkLCYVRv_rDWLTkM39sCkTXPKGBEKBULX5ti2EX53Z4tyVALDvIwq1AZRCuhPMwFgIunzyBHO4xdWlY9EVd942R2MqqtbvUIVw12HA58Ns2ykrikHpuviWBd7zBpjcGU91DjE",
+            "slug": "transisi-energi-bersih-kampus-terpadu-resmikan-pemasangan-solar-microgrid-45-kwp",
+            "data": {
+                "copy": {
+                    "text_1": "Yayasan • Inisiatif Hijau",
+                    "text_2": "08 Februari 2026",
+                    "text_3": "Biro Sarana & Prasarana",
+                    "text_4": "Baca"
+                },
+                "images": {},
+                "category": "yayasan",
+                "author": "Biro Sarana & Prasarana"
+            },
+            "school": null
         },
-        "images": {},
-        "category": "sma",
-        "author": "Klub Bahasa & Diplomasi"
-      },
-      "school": "sma"
-    },
-    {
-      "title": "Transisi Energi Bersih: Kampus Terpadu Resmikan Pemasangan Solar Microgrid 45 kWp",
-      "description": "Langkah nyata yayasan mewujudkan kampus biophilic ramah lingkungan sekaligus laboratorium hidup keberlanjutan bagi seluruh peserta didik dalam menekan jejak karbon institusi.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAI5TUJ2wejNPA0RIQiVIe6sXGauqHFW6eyYaPZYqduaESh6S1jVIfzBAIyTvKxmwiXUlkusCrwaYjUQCJegeZk1S-5WFU3t_CV2cD_zXVPbaA5iHhWkLCYVRv_rDWLTkM39sCkTXPKGBEKBULX5ti2EX53Z4tyVALDvIwq1AZRCuhPMwFgIunzyBHO4xdWlY9EVd942R2MqqtbvUIVw12HA58Ns2ykrikHpuviWBd7zBpjcGU91DjE",
-      "slug": "transisi-energi-bersih-kampus-terpadu-resmikan-pemasangan-solar-microgrid-45-kwp",
-      "data": {
-        "copy": {
-          "text_1": "Yayasan • Inisiatif Hijau",
-          "text_2": "08 Februari 2026",
-          "text_3": "Biro Sarana & Prasarana",
-          "text_4": "Baca"
+        {
+            "title": "Mendampingi Remaja di Era Algoritma: Membangun Komunikasi Hangat Tanpa Sikap Menghakimi",
+            "description": "Ringkasan intisari seminar bulanan bersama konselor psikologi remaja Harapan Mulia mengenai navigasi paparan media sosial serta cara merawat kedekatan batin saat anak beranjak dewasa.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBKrkbgZGRQlwi1KOHPBr46UJYCeZnHaP8mz3SQuyV-6ipx50aDj-xx3dCC2_G_w16XilwmnZBCahULIQf_QTcC7KIWtN1xLb_8UXuWfbJ3bBkBvuSB1Vf1NDrIiIvR7J7m4fo7RK18zw537_6MZkQ_8jKqoL1PEwCsrT4f0piKry_U-UYfeuR6PxEoGHv4aYc2SgUc-OGhTR65v4wBvyU3uE40fF2Uw9_ixdTnNrZ06K_Z_BzTFq1V",
+            "slug": "mendampingi-remaja-di-era-algoritma-membangun-komunikasi-hangat-tanpa-sikap-menghakimi",
+            "data": {
+                "copy": {
+                    "text_1": "Dialog Guru & Orang Tua",
+                    "text_2": "01 Februari 2026",
+                    "text_3": "Layanan Bimbingan Konseling",
+                    "text_4": "Baca"
+                },
+                "images": {},
+                "category": "parenting",
+                "author": "Layanan Bimbingan Konseling"
+            },
+            "school": null
         },
-        "images": {},
-        "category": "yayasan",
-        "author": "Biro Sarana & Prasarana"
-      },
-      "school": null
-    },
-    {
-      "title": "Mendampingi Remaja di Era Algoritma: Membangun Komunikasi Hangat Tanpa Sikap Menghakimi",
-      "description": "Ringkasan intisari seminar bulanan bersama konselor psikologi remaja Harapan Mulia mengenai navigasi paparan media sosial serta cara merawat kedekatan batin saat anak beranjak dewasa.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBKrkbgZGRQlwi1KOHPBr46UJYCeZnHaP8mz3SQuyV-6ipx50aDj-xx3dCC2_G_w16XilwmnZBCahULIQf_QTcC7KIWtN1xLb_8UXuWfbJ3bBkBvuSB1Vf1NDrIiIvR7J7m4fo7RK18zw537_6MZkQ_8jKqoL1PEwCsrT4f0piKry_U-UYfeuR6PxEoGHv4aYc2SgUc-OGhTR65v4wBvyU3uE40fF2Uw9_ixdTnNrZ06K_Z_BzTFq1V",
-      "slug": "mendampingi-remaja-di-era-algoritma-membangun-komunikasi-hangat-tanpa-sikap-menghakimi",
-      "data": {
-        "copy": {
-          "text_1": "Dialog Guru & Orang Tua",
-          "text_2": "01 Februari 2026",
-          "text_3": "Layanan Bimbingan Konseling",
-          "text_4": "Baca"
+        {
+            "title": "Harmoni 400 Suara di Grand Auditorium: Gelar Budaya Nusantara Merajut Keberagaman",
+            "description": "Kolaborasi lintas jenjang dari siswa SD hingga SMA menyuguhkan gubahan musik etnik orkestral bertema persatuan yang memukau ratusan orang tua serta tamu kehormatan yayasan.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkdIhJS6HhynEdv5aDg-8_Q3_QGFM3P0NsCLw3A4Xi8WZRNKh4BpMKA-FhKfMZRSVv4klQNdXuLttOrJ4pJ8G6Ij3ODGQ05bp7K6FKM2lj4tWgsY4Yfixo2F_bR9jTHGHOG5KVVviboRqcs_H1ciPV0jIHuAPt2ypprUbc38wWjTcMdPA1v-5LTIJVu7VV7HHpAaU-frLDZiJY4T7fHftSwkIYvVARxqUTyzHoy73xMoUdDQ2W8Mjs",
+            "slug": "harmoni-400-suara-di-grand-auditorium-gelar-budaya-nusantara-merajut-keberagaman",
+            "data": {
+                "copy": {
+                    "text_1": "Seni Pertunjukan",
+                    "text_2": "28 Januari 2026",
+                    "text_3": "Departemen Seni & Budaya",
+                    "text_4": "Baca"
+                },
+                "images": {},
+                "category": "sma",
+                "author": "Departemen Seni & Budaya"
+            },
+            "school": "sma"
+        }
+    ],
+    "Gallery": [
+        {
+            "title": "Circle Time Pagi: Membuka Hari dengan Mendengarkan Sesama",
+            "description": "Sebelum bel kelas pertama berbunyi, tradisi lingkaran pagi menjadi ruang aman setiap siswa berbagi rasa syukur, kegelisahan, dan aspirasi mingguan mereka tanpa interupsi.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuASj8bNDSn7KY9NyuVj8XyN0QXMNXWwqlp8FWx3BMjxKqBW7tmjISJlHtNjwIgTtjx-iKNTYgEgiC_NehMJqdNoDQ4BVVrcTNnwAELCuuIkz1LNd4sU1XiBmNvubU05nqsEUsNkBLddAD_t4uqmbKu2skIa7-txL6IEJgX2APDRP-4ISigtPGPvh6AHdA4b_su2zoSfpEPwhxwlbq-9x5xoYbWq8quhrZGtEbXDW72YUNMXjG_3quN0",
+            "slug": "circle-time-pagi-membuka-hari-dengan-mendengarkan-sesama",
+            "data": {
+                "copy": {
+                    "text_1": "SMP Harapan Mulia",
+                    "text_2": "14 Feb 2026",
+                    "text_3": "Dok. Bu Rahmi (Wali Kelas 8)",
+                    "text_4": "Kehidupan Harian"
+                },
+                "images": {},
+                "category": "harian",
+                "date": "2026-02-14",
+                "photos": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuASj8bNDSn7KY9NyuVj8XyN0QXMNXWwqlp8FWx3BMjxKqBW7tmjISJlHtNjwIgTtjx-iKNTYgEgiC_NehMJqdNoDQ4BVVrcTNnwAELCuuIkz1LNd4sU1XiBmNvubU05nqsEUsNkBLddAD_t4uqmbKu2skIa7-txL6IEJgX2APDRP-4ISigtPGPvh6AHdA4b_su2zoSfpEPwhxwlbq-9x5xoYbWq8quhrZGtEbXDW72YUNMXjG_3quN0"
+                ]
+            },
+            "school": null
         },
-        "images": {},
-        "category": "parenting",
-        "author": "Layanan Bimbingan Konseling"
-      },
-      "school": null
-    },
-    {
-      "title": "Harmoni 400 Suara di Grand Auditorium: Gelar Budaya Nusantara Merajut Keberagaman",
-      "description": "Kolaborasi lintas jenjang dari siswa SD hingga SMA menyuguhkan gubahan musik etnik orkestral bertema persatuan yang memukau ratusan orang tua serta tamu kehormatan yayasan.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDkdIhJS6HhynEdv5aDg-8_Q3_QGFM3P0NsCLw3A4Xi8WZRNKh4BpMKA-FhKfMZRSVv4klQNdXuLttOrJ4pJ8G6Ij3ODGQ05bp7K6FKM2lj4tWgsY4Yfixo2F_bR9jTHGHOG5KVVviboRqcs_H1ciPV0jIHuAPt2ypprUbc38wWjTcMdPA1v-5LTIJVu7VV7HHpAaU-frLDZiJY4T7fHftSwkIYvVARxqUTyzHoy73xMoUdDQ2W8Mjs",
-      "slug": "harmoni-400-suara-di-grand-auditorium-gelar-budaya-nusantara-merajut-keberagaman",
-      "data": {
-        "copy": {
-          "text_1": "Seni Pertunjukan",
-          "text_2": "28 Januari 2026",
-          "text_3": "Departemen Seni & Budaya",
-          "text_4": "Baca"
+        {
+            "title": "Klub Robotika & Drone: Menghidupkan Kode Menjadi Solusi",
+            "description": "Menghubungkan teori fisika mekanika dengan pemrograman cerdas. Tim RoboMulia baru saja menyelesaikan prototipe drone pemantau penghijauan kota.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCQVKPv0Brianl6_lEnAPLjy662xbC86_z1mCo_VJhOQaP5EnqJfrdDrNpJkDMM54OPvHwJmB8hMY9fuQddULkW57ijFuE3CUpGlDBgt49lEsak3_HO_cmoMokJEtG_moIuO8MXt5OVlOXxFP-C4AdhIcQn1PiT0nudmHd-Te1HyKeTZ_3ZFu4LaZ4TO6IRuVQ9LdC675RJSIkXM0kMYAipzYdRA78ghd6MeLNHd_R1e8nnsa0o6ZWF",
+            "slug": "klub-robotika-drone-menghidupkan-kode-menjadi-solusi",
+            "data": {
+                "copy": {
+                    "text_1": "SMA Harapan Mulia",
+                    "text_2": "08 Feb 2026",
+                    "text_3": "Kevin & Arka (Kelas 11 IPA)",
+                    "text_4": "Ekstrakurikuler"
+                },
+                "images": {},
+                "category": "ekskul",
+                "date": "2026-02-14",
+                "photos": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuCQVKPv0Brianl6_lEnAPLjy662xbC86_z1mCo_VJhOQaP5EnqJfrdDrNpJkDMM54OPvHwJmB8hMY9fuQddULkW57ijFuE3CUpGlDBgt49lEsak3_HO_cmoMokJEtG_moIuO8MXt5OVlOXxFP-C4AdhIcQn1PiT0nudmHd-Te1HyKeTZ_3ZFu4LaZ4TO6IRuVQ9LdC675RJSIkXM0kMYAipzYdRA78ghd6MeLNHd_R1e8nnsa0o6ZWF"
+                ]
+            },
+            "school": null
         },
-        "images": {},
-        "category": "sma",
-        "author": "Departemen Seni & Budaya"
-      },
-      "school": "sma"
-    }
-  ],
-  "Gallery": [
-    {
-      "title": "Circle Time Pagi: Membuka Hari dengan Mendengarkan Sesama",
-      "description": "Sebelum bel kelas pertama berbunyi, tradisi lingkaran pagi menjadi ruang aman setiap siswa berbagi rasa syukur, kegelisahan, dan aspirasi mingguan mereka tanpa interupsi.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuASj8bNDSn7KY9NyuVj8XyN0QXMNXWwqlp8FWx3BMjxKqBW7tmjISJlHtNjwIgTtjx-iKNTYgEgiC_NehMJqdNoDQ4BVVrcTNnwAELCuuIkz1LNd4sU1XiBmNvubU05nqsEUsNkBLddAD_t4uqmbKu2skIa7-txL6IEJgX2APDRP-4ISigtPGPvh6AHdA4b_su2zoSfpEPwhxwlbq-9x5xoYbWq8quhrZGtEbXDW72YUNMXjG_3quN0",
-      "slug": "circle-time-pagi-membuka-hari-dengan-mendengarkan-sesama",
-      "data": {
-        "copy": {
-          "text_1": "SMP Harapan Mulia",
-          "text_2": "14 Feb 2026",
-          "text_3": "Dok. Bu Rahmi (Wali Kelas 8)",
-          "text_4": "Kehidupan Harian"
+        {
+            "title": "Gelar Budaya Nusantara: Merayakan Keberagaman dari Akar",
+            "description": "Lebih dari 400 siswa menampilkan 12 tarian tradisional, ansambel musik bambu, dan stan kuliner warisan leluhur yang dikelola mandiri.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBRJnzNsBYPBwWycHmBAy7dTFz4O6SpDbL8lxulYubo5TBTNgkT3uWlrhAHI_h7SAmuNQZUx6ipps5psHa4xYtoXtl0Vwd71Uto-58QuhRa61bgkirpvZSmUeEpRuN8By8meMXj6zmPMZjiTmFXeLbgo4rR3rkTQfDLh9AInT9M15buFu5Y8zSM5jR9Txv1m4t1agxNJgXVKEjmR3RD3tiyWlklFMVOd24M4I3Dh4rXVIh78gxwOWNi",
+            "slug": "gelar-budaya-nusantara-merayakan-keberagaman-dari-akar",
+            "data": {
+                "copy": {
+                    "text_1": "Semua Jenjang",
+                    "text_2": "28 Jan 2026",
+                    "text_3": "Klub Tari & Teater",
+                    "text_4": "Seni & Budaya"
+                },
+                "images": {},
+                "category": "seni",
+                "date": "2026-02-14",
+                "photos": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuBRJnzNsBYPBwWycHmBAy7dTFz4O6SpDbL8lxulYubo5TBTNgkT3uWlrhAHI_h7SAmuNQZUx6ipps5psHa4xYtoXtl0Vwd71Uto-58QuhRa61bgkirpvZSmUeEpRuN8By8meMXj6zmPMZjiTmFXeLbgo4rR3rkTQfDLh9AInT9M15buFu5Y8zSM5jR9Txv1m4t1agxNJgXVKEjmR3RD3tiyWlklFMVOd24M4I3Dh4rXVIh78gxwOWNi"
+                ]
+            },
+            "school": null
         },
-        "images": {},
-        "category": "harian",
-        "date": "2026-02-14",
-        "photos": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuASj8bNDSn7KY9NyuVj8XyN0QXMNXWwqlp8FWx3BMjxKqBW7tmjISJlHtNjwIgTtjx-iKNTYgEgiC_NehMJqdNoDQ4BVVrcTNnwAELCuuIkz1LNd4sU1XiBmNvubU05nqsEUsNkBLddAD_t4uqmbKu2skIa7-txL6IEJgX2APDRP-4ISigtPGPvh6AHdA4b_su2zoSfpEPwhxwlbq-9x5xoYbWq8quhrZGtEbXDW72YUNMXjG_3quN0"
-        ]
-      },
-      "school": null
-    },
-    {
-      "title": "Klub Robotika & Drone: Menghidupkan Kode Menjadi Solusi",
-      "description": "Menghubungkan teori fisika mekanika dengan pemrograman cerdas. Tim RoboMulia baru saja menyelesaikan prototipe drone pemantau penghijauan kota.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCQVKPv0Brianl6_lEnAPLjy662xbC86_z1mCo_VJhOQaP5EnqJfrdDrNpJkDMM54OPvHwJmB8hMY9fuQddULkW57ijFuE3CUpGlDBgt49lEsak3_HO_cmoMokJEtG_moIuO8MXt5OVlOXxFP-C4AdhIcQn1PiT0nudmHd-Te1HyKeTZ_3ZFu4LaZ4TO6IRuVQ9LdC675RJSIkXM0kMYAipzYdRA78ghd6MeLNHd_R1e8nnsa0o6ZWF",
-      "slug": "klub-robotika-drone-menghidupkan-kode-menjadi-solusi",
-      "data": {
-        "copy": {
-          "text_1": "SMA Harapan Mulia",
-          "text_2": "08 Feb 2026",
-          "text_3": "Kevin & Arka (Kelas 11 IPA)",
-          "text_4": "Ekstrakurikuler"
+        {
+            "title": "Live-In & Bakti Desa: Mengasah Nurani di Kaki Gunung Salak",
+            "description": "Selama lima hari tinggal bersama keluarga pengrajin dan petani, para murid belajar kesederhanaan, mengajar baca anak desa, dan memperbaiki irigasi mikro.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAZau7JeGuqV7JwCP44GzAy4bs_MroKHVfwNnOEKSFyzfPVyC7nnmdzZ1_9SKUDFGBpHaMqvtJbX8KY1yiiUrn8g4vFK72OPKf0uOOIvZtdCdoACmAtHQRObRMeeqoue9DJ4pODp7IWG1styQ-4JdWUfOZMQKwP-zQaT-9CvKdLD8NVEpy2nPj0sRSefPPsaKjVMXf4xvWn3AfMv6TOojTsVd1iq1sIvPev__9YPk4i87qaaIWu4Y9E",
+            "slug": "live-in-bakti-desa-mengasah-nurani-di-kaki-gunung-salak",
+            "data": {
+                "copy": {
+                    "text_1": "SMA Harapan Mulia",
+                    "text_2": "18 Jan 2026",
+                    "text_3": "Divisi Sosial OSIS SMA",
+                    "text_4": "Sosial & Empati"
+                },
+                "images": {},
+                "category": "sosial",
+                "date": "2026-02-14",
+                "photos": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuAZau7JeGuqV7JwCP44GzAy4bs_MroKHVfwNnOEKSFyzfPVyC7nnmdzZ1_9SKUDFGBpHaMqvtJbX8KY1yiiUrn8g4vFK72OPKf0uOOIvZtdCdoACmAtHQRObRMeeqoue9DJ4pODp7IWG1styQ-4JdWUfOZMQKwP-zQaT-9CvKdLD8NVEpy2nPj0sRSefPPsaKjVMXf4xvWn3AfMv6TOojTsVd1iq1sIvPev__9YPk4i87qaaIWu4Y9E"
+                ]
+            },
+            "school": null
         },
-        "images": {},
-        "category": "ekskul",
-        "date": "2026-02-14",
-        "photos": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuCQVKPv0Brianl6_lEnAPLjy662xbC86_z1mCo_VJhOQaP5EnqJfrdDrNpJkDMM54OPvHwJmB8hMY9fuQddULkW57ijFuE3CUpGlDBgt49lEsak3_HO_cmoMokJEtG_moIuO8MXt5OVlOXxFP-C4AdhIcQn1PiT0nudmHd-Te1HyKeTZ_3ZFu4LaZ4TO6IRuVQ9LdC675RJSIkXM0kMYAipzYdRA78ghd6MeLNHd_R1e8nnsa0o6ZWF"
-        ]
-      },
-      "school": null
-    },
-    {
-      "title": "Gelar Budaya Nusantara: Merayakan Keberagaman dari Akar",
-      "description": "Lebih dari 400 siswa menampilkan 12 tarian tradisional, ansambel musik bambu, dan stan kuliner warisan leluhur yang dikelola mandiri.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBRJnzNsBYPBwWycHmBAy7dTFz4O6SpDbL8lxulYubo5TBTNgkT3uWlrhAHI_h7SAmuNQZUx6ipps5psHa4xYtoXtl0Vwd71Uto-58QuhRa61bgkirpvZSmUeEpRuN8By8meMXj6zmPMZjiTmFXeLbgo4rR3rkTQfDLh9AInT9M15buFu5Y8zSM5jR9Txv1m4t1agxNJgXVKEjmR3RD3tiyWlklFMVOd24M4I3Dh4rXVIh78gxwOWNi",
-      "slug": "gelar-budaya-nusantara-merayakan-keberagaman-dari-akar",
-      "data": {
-        "copy": {
-          "text_1": "Semua Jenjang",
-          "text_2": "28 Jan 2026",
-          "text_3": "Klub Tari & Teater",
-          "text_4": "Seni & Budaya"
+        {
+            "title": "Derby Harapan Mulia Cup: Respek Lebih Tinggi dari Trofi",
+            "description": "Ajang tahunan antar sekolah se-Jabodetabek. Bukan semata kemenangan yang dikejar, melainkan etika sportivitas dan jabat tangan hormat kepada lawan.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAvGqQppzjnu8RAfTtfZokkC9H_RXU0M780guWPqmHDkeJZ90zycFMnq-1v4HFBLInVVbf3zgQYroyrosJuP7yxhnIwLHZoni1LZPiX8oQ_T0MhO7d5-JWDQasEZ13PMVB9jcx9X6AAbv782JTHIQPVvn9pPJyOZkSrDzww9Ts-7ffjsJo-_4uED05Vu3-yCXohlSDKSF84BWjcIdW6f-4QprJJOxwpLh0irGpguby_FHHjoTEi7YCs",
+            "slug": "derby-harapan-mulia-cup-respek-lebih-tinggi-dari-trofi",
+            "data": {
+                "copy": {
+                    "text_1": "SMP Harapan Mulia",
+                    "text_2": "12 Jan 2026",
+                    "text_3": "Coach Danang (Guru PJOK)",
+                    "text_4": "Kompetisi"
+                },
+                "images": {},
+                "category": "olahraga",
+                "date": "2026-02-14",
+                "photos": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuAvGqQppzjnu8RAfTtfZokkC9H_RXU0M780guWPqmHDkeJZ90zycFMnq-1v4HFBLInVVbf3zgQYroyrosJuP7yxhnIwLHZoni1LZPiX8oQ_T0MhO7d5-JWDQasEZ13PMVB9jcx9X6AAbv782JTHIQPVvn9pPJyOZkSrDzww9Ts-7ffjsJo-_4uED05Vu3-yCXohlSDKSF84BWjcIdW6f-4QprJJOxwpLh0irGpguby_FHHjoTEi7YCs"
+                ]
+            },
+            "school": null
         },
-        "images": {},
-        "category": "seni",
-        "date": "2026-02-14",
-        "photos": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuBRJnzNsBYPBwWycHmBAy7dTFz4O6SpDbL8lxulYubo5TBTNgkT3uWlrhAHI_h7SAmuNQZUx6ipps5psHa4xYtoXtl0Vwd71Uto-58QuhRa61bgkirpvZSmUeEpRuN8By8meMXj6zmPMZjiTmFXeLbgo4rR3rkTQfDLh9AInT9M15buFu5Y8zSM5jR9Txv1m4t1agxNJgXVKEjmR3RD3tiyWlklFMVOd24M4I3Dh4rXVIh78gxwOWNi"
-        ]
-      },
-      "school": null
-    },
-    {
-      "title": "Live-In & Bakti Desa: Mengasah Nurani di Kaki Gunung Salak",
-      "description": "Selama lima hari tinggal bersama keluarga pengrajin dan petani, para murid belajar kesederhanaan, mengajar baca anak desa, dan memperbaiki irigasi mikro.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAZau7JeGuqV7JwCP44GzAy4bs_MroKHVfwNnOEKSFyzfPVyC7nnmdzZ1_9SKUDFGBpHaMqvtJbX8KY1yiiUrn8g4vFK72OPKf0uOOIvZtdCdoACmAtHQRObRMeeqoue9DJ4pODp7IWG1styQ-4JdWUfOZMQKwP-zQaT-9CvKdLD8NVEpy2nPj0sRSefPPsaKjVMXf4xvWn3AfMv6TOojTsVd1iq1sIvPev__9YPk4i87qaaIWu4Y9E",
-      "slug": "live-in-bakti-desa-mengasah-nurani-di-kaki-gunung-salak",
-      "data": {
-        "copy": {
-          "text_1": "SMA Harapan Mulia",
-          "text_2": "18 Jan 2026",
-          "text_3": "Divisi Sosial OSIS SMA",
-          "text_4": "Sosial & Empati"
+        {
+            "title": "Jambore Cilik: Menempa Ketangguhan dan Cinta Rimba",
+            "description": "Menyatu dengan alam terbuka sejak dini. Murid kelas 5 dan 6 belajar menyalakan api tanpa korek, memasak makanan mandiri, dan menjaga kebersihan hutan rimba.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB9mNbb8ubdkzIi1JB20scRmzVyAEeZqN9sUl4Zw9RXYofgeCmDUd35sRMVLfLeUtCIqMBD5xui69wY8WKsfGaDqugMBx5wj137BiK8cEqyVTcD0CI-2phUqR4aV6ccLgQ3NTxXvPVDg52xmRfZsyxFMdE8-CKgac62aESS6_JKWceHREoxdkVZKFw8dalq9NpN2BEhLC4HKGcnmws7PXUVdRGLcEAJSQ1ymmQg7R9cXXvvCFrH666S",
+            "slug": "jambore-cilik-menempa-ketangguhan-dan-cinta-rimba",
+            "data": {
+                "copy": {
+                    "text_1": "SD Harapan Mulia",
+                    "text_2": "05 Jan 2026",
+                    "text_3": "Pramuka Gugus Depan 09",
+                    "text_4": "Kepemimpinan"
+                },
+                "images": {},
+                "category": "sosial",
+                "date": "2026-02-14",
+                "photos": [
+                    "https://lh3.googleusercontent.com/aida-public/AB6AXuB9mNbb8ubdkzIi1JB20scRmzVyAEeZqN9sUl4Zw9RXYofgeCmDUd35sRMVLfLeUtCIqMBD5xui69wY8WKsfGaDqugMBx5wj137BiK8cEqyVTcD0CI-2phUqR4aV6ccLgQ3NTxXvPVDg52xmRfZsyxFMdE8-CKgac62aESS6_JKWceHREoxdkVZKFw8dalq9NpN2BEhLC4HKGcnmws7PXUVdRGLcEAJSQ1ymmQg7R9cXXvvCFrH666S"
+                ]
+            },
+            "school": null
+        }
+    ],
+    "Program": [
+        {
+            "title": "Karakter, Adab & Kepemimpinan",
+            "description": "Habituasi kebiasaan luhur: 7 Menit Refleksi Pagi, proyek bakti sosial terstruktur tiap semester, dan kurikulum kepanduan mandiri.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBD5oj037hdiQX_NwjSAaPS2YsxgzZFOqToK4yidgLyWfRtuO4SElkK9LjrwcUTn2hsAWEoMEdzA_WbTD6-2eRMmUU6phagMDAOXRBpW-dhfSFE5Mb-y25ESMGtV2os3edpc90OtKmALAh1P7oRUEgaSutvlHHfZTzQSu8-7yYiUw4Ww4nKI-EayB4gpqLapCL0aYlwj7_CmM5FzLDLCE-92ZsHYZFWLkj9vnDe3pm3638VB8AOizDt",
+            "slug": "karakter-adab-kepemimpinan",
+            "data": {
+                "copy": {
+                    "text_1": "SD • SMP • SMA",
+                    "text_2": "Pendidikan Moral",
+                    "text_3": "Habituasi Adab",
+                    "text_4": "Social Empathy",
+                    "text_5": "Silabus Program Lengkap"
+                },
+                "images": {},
+                "category": ""
+            },
+            "school": null
         },
-        "images": {},
-        "category": "sosial",
-        "date": "2026-02-14",
-        "photos": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuAZau7JeGuqV7JwCP44GzAy4bs_MroKHVfwNnOEKSFyzfPVyC7nnmdzZ1_9SKUDFGBpHaMqvtJbX8KY1yiiUrn8g4vFK72OPKf0uOOIvZtdCdoACmAtHQRObRMeeqoue9DJ4pODp7IWG1styQ-4JdWUfOZMQKwP-zQaT-9CvKdLD8NVEpy2nPj0sRSefPPsaKjVMXf4xvWn3AfMv6TOojTsVd1iq1sIvPev__9YPk4i87qaaIWu4Y9E"
-        ]
-      },
-      "school": null
-    },
-    {
-      "title": "Derby Harapan Mulia Cup: Respek Lebih Tinggi dari Trofi",
-      "description": "Ajang tahunan antar sekolah se-Jabodetabek. Bukan semata kemenangan yang dikejar, melainkan etika sportivitas dan jabat tangan hormat kepada lawan.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAvGqQppzjnu8RAfTtfZokkC9H_RXU0M780guWPqmHDkeJZ90zycFMnq-1v4HFBLInVVbf3zgQYroyrosJuP7yxhnIwLHZoni1LZPiX8oQ_T0MhO7d5-JWDQasEZ13PMVB9jcx9X6AAbv782JTHIQPVvn9pPJyOZkSrDzww9Ts-7ffjsJo-_4uED05Vu3-yCXohlSDKSF84BWjcIdW6f-4QprJJOxwpLh0irGpguby_FHHjoTEi7YCs",
-      "slug": "derby-harapan-mulia-cup-respek-lebih-tinggi-dari-trofi",
-      "data": {
-        "copy": {
-          "text_1": "SMP Harapan Mulia",
-          "text_2": "12 Jan 2026",
-          "text_3": "Coach Danang (Guru PJOK)",
-          "text_4": "Kompetisi"
+        {
+            "title": "Literasi Kritis & Numerasi Lanjut",
+            "description": "Membangun kemampuan deep-reading, sintesis bacaan ragam genre, serta pemodelan matematika konkret menuju konsep abstrak terapan.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBTvkoP1qx0OsCpDs8wUa9qnbrpO4ufMuWuXGncmr6o3m9XjCL_MKmfLaV6w3G0udziQOkvKYP6_gt9Vynlnrp6JFL6LdqI0M6WchThFHtZI4mgEMRKCCQqw51NlEFIDcCWpTaokSvh_Yb_ym0EZRvhwsDKrHLAjkIAuzl49Ol4N4KYbmF8LhbuII7vyoL7uRmQ4oOelkUEZvOs-xWbvb0WM7-Mq1YYTwdRkyZE8aGOEv4jG6RNyEQS",
+            "slug": "literasi-kritis-numerasi-lanjut",
+            "data": {
+                "copy": {
+                    "text_1": "SD • SMP",
+                    "text_2": "Daya Nalar",
+                    "text_3": "Singapore Math Approach",
+                    "text_4": "Critical Reading",
+                    "text_5": "Silabus Program Lengkap"
+                },
+                "images": {},
+                "category": ""
+            },
+            "school": null
         },
-        "images": {},
-        "category": "olahraga",
-        "date": "2026-02-14",
-        "photos": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuAvGqQppzjnu8RAfTtfZokkC9H_RXU0M780guWPqmHDkeJZ90zycFMnq-1v4HFBLInVVbf3zgQYroyrosJuP7yxhnIwLHZoni1LZPiX8oQ_T0MhO7d5-JWDQasEZ13PMVB9jcx9X6AAbv782JTHIQPVvn9pPJyOZkSrDzww9Ts-7ffjsJo-_4uED05Vu3-yCXohlSDKSF84BWjcIdW6f-4QprJJOxwpLh0irGpguby_FHHjoTEi7YCs"
-        ]
-      },
-      "school": null
-    },
-    {
-      "title": "Jambore Cilik: Menempa Ketangguhan dan Cinta Rimba",
-      "description": "Menyatu dengan alam terbuka sejak dini. Murid kelas 5 dan 6 belajar menyalakan api tanpa korek, memasak makanan mandiri, dan menjaga kebersihan hutan rimba.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB9mNbb8ubdkzIi1JB20scRmzVyAEeZqN9sUl4Zw9RXYofgeCmDUd35sRMVLfLeUtCIqMBD5xui69wY8WKsfGaDqugMBx5wj137BiK8cEqyVTcD0CI-2phUqR4aV6ccLgQ3NTxXvPVDg52xmRfZsyxFMdE8-CKgac62aESS6_JKWceHREoxdkVZKFw8dalq9NpN2BEhLC4HKGcnmws7PXUVdRGLcEAJSQ1ymmQg7R9cXXvvCFrH666S",
-      "slug": "jambore-cilik-menempa-ketangguhan-dan-cinta-rimba",
-      "data": {
-        "copy": {
-          "text_1": "SD Harapan Mulia",
-          "text_2": "05 Jan 2026",
-          "text_3": "Pramuka Gugus Depan 09",
-          "text_4": "Kepemimpinan"
+        {
+            "title": "STEM, Algoritma & Robotika",
+            "description": "Pembelajaran coding terintegrasi, sensor Internet of Things (IoT), mekanika aerodinamika, dan kesiapan kompetisi robotika nasional/internasional.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAEzs31GcEXq6fhRnVlmwzVZfsmEPzn3S2U3EpLzdpFpCxVWs6dkN-bmT8D3LK6ie1Z-WbMwLs31AL61w6qx2srk5sWLrhsf8kKPPz0HojcK2vL1kM0BJ3nw46nxicfDOXyc4K56fleX4Y4UM1ccLOIHA7jhHyuQ51vOLkAjjPDSyfj8BM6jEr0T04OrpC4eeAtJFsXbdBHG4G3Ag9XA5-GWCkUYBrC-t05dmgzUxOMqytB0mg8pB4x",
+            "slug": "stem-algoritma-robotika",
+            "data": {
+                "copy": {
+                    "text_1": "SMP • SMA",
+                    "text_2": "Teknologi Terapan",
+                    "text_3": "Python & C++",
+                    "text_4": "IoT Sensors",
+                    "text_5": "Silabus Program Lengkap"
+                },
+                "images": {},
+                "category": ""
+            },
+            "school": null
         },
-        "images": {},
-        "category": "sosial",
-        "date": "2026-02-14",
-        "photos": [
-          "https://lh3.googleusercontent.com/aida-public/AB6AXuB9mNbb8ubdkzIi1JB20scRmzVyAEeZqN9sUl4Zw9RXYofgeCmDUd35sRMVLfLeUtCIqMBD5xui69wY8WKsfGaDqugMBx5wj137BiK8cEqyVTcD0CI-2phUqR4aV6ccLgQ3NTxXvPVDg52xmRfZsyxFMdE8-CKgac62aESS6_JKWceHREoxdkVZKFw8dalq9NpN2BEhLC4HKGcnmws7PXUVdRGLcEAJSQ1ymmQg7R9cXXvvCFrH666S"
-        ]
-      },
-      "school": null
-    }
-  ],
-  "Program": [
-    {
-      "title": "Karakter, Adab & Kepemimpinan",
-      "description": "Habituasi kebiasaan luhur: 7 Menit Refleksi Pagi, proyek bakti sosial terstruktur tiap semester, dan kurikulum kepanduan mandiri.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBD5oj037hdiQX_NwjSAaPS2YsxgzZFOqToK4yidgLyWfRtuO4SElkK9LjrwcUTn2hsAWEoMEdzA_WbTD6-2eRMmUU6phagMDAOXRBpW-dhfSFE5Mb-y25ESMGtV2os3edpc90OtKmALAh1P7oRUEgaSutvlHHfZTzQSu8-7yYiUw4Ww4nKI-EayB4gpqLapCL0aYlwj7_CmM5FzLDLCE-92ZsHYZFWLkj9vnDe3pm3638VB8AOizDt",
-      "slug": "karakter-adab-kepemimpinan",
-      "data": {
-        "copy": {
-          "text_1": "SD • SMP • SMA",
-          "text_2": "Pendidikan Moral",
-          "text_3": "Habituasi Adab",
-          "text_4": "Social Empathy",
-          "text_5": "Silabus Program Lengkap"
+        {
+            "title": "Bahasa Asing & Global Skills",
+            "description": "Cambridge IGCSE English, pilihan bahasa elektif (Mandarin / Arab / Jerman), serta klub simulasi perserikatan bangsa-bangsa (Model UN).",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBv5P2_KOPiJAQV3jLnrBq6O5dRvvSrOl451yHGY665GEbBm5DQg8S_cWKwCUMlz93FKxCyumlC8k-H0Ty4Ikiz7Wspahjtq3G1ckkXVhBIyZpTbyPeZDejNc4jJezpggnO_-40nIucT1nrcZhIZzYBoLTK-9KQ1U8z3rqv4QzV4pAca0LPm5ZqgtvyU--wP5ND59xxIcKhunWjOLIyXsFBfXfDMbxlCYn8oc1-CYYMnPn9X-Y11ht",
+            "slug": "bahasa-asing-global-skills",
+            "data": {
+                "copy": {
+                    "text_1": "SMP • SMA",
+                    "text_2": "Bahasa & Diplomasi",
+                    "text_3": "Cambridge Pathway",
+                    "text_4": "Model UN Club",
+                    "text_5": "Silabus Program Lengkap"
+                },
+                "images": {},
+                "category": ""
+            },
+            "school": null
         },
-        "images": {},
-        "category": ""
-      },
-      "school": null
-    },
-    {
-      "title": "Literasi Kritis & Numerasi Lanjut",
-      "description": "Membangun kemampuan deep-reading, sintesis bacaan ragam genre, serta pemodelan matematika konkret menuju konsep abstrak terapan.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBTvkoP1qx0OsCpDs8wUa9qnbrpO4ufMuWuXGncmr6o3m9XjCL_MKmfLaV6w3G0udziQOkvKYP6_gt9Vynlnrp6JFL6LdqI0M6WchThFHtZI4mgEMRKCCQqw51NlEFIDcCWpTaokSvh_Yb_ym0EZRvhwsDKrHLAjkIAuzl49Ol4N4KYbmF8LhbuII7vyoL7uRmQ4oOelkUEZvOs-xWbvb0WM7-Mq1YYTwdRkyZE8aGOEv4jG6RNyEQS",
-      "slug": "literasi-kritis-numerasi-lanjut",
-      "data": {
-        "copy": {
-          "text_1": "SD • SMP",
-          "text_2": "Daya Nalar",
-          "text_3": "Singapore Math Approach",
-          "text_4": "Critical Reading",
-          "text_5": "Silabus Program Lengkap"
+        {
+            "title": "Seni Rupa, Musik & Performa",
+            "description": "Mengasah rasa dan kepekaan estetika melalui studio seni lukis, keramik, ansambel musik orkestra, dan seni pertunjukan drama tahunan.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBysvR9MCJmVby2XHcTmj0_q_i4CgdmXYhR2dYvYaTI6zuG1F035M9MvgVINjyACYtoVhrh6Qmhv7NTP53Hn6qudtQNde0BFg2PFNalQbF5_9YBbGvTwlajv7NhfI3I51HG3RkUsZ5pit79R2cvtpLFBTBKOBcfz07jym3037F3DMf3YsjuKopPQb0Y3R0JpZsyiGbm5L99a8F9MYAbvOQLhgIebC0J-dhlu8DkxrFQJGEkgbAj_tK2",
+            "slug": "seni-rupa-musik-performa",
+            "data": {
+                "copy": {
+                    "text_1": "SD • SMP • SMA",
+                    "text_2": "Ekspresi Estetika",
+                    "text_3": "Orkestra Kampus",
+                    "text_4": "Pameran Seni Berkala",
+                    "text_5": "Silabus Program Lengkap"
+                },
+                "images": {},
+                "category": ""
+            },
+            "school": null
         },
-        "images": {},
-        "category": ""
-      },
-      "school": null
-    },
-    {
-      "title": "STEM, Algoritma & Robotika",
-      "description": "Pembelajaran coding terintegrasi, sensor Internet of Things (IoT), mekanika aerodinamika, dan kesiapan kompetisi robotika nasional/internasional.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAEzs31GcEXq6fhRnVlmwzVZfsmEPzn3S2U3EpLzdpFpCxVWs6dkN-bmT8D3LK6ie1Z-WbMwLs31AL61w6qx2srk5sWLrhsf8kKPPz0HojcK2vL1kM0BJ3nw46nxicfDOXyc4K56fleX4Y4UM1ccLOIHA7jhHyuQ51vOLkAjjPDSyfj8BM6jEr0T04OrpC4eeAtJFsXbdBHG4G3Ag9XA5-GWCkUYBrC-t05dmgzUxOMqytB0mg8pB4x",
-      "slug": "stem-algoritma-robotika",
-      "data": {
-        "copy": {
-          "text_1": "SMP • SMA",
-          "text_2": "Teknologi Terapan",
-          "text_3": "Python & C++",
-          "text_4": "IoT Sensors",
-          "text_5": "Silabus Program Lengkap"
+        {
+            "title": "Karya Tulis Ilmiah & Capstone",
+            "description": "Kewajiban riset mandiri di bawah bimbingan dosen/peneliti mitra BRIN dan perguruan tinggi, menyiapkan portofolio masuk PTN ternama dan kampus global.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCFxeV3vf77XMwjO65wGQ7dJUKMdYU5ofZfeXVF4p2H2ppzJsnIfGIktqIlUQx0byvMnA98jbPZzS9d4FFS8XVpyl_C_Hw8HBQBy3KD5vNX6K9mD77oDB0SeP5_uvHmxpJKS9-prKHZrL0rsyyTDwbkdTffKY2qxdbU9kKRWC6lxQLYFmeyv3C2Sq6Dt6P7yjHWiBs_VC21IsOTlWH49xQPME11o-_63wylsze9rUOOQ9R_Rp5AOBLD",
+            "slug": "karya-tulis-ilmiah-capstone",
+            "data": {
+                "copy": {
+                    "text_1": "Khusus SMA",
+                    "text_2": "Pra-Universitas",
+                    "text_3": "Mentoring Peneliti",
+                    "text_4": "Publikasi Terindeks",
+                    "text_5": "Silabus Program Lengkap"
+                },
+                "images": {},
+                "category": ""
+            },
+            "school": null
+        }
+    ],
+    "Facility": [
+        {
+            "title": "Laboratorium Sains & Bioteknologi Terpadu",
+            "description": "Dilengkapi perangkat mikroskop binokuler digital presisi 1000x, laminar air flow, fume hood bersirkulasi filtrasi karbon, serta modul percobaan biokimia bersertifikasi standar keselamatan K3.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBVnbskmoXzvaSprpPHDuhfHnledLgt99mw8SG5S8XNsmvTaK4T9xb5OUCNmFIOsVyl4ufdgNF0X_1kaSNTIkU-or0MFyv99jltSjZEVWSRPO70UOrHbYX_nHrEqA-t59XTqnBsQwBO9v2q6O6LRheugkGeR43TRRRmVTXYI60ZzQMsH7LwN1RWLC8FizYWEHSd2YMgZMxeackL5j4_P_3p1J4FDk8fv_XUIATQGpmfAlJnoGaks9Jt",
+            "slug": "laboratorium-sains-bioteknologi-terpadu",
+            "data": {
+                "copy": {
+                    "text_1": "SMP & SMA",
+                    "text_2": "Gedung Saintika Lt. 3",
+                    "text_3": "Kapasitas: 36 Siswa / Lab",
+                    "text_4": "Akademik & Riset",
+                    "text_5": "4 Unit Laboratorium Terpisah",
+                    "text_6": "Detail Ruang"
+                },
+                "images": {},
+                "category": "akademik"
+            },
+            "school": null
         },
-        "images": {},
-        "category": ""
-      },
-      "school": null
-    },
-    {
-      "title": "Bahasa Asing & Global Skills",
-      "description": "Cambridge IGCSE English, pilihan bahasa elektif (Mandarin / Arab / Jerman), serta klub simulasi perserikatan bangsa-bangsa (Model UN).",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCBv5P2_KOPiJAQV3jLnrBq6O5dRvvSrOl451yHGY665GEbBm5DQg8S_cWKwCUMlz93FKxCyumlC8k-H0Ty4Ikiz7Wspahjtq3G1ckkXVhBIyZpTbyPeZDejNc4jJezpggnO_-40nIucT1nrcZhIZzYBoLTK-9KQ1U8z3rqv4QzV4pAca0LPm5ZqgtvyU--wP5ND59xxIcKhunWjOLIyXsFBfXfDMbxlCYn8oc1-CYYMnPn9X-Y11ht",
-      "slug": "bahasa-asing-global-skills",
-      "data": {
-        "copy": {
-          "text_1": "SMP • SMA",
-          "text_2": "Bahasa & Diplomasi",
-          "text_3": "Cambridge Pathway",
-          "text_4": "Model UN Club",
-          "text_5": "Silabus Program Lengkap"
+        {
+            "title": "Perpustakaan Digital & Reading Sanctuary",
+            "description": "Menyimpan 40.000+ volume literatur fisik terkurasi, langganan portal jurnal internasional (JSTOR, EBSCO), reading mezzanine privat, serta corner literasi visual interaktif untuk jenjang SD.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBouGzHgwlBiDV1ALgRwtOTpLwW50fmpVGWtc201jZ0K3_bvLuMGGDc28G6ZY--zAGDsYh-KOzvTjnIr7mpKqmhm0BT6j760tP1XS-VHtCVlEUgotAwXdUeJt4E_YnlVknWeX9MRHnsSCJfqQx36LJHTnXKO_raXiUcUwuNFElG2ET_Z7Q77HvXbHCfdFNa0Fv-TZxQVTNKWeJ0EhSRwL16GS1n_d3Eo0XH0nfn0741vjvNigxYt1Vh",
+            "slug": "perpustakaan-digital-reading-sanctuary",
+            "data": {
+                "copy": {
+                    "text_1": "Seluruh Jenjang",
+                    "text_2": "Gedung Pusat Graha Mulia",
+                    "text_3": "250+ Kursi Baca",
+                    "text_4": "Literasi & Referensi Global",
+                    "text_5": "E-Catalog & RFID Check-out",
+                    "text_6": "Detail Ruang"
+                },
+                "images": {},
+                "category": "akademik"
+            },
+            "school": null
         },
-        "images": {},
-        "category": ""
-      },
-      "school": null
-    },
-    {
-      "title": "Seni Rupa, Musik & Performa",
-      "description": "Mengasah rasa dan kepekaan estetika melalui studio seni lukis, keramik, ansambel musik orkestra, dan seni pertunjukan drama tahunan.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBysvR9MCJmVby2XHcTmj0_q_i4CgdmXYhR2dYvYaTI6zuG1F035M9MvgVINjyACYtoVhrh6Qmhv7NTP53Hn6qudtQNde0BFg2PFNalQbF5_9YBbGvTwlajv7NhfI3I51HG3RkUsZ5pit79R2cvtpLFBTBKOBcfz07jym3037F3DMf3YsjuKopPQb0Y3R0JpZsyiGbm5L99a8F9MYAbvOQLhgIebC0J-dhlu8DkxrFQJGEkgbAj_tK2",
-      "slug": "seni-rupa-musik-performa",
-      "data": {
-        "copy": {
-          "text_1": "SD • SMP • SMA",
-          "text_2": "Ekspresi Estetika",
-          "text_3": "Orkestra Kampus",
-          "text_4": "Pameran Seni Berkala",
-          "text_5": "Silabus Program Lengkap"
+        {
+            "title": "STEM Innovation Hub & FabLab",
+            "description": "Laboratorium prototyping terapan yang diperkuat 12 unit 3D printer presisi, pemotong akrilik CNC laser, kit mikrokontroler Arduino/Raspberry Pi, dan arena uji ketangkasan robotika internasional.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCmBVgGOFevYaGgBFi7ilAO-iDoB5R3tMjcBDNS-MyuVMaO5xdKBTF6rqNqlzigEtFNn5h-nUkDhn4x82YZfD7ypB8FZ5Y6am05kw0hqcwZ0sayHXESREEUrStFYZWOKzcDEcXQ7ERoKWysZZsja77_zKqcNHweo4JaEPbWd9pS976LsLEyk_HrjlRXDFVdyuGEr_rJcerCGC-tuP3OoTk0MHnaZY_b5TKYjI8Tot5iUjMtiXjLadVV",
+            "slug": "stem-innovation-hub-fablab",
+            "data": {
+                "copy": {
+                    "text_1": "SD, SMP, SMA",
+                    "text_2": "Inovasi Paviliun Lt. 1",
+                    "text_3": "40 Workstations",
+                    "text_4": "Teknologi Terapan",
+                    "text_5": "IoT & Coding Suite",
+                    "text_6": "Detail Ruang"
+                },
+                "images": {},
+                "category": "akademik"
+            },
+            "school": null
         },
-        "images": {},
-        "category": ""
-      },
-      "school": null
-    },
-    {
-      "title": "Karya Tulis Ilmiah & Capstone",
-      "description": "Kewajiban riset mandiri di bawah bimbingan dosen/peneliti mitra BRIN dan perguruan tinggi, menyiapkan portofolio masuk PTN ternama dan kampus global.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCFxeV3vf77XMwjO65wGQ7dJUKMdYU5ofZfeXVF4p2H2ppzJsnIfGIktqIlUQx0byvMnA98jbPZzS9d4FFS8XVpyl_C_Hw8HBQBy3KD5vNX6K9mD77oDB0SeP5_uvHmxpJKS9-prKHZrL0rsyyTDwbkdTffKY2qxdbU9kKRWC6lxQLYFmeyv3C2Sq6Dt6P7yjHWiBs_VC21IsOTlWH49xQPME11o-_63wylsze9rUOOQ9R_Rp5AOBLD",
-      "slug": "karya-tulis-ilmiah-capstone",
-      "data": {
-        "copy": {
-          "text_1": "Khusus SMA",
-          "text_2": "Pra-Universitas",
-          "text_3": "Mentoring Peneliti",
-          "text_4": "Publikasi Terindeks",
-          "text_5": "Silabus Program Lengkap"
+        {
+            "title": "Gelanggang Olahraga & Kolam Semi-Olympic",
+            "description": "Kolam 8 lintasan standar FINA dengan sistem filtrasi garam (tanpa kaporit tajam), lapangan basket indoor berlantai kayu maple standar FIBA, lapangan bulu tangkis berkarpet vinyl, dan trek lari karet sintetis.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDSwPDBpK0XCwBXrBP6tb2XT6wCCtxhMYNLNoaLRi13zVnNe7iclcRJtaAxyPkPBJF_TWlGxP9Ry-REp_lrONZrly8ThuYZjCSs0UfyktLxdAKOMs2JJXT8zuAZlD-r8E3hh8L4hYqtIaMr_JA4rCpb7eZ4HFmt5sMcl_NjszVdWajpjrAhGPO5vL0e8bOCZCMePzeohQ7YcEt16dYUQwIhiopZJJn6w2Z6rbKkKCARREIYu9NH6YN9",
+            "slug": "gelanggang-olahraga-kolam-semi-olympic",
+            "data": {
+                "copy": {
+                    "text_1": "Kompleks Bersama",
+                    "text_2": "Harapan Sports Dome",
+                    "text_3": "Tribun 600 Penonton",
+                    "text_4": "Atletik & Kebugaran",
+                    "text_5": "FINA & FIBA Standard",
+                    "text_6": "Detail Ruang"
+                },
+                "images": {},
+                "category": "olahraga"
+            },
+            "school": null
         },
-        "images": {},
-        "category": ""
-      },
-      "school": null
-    }
-  ],
-  "Facility": [
-    {
-      "title": "Laboratorium Sains & Bioteknologi Terpadu",
-      "description": "Dilengkapi perangkat mikroskop binokuler digital presisi 1000x, laminar air flow, fume hood bersirkulasi filtrasi karbon, serta modul percobaan biokimia bersertifikasi standar keselamatan K3.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBVnbskmoXzvaSprpPHDuhfHnledLgt99mw8SG5S8XNsmvTaK4T9xb5OUCNmFIOsVyl4ufdgNF0X_1kaSNTIkU-or0MFyv99jltSjZEVWSRPO70UOrHbYX_nHrEqA-t59XTqnBsQwBO9v2q6O6LRheugkGeR43TRRRmVTXYI60ZzQMsH7LwN1RWLC8FizYWEHSd2YMgZMxeackL5j4_P_3p1J4FDk8fv_XUIATQGpmfAlJnoGaks9Jt",
-      "slug": "laboratorium-sains-bioteknologi-terpadu",
-      "data": {
-        "copy": {
-          "text_1": "SMP & SMA",
-          "text_2": "Gedung Saintika Lt. 3",
-          "text_3": "Kapasitas: 36 Siswa / Lab",
-          "text_4": "Akademik & Riset",
-          "text_5": "4 Unit Laboratorium Terpisah",
-          "text_6": "Detail Ruang"
+        {
+            "title": "Grand Auditorium \"Graha Swara\"",
+            "description": "Auditorium megah berakustik panggung simfoni dengan reverberation time terkalkulasi 1,4 detik. Didukung sound system line-array digital d&b audiotechnik, tata lampu teater 64-channel DMX, dan ruang kontrol multimedia.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBNC_erYEHGazdagSpMqKYq7dMKaYN-ulTnY9d0wdmkEjWRtuQU2OTnlIIkIJSUXjD0JUH50vQ4GDjJGFTqs3jzmjYhHpvD49hmp5WQhiDKteP_HAUCuUa7PTOWre8xeMA3C4kx_X2F4e-C8JwivnQH1yMjfwilDZVk4RY354nRwTsl6H8bmef61IyR7bqeUZkYyFbU8m936ScjhjaWbX59XcFzzx6tsxYKdHP8-74Z8HYg0KG5vajA",
+            "slug": "grand-auditorium-graha-swara",
+            "data": {
+                "copy": {
+                    "text_1": "Auditorium Pusat",
+                    "text_2": "Gedung Kesenian Lt. 1-2",
+                    "text_3": "1.000 Kursi Ergonomis",
+                    "text_4": "Seni Pertunjukan & Konferensi",
+                    "text_5": "Akustik Teater Internasional",
+                    "text_6": "Detail Ruang"
+                },
+                "images": {},
+                "category": "seni"
+            },
+            "school": null
         },
-        "images": {},
-        "category": "akademik"
-      },
-      "school": null
-    },
-    {
-      "title": "Perpustakaan Digital & Reading Sanctuary",
-      "description": "Menyimpan 40.000+ volume literatur fisik terkurasi, langganan portal jurnal internasional (JSTOR, EBSCO), reading mezzanine privat, serta corner literasi visual interaktif untuk jenjang SD.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBouGzHgwlBiDV1ALgRwtOTpLwW50fmpVGWtc201jZ0K3_bvLuMGGDc28G6ZY--zAGDsYh-KOzvTjnIr7mpKqmhm0BT6j760tP1XS-VHtCVlEUgotAwXdUeJt4E_YnlVknWeX9MRHnsSCJfqQx36LJHTnXKO_raXiUcUwuNFElG2ET_Z7Q77HvXbHCfdFNa0Fv-TZxQVTNKWeJ0EhSRwL16GS1n_d3Eo0XH0nfn0741vjvNigxYt1Vh",
-      "slug": "perpustakaan-digital-reading-sanctuary",
-      "data": {
-        "copy": {
-          "text_1": "Seluruh Jenjang",
-          "text_2": "Gedung Pusat Graha Mulia",
-          "text_3": "250+ Kursi Baca",
-          "text_4": "Literasi & Referensi Global",
-          "text_5": "E-Catalog & RFID Check-out",
-          "text_6": "Detail Ruang"
+        {
+            "title": "Studio Seni Musik & Seni Rupa Terpadu",
+            "description": "Menyediakan 4 bilik studio kedap suara (soundproof booth), ruang rekaman instrumen ansambel, workshop kriya tembikar berputar listrik lengkap dengan tungku bakar glasir (kiln), serta ruang galeri pameran berkala.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBnEpajq_TtUqNG3y__ckdKQ7CBWXQZl8X0SsM_gNWSiHBaz0n5Ct3gXQhlIzoykKPKT43ZDG3zWlSciVqk16MufnIUW0wfLyzXY98-al5Go3L8jShXuSlhUtiuUe1Bb00w9YMx2wUFGlzvn1DCiWn_jzlRS3WmU9PBDIouanrvS9HoLZR2ndApntevlZ_OfLlGMQhuz5FDNXUJbNMYgqFOGkxEXeQP5XEqJgAD7KlpbmIEsvFZHf2b",
+            "slug": "studio-seni-musik-seni-rupa-terpadu",
+            "data": {
+                "copy": {
+                    "text_1": "SD, SMP, SMA",
+                    "text_2": "Sayap Budaya Lt. 2",
+                    "text_3": "6 Studio Spesialis",
+                    "text_4": "Kreativitas & Audio Visual",
+                    "text_5": "DAW ProTools & Keramik Kiln",
+                    "text_6": "Detail Ruang"
+                },
+                "images": {},
+                "category": "seni"
+            },
+            "school": null
         },
-        "images": {},
-        "category": "akademik"
-      },
-      "school": null
-    },
-    {
-      "title": "STEM Innovation Hub & FabLab",
-      "description": "Laboratorium prototyping terapan yang diperkuat 12 unit 3D printer presisi, pemotong akrilik CNC laser, kit mikrokontroler Arduino/Raspberry Pi, dan arena uji ketangkasan robotika internasional.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCmBVgGOFevYaGgBFi7ilAO-iDoB5R3tMjcBDNS-MyuVMaO5xdKBTF6rqNqlzigEtFNn5h-nUkDhn4x82YZfD7ypB8FZ5Y6am05kw0hqcwZ0sayHXESREEUrStFYZWOKzcDEcXQ7ERoKWysZZsja77_zKqcNHweo4JaEPbWd9pS976LsLEyk_HrjlRXDFVdyuGEr_rJcerCGC-tuP3OoTk0MHnaZY_b5TKYjI8Tot5iUjMtiXjLadVV",
-      "slug": "stem-innovation-hub-fablab",
-      "data": {
-        "copy": {
-          "text_1": "SD, SMP, SMA",
-          "text_2": "Inovasi Paviliun Lt. 1",
-          "text_3": "40 Workstations",
-          "text_4": "Teknologi Terapan",
-          "text_5": "IoT & Coding Suite",
-          "text_6": "Detail Ruang"
+        {
+            "title": "Masjid Al-Mulia & Pusat Tahfidz",
+            "description": "Pusat ibadah dengan ventilasi alami silang, kolam refleksi air yang sejuk, ruang talaqqi hafalan Quran terpisah yang khusyuk, serta ruang pembinaan akhlak lintas kegiatan sosial dan keagamaan.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCwzWckG4J4dWgRZhrclaVfRBnPAt2mS28tyG6Ctth0LcojPrQ0QobMFfOKWnQdprWjSXkZ29CDw882OJk52XEcblKMA9BaFxLdgL-MQrT22t64IIYgqqyC6cKIzq1Fkcpl85sZFpkKoJaCWsH0WNCNc5-fKOmUn4EjtyZVPDVfZv8lLWWOVH_3diTeP3bH0xiFyc8sHr6vQaIFOA6NTKmM3KC9Q2hf93tTGSnv1RGO2LF7y5N6ie5D",
+            "slug": "masjid-al-mulia-pusat-tahfidz",
+            "data": {
+                "copy": {
+                    "text_1": "Sentra Spiritual",
+                    "text_2": "Taman Tengah Kampus",
+                    "text_3": "Kapasitas: 1.200 Jamaah",
+                    "text_4": "Karakter & Nilai Ruhani",
+                    "text_5": "Ruang Tahfidz Akustik Tenang",
+                    "text_6": "Detail Ruang"
+                },
+                "images": {},
+                "category": "komunal"
+            },
+            "school": null
         },
-        "images": {},
-        "category": "akademik"
-      },
-      "school": null
-    },
-    {
-      "title": "Gelanggang Olahraga & Kolam Semi-Olympic",
-      "description": "Kolam 8 lintasan standar FINA dengan sistem filtrasi garam (tanpa kaporit tajam), lapangan basket indoor berlantai kayu maple standar FIBA, lapangan bulu tangkis berkarpet vinyl, dan trek lari karet sintetis.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDSwPDBpK0XCwBXrBP6tb2XT6wCCtxhMYNLNoaLRi13zVnNe7iclcRJtaAxyPkPBJF_TWlGxP9Ry-REp_lrONZrly8ThuYZjCSs0UfyktLxdAKOMs2JJXT8zuAZlD-r8E3hh8L4hYqtIaMr_JA4rCpb7eZ4HFmt5sMcl_NjszVdWajpjrAhGPO5vL0e8bOCZCMePzeohQ7YcEt16dYUQwIhiopZJJn6w2Z6rbKkKCARREIYu9NH6YN9",
-      "slug": "gelanggang-olahraga-kolam-semi-olympic",
-      "data": {
-        "copy": {
-          "text_1": "Kompleks Bersama",
-          "text_2": "Harapan Sports Dome",
-          "text_3": "Tribun 600 Penonton",
-          "text_4": "Atletik & Kebugaran",
-          "text_5": "FINA & FIBA Standard",
-          "text_6": "Detail Ruang"
+        {
+            "title": "Kantin Sehat Higienis & Nutrisi",
+            "description": "Menyajikan menu seimbang bersertifikasi higienitas Dinas Kesehatan tanpa MSG sintetik dan pewarna buatan. Sistem transaksi 100% cashless melalui kartu siswa, diawasi langsung oleh nutrisionis kampus.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbCqDikN9A6JoZRiVhyJ76SFI5R8L_75ZqbJYE8eGgeVLi8e88qlP0T8SecE87VsjxAuEmc_S-pEVkVDWGaOEI9T-QJJHkCSm1lYI7VohiUvbDMdXS5oY2DZbY6fMQwv85IWsJYq5xY82lEjpDvK3nf-ERxiM5jB4Vh1Zwp5h4wfZBnWWL6FhWLRw1lYxEGoZeVW6e15PzEuUNH5x1B6Nyy4TQN8gW0cqSsAJq7xIj8x_2BW4Fzf78",
+            "slug": "kantin-sehat-higienis-nutrisi",
+            "data": {
+                "copy": {
+                    "text_1": "Komunitas",
+                    "text_2": "Paviliun Boga Kampus",
+                    "text_3": "500 Kursi Sanitasi",
+                    "text_4": "Gizi Sehat & Kebersamaan",
+                    "text_5": "Sertifikasi Higiene Grade A",
+                    "text_6": "Detail Ruang"
+                },
+                "images": {},
+                "category": "komunal"
+            },
+            "school": null
         },
-        "images": {},
-        "category": "olahraga"
-      },
-      "school": null
-    },
-    {
-      "title": "Grand Auditorium \"Graha Swara\"",
-      "description": "Auditorium megah berakustik panggung simfoni dengan reverberation time terkalkulasi 1,4 detik. Didukung sound system line-array digital d&b audiotechnik, tata lampu teater 64-channel DMX, dan ruang kontrol multimedia.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBNC_erYEHGazdagSpMqKYq7dMKaYN-ulTnY9d0wdmkEjWRtuQU2OTnlIIkIJSUXjD0JUH50vQ4GDjJGFTqs3jzmjYhHpvD49hmp5WQhiDKteP_HAUCuUa7PTOWre8xeMA3C4kx_X2F4e-C8JwivnQH1yMjfwilDZVk4RY354nRwTsl6H8bmef61IyR7bqeUZkYyFbU8m936ScjhjaWbX59XcFzzx6tsxYKdHP8-74Z8HYg0KG5vajA",
-      "slug": "grand-auditorium-graha-swara",
-      "data": {
-        "copy": {
-          "text_1": "Auditorium Pusat",
-          "text_2": "Gedung Kesenian Lt. 1-2",
-          "text_3": "1.000 Kursi Ergonomis",
-          "text_4": "Seni Pertunjukan & Konferensi",
-          "text_5": "Akustik Teater Internasional",
-          "text_6": "Detail Ruang"
-        },
-        "images": {},
-        "category": "seni"
-      },
-      "school": null
-    },
-    {
-      "title": "Studio Seni Musik & Seni Rupa Terpadu",
-      "description": "Menyediakan 4 bilik studio kedap suara (soundproof booth), ruang rekaman instrumen ansambel, workshop kriya tembikar berputar listrik lengkap dengan tungku bakar glasir (kiln), serta ruang galeri pameran berkala.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBnEpajq_TtUqNG3y__ckdKQ7CBWXQZl8X0SsM_gNWSiHBaz0n5Ct3gXQhlIzoykKPKT43ZDG3zWlSciVqk16MufnIUW0wfLyzXY98-al5Go3L8jShXuSlhUtiuUe1Bb00w9YMx2wUFGlzvn1DCiWn_jzlRS3WmU9PBDIouanrvS9HoLZR2ndApntevlZ_OfLlGMQhuz5FDNXUJbNMYgqFOGkxEXeQP5XEqJgAD7KlpbmIEsvFZHf2b",
-      "slug": "studio-seni-musik-seni-rupa-terpadu",
-      "data": {
-        "copy": {
-          "text_1": "SD, SMP, SMA",
-          "text_2": "Sayap Budaya Lt. 2",
-          "text_3": "6 Studio Spesialis",
-          "text_4": "Kreativitas & Audio Visual",
-          "text_5": "DAW ProTools & Keramik Kiln",
-          "text_6": "Detail Ruang"
-        },
-        "images": {},
-        "category": "seni"
-      },
-      "school": null
-    },
-    {
-      "title": "Masjid Al-Mulia & Pusat Tahfidz",
-      "description": "Pusat ibadah dengan ventilasi alami silang, kolam refleksi air yang sejuk, ruang talaqqi hafalan Quran terpisah yang khusyuk, serta ruang pembinaan akhlak lintas kegiatan sosial dan keagamaan.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCwzWckG4J4dWgRZhrclaVfRBnPAt2mS28tyG6Ctth0LcojPrQ0QobMFfOKWnQdprWjSXkZ29CDw882OJk52XEcblKMA9BaFxLdgL-MQrT22t64IIYgqqyC6cKIzq1Fkcpl85sZFpkKoJaCWsH0WNCNc5-fKOmUn4EjtyZVPDVfZv8lLWWOVH_3diTeP3bH0xiFyc8sHr6vQaIFOA6NTKmM3KC9Q2hf93tTGSnv1RGO2LF7y5N6ie5D",
-      "slug": "masjid-al-mulia-pusat-tahfidz",
-      "data": {
-        "copy": {
-          "text_1": "Sentra Spiritual",
-          "text_2": "Taman Tengah Kampus",
-          "text_3": "Kapasitas: 1.200 Jamaah",
-          "text_4": "Karakter & Nilai Ruhani",
-          "text_5": "Ruang Tahfidz Akustik Tenang",
-          "text_6": "Detail Ruang"
-        },
-        "images": {},
-        "category": "komunal"
-      },
-      "school": null
-    },
-    {
-      "title": "Kantin Sehat Higienis & Nutrisi",
-      "description": "Menyajikan menu seimbang bersertifikasi higienitas Dinas Kesehatan tanpa MSG sintetik dan pewarna buatan. Sistem transaksi 100% cashless melalui kartu siswa, diawasi langsung oleh nutrisionis kampus.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCbCqDikN9A6JoZRiVhyJ76SFI5R8L_75ZqbJYE8eGgeVLi8e88qlP0T8SecE87VsjxAuEmc_S-pEVkVDWGaOEI9T-QJJHkCSm1lYI7VohiUvbDMdXS5oY2DZbY6fMQwv85IWsJYq5xY82lEjpDvK3nf-ERxiM5jB4Vh1Zwp5h4wfZBnWWL6FhWLRw1lYxEGoZeVW6e15PzEuUNH5x1B6Nyy4TQN8gW0cqSsAJq7xIj8x_2BW4Fzf78",
-      "slug": "kantin-sehat-higienis-nutrisi",
-      "data": {
-        "copy": {
-          "text_1": "Komunitas",
-          "text_2": "Paviliun Boga Kampus",
-          "text_3": "500 Kursi Sanitasi",
-          "text_4": "Gizi Sehat & Kebersamaan",
-          "text_5": "Sertifikasi Higiene Grade A",
-          "text_6": "Detail Ruang"
-        },
-        "images": {},
-        "category": "komunal"
-      },
-      "school": null
-    },
-    {
-      "title": "Klinik Medis & Wellness UKS Terpadu",
-      "description": "Fasilitas perawatan kesehatan tingkat pertama yang diperkuat dokter umum jaga, perawat bersertifikasi trauma care, 8 ranjang observasi terpisah gender, tabung oksigen sentral, dan ambulans siaga 24 jam.",
-      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBo7bZJN8KlFWpoqZFS1yr_14hQqjdpnS5PusR2MqiFBKheibpx6tMS53PHtu76YS-wcLe0fAeFlR6DbClf_M3kM6d0Cy2dE8dGVdzdu5a_BJIjCdTMWh4jCV5DUQB6m719_02k_9DfvkXW64tAuckSg75JdBedoeHs2IuG7MANsRSwpyacb2xkx8W6m-8mUPVLogE5HYOdY3gvBt6nYPtRfLgCg90zCI9Ci4QjYpBDimw9umjDMrLp",
-      "slug": "klinik-medis-wellness-uks-terpadu",
-      "data": {
-        "copy": {
-          "text_1": "Layanan Medis",
-          "text_2": "Gedung Pusat Lt. 1",
-          "text_3": "Dokter & Perawat Standby",
-          "text_4": "Kesehatan & Tanggap Medis",
-          "text_5": "Ambulans & RS Rujukan Siaga",
-          "text_6": "Detail Ruang"
-        },
-        "images": {},
-        "category": "komunal"
-      },
-      "school": null
-    }
-  ]
+        {
+            "title": "Klinik Medis & Wellness UKS Terpadu",
+            "description": "Fasilitas perawatan kesehatan tingkat pertama yang diperkuat dokter umum jaga, perawat bersertifikasi trauma care, 8 ranjang observasi terpisah gender, tabung oksigen sentral, dan ambulans siaga 24 jam.",
+            "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBo7bZJN8KlFWpoqZFS1yr_14hQqjdpnS5PusR2MqiFBKheibpx6tMS53PHtu76YS-wcLe0fAeFlR6DbClf_M3kM6d0Cy2dE8dGVdzdu5a_BJIjCdTMWh4jCV5DUQB6m719_02k_9DfvkXW64tAuckSg75JdBedoeHs2IuG7MANsRSwpyacb2xkx8W6m-8mUPVLogE5HYOdY3gvBt6nYPtRfLgCg90zCI9Ci4QjYpBDimw9umjDMrLp",
+            "slug": "klinik-medis-wellness-uks-terpadu",
+            "data": {
+                "copy": {
+                    "text_1": "Layanan Medis",
+                    "text_2": "Gedung Pusat Lt. 1",
+                    "text_3": "Dokter & Perawat Standby",
+                    "text_4": "Kesehatan & Tanggap Medis",
+                    "text_5": "Ambulans & RS Rujukan Siaga",
+                    "text_6": "Detail Ruang"
+                },
+                "images": {},
+                "category": "komunal"
+            },
+            "school": null
+        }
+    ]
 }

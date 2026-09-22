@@ -1,59 +1,70 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Portal Yayasan Harapan Mulia
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Satu aplikasi Laravel 12, Blade, Tailwind, Alpine.js, Filament 5 dan Livewire 4. Frontend publik mengikuti desain yang sudah diperbaiki pemilik proyek. **Jangan menjalankan ulang `scripts/translate-design.py`, `scripts/build-domain.py`, atau `scripts/build-admin.py` pada proyek ini**: skrip tersebut hanya artefak bootstrap dan dapat menimpa pekerjaan terbaru.
 
-## About Laravel
+## Menjalankan proyek
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+```sh
+composer install
+npm ci
+cp .env.example .env # hanya jika .env belum ada
+php artisan key:generate # hanya untuk instalasi baru
+php artisan migrate
+php artisan db:seed # opsional: konten demo, bukan konten resmi
+php artisan storage:link
+npm run build
+php artisan portal:admin
+php artisan serve
+```
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Frontend di `/`, CMS di `/admin`. `portal:admin` meminta nama, email, role, sekolah jika relevan, serta password tersembunyi dan konfirmasinya. Tidak ada password admin default. Perintah bawaan `make:filament-user` tidak mengatur role portal; gunakan `portal:admin`.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Hak akses CMS
 
-## Learning Laravel
+| Role | Lingkup |
+| --- | --- |
+| `super_admin` | Seluruh konten dan inbox |
+| `foundation_admin` | Yayasan, halaman global, konten milik yayasan, inbox yayasan, pelanggan buletin |
+| `school_admin` | Profil/halaman dan konten sekolah yang ditugaskan, inbox sekolah sendiri |
+| `viewer` | Tidak dapat masuk CMS |
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+Fasilitas, program dan ekstrakurikuler dapat digunakan beberapa sekolah melalui relasi. Konten bersama lintas sekolah dikelola super admin atau admin yayasan (untuk konten global); admin sekolah tidak dapat mengubah konten bersama yang juga memengaruhi sekolah lain. Pemilik konten dan relasi sekolah diperiksa di server, bukan sekadar disembunyikan pada menu.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Profil yayasan, unit sekolah dan halaman desain merupakan record tetap: dapat diedit, tidak dibuat/dihapus melalui CMS. Katalog berita, prestasi, program, fasilitas, ekstrakurikuler, galeri, PPDB dan statistik mendukung pengelolaan record. Status `draft` dan `archived`, serta publikasi bertanggal masa depan, tidak tampil dalam endpoint publik katalog, detail, pencarian dan sitemap.
 
-## Laravel Sponsors
+**Konten halaman:** teks dan gambar yang dipanggil frontend melalui `$page->text()` / `$page->media()` diedit melalui **Halaman & Banner**. Form data terstruktur sekolah/berita/PPDB mengelola bagian yang memang memakai entitas tersebut. Tidak semua salinan teks pada desain otomatis disinkronkan dari entitas; jangan menganggap mengedit satu entitas mengubah semua teks promosi halaman. Ini mempertahankan frontend publik yang dikunci pemilik.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Foto referensi eksternal dipertahankan ketika menyimpan form. Galeri memakai field `data.photos`, sesuai pembacaan frontend yang ada. Upload JPEG/PNG/WebP maksimal 5 MB; brosur PDF maksimal 10 MB. File upload memakai nama acak dan menolak substitusi path file lain.
 
-### Premium Partners
+## Pesan, kunjungan, dan buletin
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+Pesan/form kunjungan disimpan di database dengan validasi, consent, honeypot, CSRF dan pembatasan permintaan. Tim admin menandai pesan **Baru → Sedang ditangani → Selesai** pada menu **Pesan & Kunjungan**. Data pesan asli tidak dapat diedit melalui form tindak lanjut.
 
-## Contributing
+Atur `INQUIRY_EMAIL` dan konfigurasi SMTP di `.env`, kemudian jalankan:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```sh
+php artisan queue:work --tries=3
+```
 
-## Code of Conduct
+Tanpa `INQUIRY_EMAIL`, pesan tetap tersimpan di inbox, tetapi email tidak dikirim. Dengan `MAIL_MAILER=log`, email hanya dicatat lokal. Pengiriman buletin massal belum diimplementasikan; daftar pelanggan menyimpan persetujuan, menghindari duplikasi email, dan dapat menghapus langganan melalui CMS.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Operasional
 
-## Security Vulnerabilities
+- Produksi: `APP_ENV=production`, `APP_DEBUG=false`, `APP_URL=https://...`, `SESSION_SECURE_COOKIE=true`; document root harus `public/` dan HTTPS ditangani web server.
+- Jangan mengganti `APP_KEY` pada instalasi yang sudah berjalan.
+- Gunakan supervisor untuk queue worker, lalu `php artisan queue:restart` setiap deployment.
+- `php artisan portal:backup` membuat snapshot SQLite konsisten dengan izin file privat. Salin backup database dan `storage/app/public` ke penyimpanan terpisah; uji restore. Untuk MySQL/PostgreSQL gunakan backup native penyedia database.
+- Untuk restore SQLite: maintenance mode, hentikan worker, amankan database aktif, pulihkan snapshot serta media, kemudian mulai ulang worker. Jangan menguji restore pada database produksi.
+- GA dan Search Console menggunakan `GA_MEASUREMENT_ID` dan `GOOGLE_SITE_VERIFICATION`; nilai kosong menonaktifkannya.
+- Konten seed adalah contoh desain. Verifikasi kontak, biaya, tahun ajaran, foto, NPSN, legalitas dan klaim sebelum publikasi.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Verifikasi
 
-## License
+```sh
+php artisan test
+php artisan view:cache
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Tes menggunakan SQLite in-memory, tidak menghapus database kerja. Cakupan: route publik/CMS, akses antar sekolah, publikasi terjadwal, filter fasilitas bersama, edit CMS tanpa kehilangan metadata/foto, validasi/queue/throttle pesan, pelanggan buletin, dan akses inbox. Tes HTTP tidak menggantikan pengujian browser visual atau pengukuran Lighthouse.
+
+Analisis awal PRD dan desain: `docs/analysis.md`.

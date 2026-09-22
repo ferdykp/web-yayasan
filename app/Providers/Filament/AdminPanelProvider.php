@@ -28,6 +28,8 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->databaseTransactions()
+            ->brandName('CMS Harapan Mulia')
             ->colors([
                 'primary' => Color::Amber,
             ])
